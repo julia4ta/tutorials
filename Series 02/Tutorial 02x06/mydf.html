@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">Brand</th>
+    <th style = "text-align: right;">Tier</th>
+    <th style = "text-align: right;">Quantity</th>
+    <th style = "text-align: right;">Price</th>
+    <th style = "text-align: right;">Cost</th>
+    <th style = "text-align: right;">Revenue</th>
+    <th style = "text-align: right;">Profit</th>
+    <th style = "text-align: right;">Margin</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Company A</td>
+    <td style = "text-align: right;">Premium</td>
+    <td style = "text-align: right;">10</td>
+    <td style = "text-align: right;">100</td>
+    <td style = "text-align: right;">30</td>
+    <td style = "text-align: right;">1000</td>
+    <td style = "text-align: right;">700</td>
+    <td style = "text-align: right;">0.7</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Company A</td>
+    <td style = "text-align: right;">Economy</td>
+    <td style = "text-align: right;">100</td>
+    <td style = "text-align: right;">10</td>
+    <td style = "text-align: right;">7</td>
+    <td style = "text-align: right;">1000</td>
+    <td style = "text-align: right;">300</td>
+    <td style = "text-align: right;">0.3</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Company A</td>
+    <td style = "text-align: right;">Standard</td>
+    <td style = "text-align: right;">50</td>
+    <td style = "text-align: right;">50</td>
+    <td style = "text-align: right;">25</td>
+    <td style = "text-align: right;">2500</td>
+    <td style = "text-align: right;">1250</td>
+    <td style = "text-align: right;">0.5</td>
+  </tr>
+</table>
+</body>
+</html>
