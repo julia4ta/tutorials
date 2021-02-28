@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">Country/Territory</th>
+    <th style = "text-align: right;">UN continentalregion[4]</th>
+    <th style = "text-align: right;">UN statisticalsubregion[4]</th>
+    <th style = "text-align: right;">Population(1 July 2018)</th>
+    <th style = "text-align: right;">Population(1 July 2019)</th>
+    <th style = "text-align: right;">Change</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String?</th>
+    <th style = "text-align: right;">String?</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">China[a]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">1,427,647,786</td>
+    <td style = "text-align: right;">1,433,783,686</td>
+    <td style = "text-align: right;">+0.43%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">India</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">1,352,642,280</td>
+    <td style = "text-align: right;">1,366,417,754</td>
+    <td style = "text-align: right;">+1.02%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United States</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">327,096,265</td>
+    <td style = "text-align: right;">329,064,917</td>
+    <td style = "text-align: right;">+0.60%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Indonesia</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">267,670,543</td>
+    <td style = "text-align: right;">270,625,568</td>
+    <td style = "text-align: right;">+1.10%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pakistan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">212,228,286</td>
+    <td style = "text-align: right;">216,565,318</td>
+    <td style = "text-align: right;">+2.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Brazil</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">209,469,323</td>
+    <td style = "text-align: right;">211,049,527</td>
+    <td style = "text-align: right;">+0.75%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nigeria</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">195,874,683</td>
+    <td style = "text-align: right;">200,963,599</td>
+    <td style = "text-align: right;">+2.60%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bangladesh</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">161,376,708</td>
+    <td style = "text-align: right;">163,046,161</td>
+    <td style = "text-align: right;">+1.03%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Russia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">145,734,038</td>
+    <td style = "text-align: right;">145,872,256</td>
+    <td style = "text-align: right;">+0.09%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mexico</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">126,190,788</td>
+    <td style = "text-align: right;">127,575,529</td>
+    <td style = "text-align: right;">+1.10%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Japan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">127,202,192</td>
+    <td style = "text-align: right;">126,860,301</td>
+    <td style = "text-align: right;">−0.27%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ethiopia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">109,224,414</td>
+    <td style = "text-align: right;">112,078,730</td>
+    <td style = "text-align: right;">+2.61%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Philippines</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">106,651,394</td>
+    <td style = "text-align: right;">108,116,615</td>
+    <td style = "text-align: right;">+1.37%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Egypt</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">98,423,598</td>
+    <td style = "text-align: right;">100,388,073</td>
+    <td style = "text-align: right;">+2.00%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vietnam</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">95,545,962</td>
+    <td style = "text-align: right;">96,462,106</td>
+    <td style = "text-align: right;">+0.96%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">DR Congo</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">84,068,091</td>
+    <td style = "text-align: right;">86,790,567</td>
+    <td style = "text-align: right;">+3.24%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Germany</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">83,124,418</td>
+    <td style = "text-align: right;">83,517,045</td>
+    <td style = "text-align: right;">+0.47%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turkey</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">82,340,088</td>
+    <td style = "text-align: right;">83,429,615</td>
+    <td style = "text-align: right;">+1.32%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iran</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">81,800,188</td>
+    <td style = "text-align: right;">82,913,906</td>
+    <td style = "text-align: right;">+1.36%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Thailand</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">68,863,514</td>
+    <td style = "text-align: right;">69,037,513</td>
+    <td style = "text-align: right;">+0.25%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United Kingdom</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">67,141,684</td>
+    <td style = "text-align: right;">67,530,172</td>
+    <td style = "text-align: right;">+0.58%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">France[b]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">64,990,511</td>
+    <td style = "text-align: right;">65,129,728</td>
+    <td style = "text-align: right;">+0.21%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Italy</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">60,627,291</td>
+    <td style = "text-align: right;">60,550,075</td>
+    <td style = "text-align: right;">−0.13%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Africa</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">57,792,518</td>
+    <td style = "text-align: right;">58,558,270</td>
+    <td style = "text-align: right;">+1.33%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tanzania[c]</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">56,313,438</td>
+    <td style = "text-align: right;">58,005,463</td>
+    <td style = "text-align: right;">+3.00%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Myanmar</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">53,708,320</td>
+    <td style = "text-align: right;">54,045,420</td>
+    <td style = "text-align: right;">+0.63%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kenya</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">51,392,565</td>
+    <td style = "text-align: right;">52,573,973</td>
+    <td style = "text-align: right;">+2.30%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Korea</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">51,171,706</td>
+    <td style = "text-align: right;">51,225,308</td>
+    <td style = "text-align: right;">+0.10%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Colombia</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">49,661,048</td>
+    <td style = "text-align: right;">50,339,443</td>
+    <td style = "text-align: right;">+1.37%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Spain[d]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">46,692,858</td>
+    <td style = "text-align: right;">46,736,776</td>
+    <td style = "text-align: right;">+0.09%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Argentina</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">44,361,150</td>
+    <td style = "text-align: right;">44,780,677</td>
+    <td style = "text-align: right;">+0.95%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uganda</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">42,729,036</td>
+    <td style = "text-align: right;">44,269,594</td>
+    <td style = "text-align: right;">+3.61%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ukraine[e]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">44,246,156</td>
+    <td style = "text-align: right;">43,993,638</td>
+    <td style = "text-align: right;">−0.57%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Algeria</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">42,228,408</td>
+    <td style = "text-align: right;">43,053,054</td>
+    <td style = "text-align: right;">+1.95%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sudan</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">41,801,533</td>
+    <td style = "text-align: right;">42,813,238</td>
+    <td style = "text-align: right;">+2.42%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iraq</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">38,433,600</td>
+    <td style = "text-align: right;">39,309,783</td>
+    <td style = "text-align: right;">+2.28%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Afghanistan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">37,171,921</td>
+    <td style = "text-align: right;">38,041,754</td>
+    <td style = "text-align: right;">+2.34%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Poland</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">37,921,592</td>
+    <td style = "text-align: right;">37,887,768</td>
+    <td style = "text-align: right;">−0.09%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Canada</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">37,074,562</td>
+    <td style = "text-align: right;">37,411,047</td>
+    <td style = "text-align: right;">+0.91%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Morocco</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">36,029,093</td>
+    <td style = "text-align: right;">36,471,769</td>
+    <td style = "text-align: right;">+1.23%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saudi Arabia</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">33,702,756</td>
+    <td style = "text-align: right;">34,268,528</td>
+    <td style = "text-align: right;">+1.68%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uzbekistan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">32,476,244</td>
+    <td style = "text-align: right;">32,981,716</td>
+    <td style = "text-align: right;">+1.56%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Peru</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">31,989,260</td>
+    <td style = "text-align: right;">32,510,453</td>
+    <td style = "text-align: right;">+1.63%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malaysia[f]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">31,528,033</td>
+    <td style = "text-align: right;">31,949,777</td>
+    <td style = "text-align: right;">+1.34%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Angola</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">30,809,787</td>
+    <td style = "text-align: right;">31,825,295</td>
+    <td style = "text-align: right;">+3.30%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mozambique</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">29,496,004</td>
+    <td style = "text-align: right;">30,366,036</td>
+    <td style = "text-align: right;">+2.95%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Yemen</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">28,498,683</td>
+    <td style = "text-align: right;">29,161,922</td>
+    <td style = "text-align: right;">+2.33%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ghana</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">28,206,728</td>
+    <td style = "text-align: right;">28,833,629</td>
+    <td style = "text-align: right;">+2.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nepal</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">28,095,714</td>
+    <td style = "text-align: right;">28,608,710</td>
+    <td style = "text-align: right;">+1.83%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Venezuela</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">28,887,118</td>
+    <td style = "text-align: right;">28,515,829</td>
+    <td style = "text-align: right;">−1.29%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Madagascar</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">26,262,313</td>
+    <td style = "text-align: right;">26,969,307</td>
+    <td style = "text-align: right;">+2.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">North Korea</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">25,549,604</td>
+    <td style = "text-align: right;">25,666,161</td>
+    <td style = "text-align: right;">+0.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ivory Coast</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">25,069,230</td>
+    <td style = "text-align: right;">25,716,544</td>
+    <td style = "text-align: right;">+2.58%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cameroon</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">25,216,267</td>
+    <td style = "text-align: right;">25,876,380</td>
+    <td style = "text-align: right;">+2.62%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Australia[g]</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Australia and New Zealand</td>
+    <td style = "text-align: right;">24,898,152</td>
+    <td style = "text-align: right;">25,203,198</td>
+    <td style = "text-align: right;">+1.23%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Taiwan[h]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">23,726,460</td>
+    <td style = "text-align: right;">23,773,876</td>
+    <td style = "text-align: right;">+0.20%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Niger</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">22,442,822</td>
+    <td style = "text-align: right;">23,310,715</td>
+    <td style = "text-align: right;">+3.87%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sri Lanka</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">21,228,763</td>
+    <td style = "text-align: right;">21,323,733</td>
+    <td style = "text-align: right;">+0.45%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burkina Faso</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">19,751,466</td>
+    <td style = "text-align: right;">20,321,378</td>
+    <td style = "text-align: right;">+2.89%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mali</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">19,077,749</td>
+    <td style = "text-align: right;">19,658,031</td>
+    <td style = "text-align: right;">+3.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Romania</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">19,506,114</td>
+    <td style = "text-align: right;">19,364,557</td>
+    <td style = "text-align: right;">−0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malawi</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">18,143,217</td>
+    <td style = "text-align: right;">18,628,747</td>
+    <td style = "text-align: right;">+2.68%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chile</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">18,729,160</td>
+    <td style = "text-align: right;">18,952,038</td>
+    <td style = "text-align: right;">+1.19%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kazakhstan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">18,319,618</td>
+    <td style = "text-align: right;">18,551,427</td>
+    <td style = "text-align: right;">+1.27%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Zambia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">17,351,708</td>
+    <td style = "text-align: right;">17,861,030</td>
+    <td style = "text-align: right;">+2.94%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guatemala</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">17,247,849</td>
+    <td style = "text-align: right;">17,581,472</td>
+    <td style = "text-align: right;">+1.93%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ecuador</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">17,084,358</td>
+    <td style = "text-align: right;">17,373,662</td>
+    <td style = "text-align: right;">+1.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Netherlands[i]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">17,059,560</td>
+    <td style = "text-align: right;">17,097,130</td>
+    <td style = "text-align: right;">+0.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Syria</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">16,945,057</td>
+    <td style = "text-align: right;">17,070,135</td>
+    <td style = "text-align: right;">+0.74%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cambodia</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">16,249,792</td>
+    <td style = "text-align: right;">16,486,542</td>
+    <td style = "text-align: right;">+1.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Senegal</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">15,854,323</td>
+    <td style = "text-align: right;">16,296,364</td>
+    <td style = "text-align: right;">+2.79%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chad</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">15,477,729</td>
+    <td style = "text-align: right;">15,946,876</td>
+    <td style = "text-align: right;">+3.03%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Somalia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">15,008,226</td>
+    <td style = "text-align: right;">15,442,905</td>
+    <td style = "text-align: right;">+2.90%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Zimbabwe</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">14,438,802</td>
+    <td style = "text-align: right;">14,645,468</td>
+    <td style = "text-align: right;">+1.43%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guinea</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">12,414,293</td>
+    <td style = "text-align: right;">12,771,246</td>
+    <td style = "text-align: right;">+2.88%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Rwanda</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">12,301,970</td>
+    <td style = "text-align: right;">12,626,950</td>
+    <td style = "text-align: right;">+2.64%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Benin</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">11,485,044</td>
+    <td style = "text-align: right;">11,801,151</td>
+    <td style = "text-align: right;">+2.75%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tunisia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">11,565,201</td>
+    <td style = "text-align: right;">11,694,719</td>
+    <td style = "text-align: right;">+1.12%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belgium</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">11,482,178</td>
+    <td style = "text-align: right;">11,539,328</td>
+    <td style = "text-align: right;">+0.50%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bolivia</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">11,353,142</td>
+    <td style = "text-align: right;">11,513,100</td>
+    <td style = "text-align: right;">+1.41%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cuba</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">11,338,134</td>
+    <td style = "text-align: right;">11,333,483</td>
+    <td style = "text-align: right;">−0.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Haiti</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">11,123,178</td>
+    <td style = "text-align: right;">11,263,770</td>
+    <td style = "text-align: right;">+1.26%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Sudan</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">10,975,927</td>
+    <td style = "text-align: right;">11,062,113</td>
+    <td style = "text-align: right;">+0.79%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burundi</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">10,524,117</td>
+    <td style = "text-align: right;">10,864,245</td>
+    <td style = "text-align: right;">+3.23%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Dominican Republic</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">10,627,141</td>
+    <td style = "text-align: right;">10,738,958</td>
+    <td style = "text-align: right;">+1.05%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Czech Republic</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">10,665,677</td>
+    <td style = "text-align: right;">10,689,209</td>
+    <td style = "text-align: right;">+0.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Greece</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">10,522,246</td>
+    <td style = "text-align: right;">10,473,455</td>
+    <td style = "text-align: right;">−0.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Portugal[j]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">10,256,193</td>
+    <td style = "text-align: right;">10,226,187</td>
+    <td style = "text-align: right;">−0.29%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Jordan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">9,965,318</td>
+    <td style = "text-align: right;">10,101,694</td>
+    <td style = "text-align: right;">+1.37%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Azerbaijan[k]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">9,949,537</td>
+    <td style = "text-align: right;">10,047,718</td>
+    <td style = "text-align: right;">+0.99%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sweden</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">9,971,638</td>
+    <td style = "text-align: right;">10,036,379</td>
+    <td style = "text-align: right;">+0.65%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United Arab Emirates</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">9,630,959</td>
+    <td style = "text-align: right;">9,770,529</td>
+    <td style = "text-align: right;">+1.45%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Honduras</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">9,587,522</td>
+    <td style = "text-align: right;">9,746,117</td>
+    <td style = "text-align: right;">+1.65%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Hungary</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">9,707,499</td>
+    <td style = "text-align: right;">9,684,679</td>
+    <td style = "text-align: right;">−0.24%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belarus</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">9,452,617</td>
+    <td style = "text-align: right;">9,452,411</td>
+    <td style = "text-align: right;">0.00%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tajikistan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">9,100,835</td>
+    <td style = "text-align: right;">9,321,018</td>
+    <td style = "text-align: right;">+2.42%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Austria</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">8,891,388</td>
+    <td style = "text-align: right;">8,955,102</td>
+    <td style = "text-align: right;">+0.72%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Papua New Guinea</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">8,606,323</td>
+    <td style = "text-align: right;">8,776,109</td>
+    <td style = "text-align: right;">+1.97%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Serbia[l]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">8,802,754</td>
+    <td style = "text-align: right;">8,772,235</td>
+    <td style = "text-align: right;">−0.35%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Switzerland</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">8,525,611</td>
+    <td style = "text-align: right;">8,591,365</td>
+    <td style = "text-align: right;">+0.77%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Israel</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">8,381,516</td>
+    <td style = "text-align: right;">8,519,377</td>
+    <td style = "text-align: right;">+1.64%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Togo</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">7,889,093</td>
+    <td style = "text-align: right;">8,082,366</td>
+    <td style = "text-align: right;">+2.45%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sierra Leone</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">7,650,150</td>
+    <td style = "text-align: right;">7,813,215</td>
+    <td style = "text-align: right;">+2.13%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Hong Kong (China)[m]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">7,371,730</td>
+    <td style = "text-align: right;">7,436,154</td>
+    <td style = "text-align: right;">+0.87%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Laos</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">7,061,507</td>
+    <td style = "text-align: right;">7,169,455</td>
+    <td style = "text-align: right;">+1.53%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Paraguay</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">6,956,066</td>
+    <td style = "text-align: right;">7,044,636</td>
+    <td style = "text-align: right;">+1.27%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bulgaria</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">7,051,608</td>
+    <td style = "text-align: right;">7,000,119</td>
+    <td style = "text-align: right;">−0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lebanon</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">6,859,408</td>
+    <td style = "text-align: right;">6,855,713</td>
+    <td style = "text-align: right;">−0.05%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Libya</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">6,678,559</td>
+    <td style = "text-align: right;">6,777,452</td>
+    <td style = "text-align: right;">+1.48%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nicaragua</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">6,465,501</td>
+    <td style = "text-align: right;">6,545,502</td>
+    <td style = "text-align: right;">+1.24%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">El Salvador</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">6,420,746</td>
+    <td style = "text-align: right;">6,453,553</td>
+    <td style = "text-align: right;">+0.51%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kyrgyzstan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">6,304,030</td>
+    <td style = "text-align: right;">6,415,850</td>
+    <td style = "text-align: right;">+1.77%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turkmenistan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">5,850,901</td>
+    <td style = "text-align: right;">5,942,089</td>
+    <td style = "text-align: right;">+1.56%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Singapore</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">5,757,499</td>
+    <td style = "text-align: right;">5,804,337</td>
+    <td style = "text-align: right;">+0.81%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Denmark</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">5,752,126</td>
+    <td style = "text-align: right;">5,771,876</td>
+    <td style = "text-align: right;">+0.34%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Finland[n]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">5,522,576</td>
+    <td style = "text-align: right;">5,532,156</td>
+    <td style = "text-align: right;">+0.17%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Slovakia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">5,453,014</td>
+    <td style = "text-align: right;">5,457,013</td>
+    <td style = "text-align: right;">+0.07%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Congo</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">5,244,359</td>
+    <td style = "text-align: right;">5,380,508</td>
+    <td style = "text-align: right;">+2.60%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Norway[o]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">5,337,962</td>
+    <td style = "text-align: right;">5,378,857</td>
+    <td style = "text-align: right;">+0.77%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Costa Rica</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">4,999,441</td>
+    <td style = "text-align: right;">5,047,561</td>
+    <td style = "text-align: right;">+0.96%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Palestine[p]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">4,862,979</td>
+    <td style = "text-align: right;">4,981,420</td>
+    <td style = "text-align: right;">+2.44%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Oman</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">4,829,473</td>
+    <td style = "text-align: right;">4,974,986</td>
+    <td style = "text-align: right;">+3.01%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Liberia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">4,818,973</td>
+    <td style = "text-align: right;">4,937,374</td>
+    <td style = "text-align: right;">+2.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ireland</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">4,818,690</td>
+    <td style = "text-align: right;">4,882,495</td>
+    <td style = "text-align: right;">+1.32%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">New Zealand</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Australia and New Zealand</td>
+    <td style = "text-align: right;">4,743,131</td>
+    <td style = "text-align: right;">4,783,063</td>
+    <td style = "text-align: right;">+0.84%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Central African Republic</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">4,666,368</td>
+    <td style = "text-align: right;">4,745,185</td>
+    <td style = "text-align: right;">+1.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mauritania</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">4,403,313</td>
+    <td style = "text-align: right;">4,525,696</td>
+    <td style = "text-align: right;">+2.78%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Panama</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">4,176,869</td>
+    <td style = "text-align: right;">4,246,439</td>
+    <td style = "text-align: right;">+1.67%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kuwait</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">4,137,312</td>
+    <td style = "text-align: right;">4,207,083</td>
+    <td style = "text-align: right;">+1.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Croatia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">4,156,405</td>
+    <td style = "text-align: right;">4,130,304</td>
+    <td style = "text-align: right;">−0.63%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Moldova[q]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">4,051,944</td>
+    <td style = "text-align: right;">4,043,263</td>
+    <td style = "text-align: right;">−0.21%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Georgia[r]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">4,002,942</td>
+    <td style = "text-align: right;">3,996,765</td>
+    <td style = "text-align: right;">−0.15%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Eritrea</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">3,452,786</td>
+    <td style = "text-align: right;">3,497,117</td>
+    <td style = "text-align: right;">+1.28%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uruguay</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">3,449,285</td>
+    <td style = "text-align: right;">3,461,734</td>
+    <td style = "text-align: right;">+0.36%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bosnia and Herzegovina</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">3,323,925</td>
+    <td style = "text-align: right;">3,301,000</td>
+    <td style = "text-align: right;">−0.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mongolia</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">3,170,216</td>
+    <td style = "text-align: right;">3,225,167</td>
+    <td style = "text-align: right;">+1.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Armenia</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">2,951,745</td>
+    <td style = "text-align: right;">2,957,731</td>
+    <td style = "text-align: right;">+0.20%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Jamaica</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">2,934,847</td>
+    <td style = "text-align: right;">2,948,279</td>
+    <td style = "text-align: right;">+0.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Puerto Rico (United States)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">3,039,596</td>
+    <td style = "text-align: right;">2,933,408</td>
+    <td style = "text-align: right;">−3.49%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Albania</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">2,882,740</td>
+    <td style = "text-align: right;">2,880,917</td>
+    <td style = "text-align: right;">−0.06%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Qatar</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">2,781,682</td>
+    <td style = "text-align: right;">2,832,067</td>
+    <td style = "text-align: right;">+1.81%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lithuania</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">2,801,264</td>
+    <td style = "text-align: right;">2,759,627</td>
+    <td style = "text-align: right;">−1.49%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Namibia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">2,448,301</td>
+    <td style = "text-align: right;">2,494,530</td>
+    <td style = "text-align: right;">+1.89%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Gambia</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">2,280,094</td>
+    <td style = "text-align: right;">2,347,706</td>
+    <td style = "text-align: right;">+2.97%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Botswana</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">2,254,068</td>
+    <td style = "text-align: right;">2,303,697</td>
+    <td style = "text-align: right;">+2.20%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Gabon</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">2,119,275</td>
+    <td style = "text-align: right;">2,172,579</td>
+    <td style = "text-align: right;">+2.52%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lesotho</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">2,108,328</td>
+    <td style = "text-align: right;">2,125,268</td>
+    <td style = "text-align: right;">+0.80%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">North Macedonia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">2,082,957</td>
+    <td style = "text-align: right;">2,083,459</td>
+    <td style = "text-align: right;">+0.02%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Slovenia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">2,077,837</td>
+    <td style = "text-align: right;">2,078,654</td>
+    <td style = "text-align: right;">+0.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guinea-Bissau</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">1,874,303</td>
+    <td style = "text-align: right;">1,920,922</td>
+    <td style = "text-align: right;">+2.49%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Latvia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">1,928,459</td>
+    <td style = "text-align: right;">1,906,743</td>
+    <td style = "text-align: right;">−1.13%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bahrain</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">1,569,446</td>
+    <td style = "text-align: right;">1,641,172</td>
+    <td style = "text-align: right;">+4.57%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Trinidad and Tobago</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">1,389,843</td>
+    <td style = "text-align: right;">1,394,973</td>
+    <td style = "text-align: right;">+0.37%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Equatorial Guinea</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">1,308,975</td>
+    <td style = "text-align: right;">1,355,986</td>
+    <td style = "text-align: right;">+3.59%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Estonia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">1,322,920</td>
+    <td style = "text-align: right;">1,325,648</td>
+    <td style = "text-align: right;">+0.21%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">East Timor</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">1,267,974</td>
+    <td style = "text-align: right;">1,293,119</td>
+    <td style = "text-align: right;">+1.98%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mauritius[s]</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">1,189,265</td>
+    <td style = "text-align: right;">1,198,575</td>
+    <td style = "text-align: right;">+0.78%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cyprus[t]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">1,170,125</td>
+    <td style = "text-align: right;">1,179,551</td>
+    <td style = "text-align: right;">+0.81%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Eswatini</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">1,136,281</td>
+    <td style = "text-align: right;">1,148,130</td>
+    <td style = "text-align: right;">+1.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Djibouti</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">958,923</td>
+    <td style = "text-align: right;">973,560</td>
+    <td style = "text-align: right;">+1.53%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Fiji</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">883,483</td>
+    <td style = "text-align: right;">889,953</td>
+    <td style = "text-align: right;">+0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Réunion (France)</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">882,526</td>
+    <td style = "text-align: right;">888,927</td>
+    <td style = "text-align: right;">+0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Comoros</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">832,322</td>
+    <td style = "text-align: right;">850,886</td>
+    <td style = "text-align: right;">+2.23%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guyana</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">779,006</td>
+    <td style = "text-align: right;">782,766</td>
+    <td style = "text-align: right;">+0.48%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bhutan</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">754,388</td>
+    <td style = "text-align: right;">763,092</td>
+    <td style = "text-align: right;">+1.15%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Solomon Islands</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">652,857</td>
+    <td style = "text-align: right;">669,823</td>
+    <td style = "text-align: right;">+2.60%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Macau (China)[u]</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">631,636</td>
+    <td style = "text-align: right;">640,445</td>
+    <td style = "text-align: right;">+1.39%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Montenegro</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">627,809</td>
+    <td style = "text-align: right;">627,987</td>
+    <td style = "text-align: right;">+0.03%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Luxembourg</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">604,245</td>
+    <td style = "text-align: right;">615,729</td>
+    <td style = "text-align: right;">+1.90%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Western Sahara</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">567,402</td>
+    <td style = "text-align: right;">582,463</td>
+    <td style = "text-align: right;">+2.65%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Suriname</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">575,990</td>
+    <td style = "text-align: right;">581,372</td>
+    <td style = "text-align: right;">+0.93%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cape Verde</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">543,767</td>
+    <td style = "text-align: right;">549,935</td>
+    <td style = "text-align: right;">+1.13%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Maldives</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">515,696</td>
+    <td style = "text-align: right;">530,953</td>
+    <td style = "text-align: right;">+2.96%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guadeloupe (France)[v]</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">446,928</td>
+    <td style = "text-align: right;">447,905</td>
+    <td style = "text-align: right;">+0.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malta</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">439,248</td>
+    <td style = "text-align: right;">440,372</td>
+    <td style = "text-align: right;">+0.26%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Brunei</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">428,963</td>
+    <td style = "text-align: right;">433,285</td>
+    <td style = "text-align: right;">+1.01%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belize</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">383,071</td>
+    <td style = "text-align: right;">390,353</td>
+    <td style = "text-align: right;">+1.90%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bahamas</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">385,637</td>
+    <td style = "text-align: right;">389,482</td>
+    <td style = "text-align: right;">+1.00%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Martinique (France)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">375,673</td>
+    <td style = "text-align: right;">375,554</td>
+    <td style = "text-align: right;">−0.03%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iceland</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">336,713</td>
+    <td style = "text-align: right;">339,031</td>
+    <td style = "text-align: right;">+0.69%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vanuatu</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">292,680</td>
+    <td style = "text-align: right;">299,882</td>
+    <td style = "text-align: right;">+2.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Barbados</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">286,641</td>
+    <td style = "text-align: right;">287,025</td>
+    <td style = "text-align: right;">+0.13%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">New Caledonia (France)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">279,993</td>
+    <td style = "text-align: right;">282,750</td>
+    <td style = "text-align: right;">+0.98%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">French Guiana (France)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">275,713</td>
+    <td style = "text-align: right;">282,731</td>
+    <td style = "text-align: right;">+2.55%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">French Polynesia (France)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">277,679</td>
+    <td style = "text-align: right;">279,287</td>
+    <td style = "text-align: right;">+0.58%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mayotte (France)</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">259,531</td>
+    <td style = "text-align: right;">266,150</td>
+    <td style = "text-align: right;">+2.55%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">São Tomé and Príncipe</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">211,028</td>
+    <td style = "text-align: right;">215,056</td>
+    <td style = "text-align: right;">+1.91%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Western Samoa</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">196,129</td>
+    <td style = "text-align: right;">197,097</td>
+    <td style = "text-align: right;">+0.49%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Lucia</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">181,889</td>
+    <td style = "text-align: right;">182,790</td>
+    <td style = "text-align: right;">+0.50%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Channel Islands (United Kingdom)[w]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">170,499</td>
+    <td style = "text-align: right;">172,259</td>
+    <td style = "text-align: right;">+1.03%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guam (United States)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">165,768</td>
+    <td style = "text-align: right;">167,294</td>
+    <td style = "text-align: right;">+0.92%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Curaçao (Netherlands)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">162,752</td>
+    <td style = "text-align: right;">163,424</td>
+    <td style = "text-align: right;">+0.41%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kiribati</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">115,847</td>
+    <td style = "text-align: right;">117,606</td>
+    <td style = "text-align: right;">+1.52%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">F.S. Micronesia</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">112,640</td>
+    <td style = "text-align: right;">113,815</td>
+    <td style = "text-align: right;">+1.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Grenada</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">111,454</td>
+    <td style = "text-align: right;">112,003</td>
+    <td style = "text-align: right;">+0.49%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tonga</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">110,589</td>
+    <td style = "text-align: right;">110,940</td>
+    <td style = "text-align: right;">+0.32%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Vincent and the Grenadines</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">110,211</td>
+    <td style = "text-align: right;">110,589</td>
+    <td style = "text-align: right;">+0.34%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Aruba (Netherlands)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">105,845</td>
+    <td style = "text-align: right;">106,314</td>
+    <td style = "text-align: right;">+0.44%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">U.S. Virgin Islands (United States)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">104,680</td>
+    <td style = "text-align: right;">104,578</td>
+    <td style = "text-align: right;">−0.10%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Seychelles</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">97,096</td>
+    <td style = "text-align: right;">97,739</td>
+    <td style = "text-align: right;">+0.66%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Antigua and Barbuda</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">96,286</td>
+    <td style = "text-align: right;">97,118</td>
+    <td style = "text-align: right;">+0.86%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Isle of Man (United Kingdom)</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">84,077</td>
+    <td style = "text-align: right;">84,584</td>
+    <td style = "text-align: right;">+0.60%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Andorra</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">77,006</td>
+    <td style = "text-align: right;">77,142</td>
+    <td style = "text-align: right;">+0.18%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Dominica</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">71,625</td>
+    <td style = "text-align: right;">71,808</td>
+    <td style = "text-align: right;">+0.26%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cayman Islands (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">64,174</td>
+    <td style = "text-align: right;">64,948</td>
+    <td style = "text-align: right;">+1.21%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bermuda (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">62,756</td>
+    <td style = "text-align: right;">62,506</td>
+    <td style = "text-align: right;">−0.40%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Marshall Islands</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">58,413</td>
+    <td style = "text-align: right;">58,791</td>
+    <td style = "text-align: right;">+0.65%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Greenland (Denmark)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">56,564</td>
+    <td style = "text-align: right;">56,672</td>
+    <td style = "text-align: right;">+0.19%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Northern Mariana Islands (United States)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">56,882</td>
+    <td style = "text-align: right;">56,188</td>
+    <td style = "text-align: right;">−1.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">American Samoa (United States)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">55,465</td>
+    <td style = "text-align: right;">55,312</td>
+    <td style = "text-align: right;">−0.28%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Kitts and Nevis</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">52,441</td>
+    <td style = "text-align: right;">52,823</td>
+    <td style = "text-align: right;">+0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Faroe Islands (Denmark)</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">48,497</td>
+    <td style = "text-align: right;">48,678</td>
+    <td style = "text-align: right;">+0.37%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sint Maarten (Netherlands)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">41,940</td>
+    <td style = "text-align: right;">42,388</td>
+    <td style = "text-align: right;">+1.07%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Monaco</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">38,682</td>
+    <td style = "text-align: right;">38,964</td>
+    <td style = "text-align: right;">+0.73%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turks and Caicos Islands (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">37,665</td>
+    <td style = "text-align: right;">38,191</td>
+    <td style = "text-align: right;">+1.40%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Liechtenstein</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">37,910</td>
+    <td style = "text-align: right;">38,019</td>
+    <td style = "text-align: right;">+0.29%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">San Marino</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">33,785</td>
+    <td style = "text-align: right;">33,860</td>
+    <td style = "text-align: right;">+0.22%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Gibraltar (United Kingdom)</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">33,718</td>
+    <td style = "text-align: right;">33,701</td>
+    <td style = "text-align: right;">−0.05%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">British Virgin Islands (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">29,802</td>
+    <td style = "text-align: right;">30,030</td>
+    <td style = "text-align: right;">+0.77%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Caribbean Netherlands (Netherlands)[x]</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">25,711</td>
+    <td style = "text-align: right;">25,979</td>
+    <td style = "text-align: right;">+1.04%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Palau</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">17,907</td>
+    <td style = "text-align: right;">18,008</td>
+    <td style = "text-align: right;">+0.56%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cook Islands (New Zealand)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">17,518</td>
+    <td style = "text-align: right;">17,548</td>
+    <td style = "text-align: right;">+0.17%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Anguilla (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">14,731</td>
+    <td style = "text-align: right;">14,869</td>
+    <td style = "text-align: right;">+0.94%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tuvalu</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">11,508</td>
+    <td style = "text-align: right;">11,646</td>
+    <td style = "text-align: right;">+1.20%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Wallis and Futuna (France)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">11,661</td>
+    <td style = "text-align: right;">11,432</td>
+    <td style = "text-align: right;">−1.96%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nauru</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">10,670</td>
+    <td style = "text-align: right;">10,756</td>
+    <td style = "text-align: right;">+0.81%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Helena (United Kingdom)[y]</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">6,035</td>
+    <td style = "text-align: right;">6,059</td>
+    <td style = "text-align: right;">+0.40%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Pierre and Miquelon (France)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">5,849</td>
+    <td style = "text-align: right;">5,822</td>
+    <td style = "text-align: right;">−0.46%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Montserrat (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">4,993</td>
+    <td style = "text-align: right;">4,989</td>
+    <td style = "text-align: right;">−0.08%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Falkland Islands (United Kingdom)</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">3,234</td>
+    <td style = "text-align: right;">3,377</td>
+    <td style = "text-align: right;">+4.42%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Niue (New Zealand)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">1,620</td>
+    <td style = "text-align: right;">1,615</td>
+    <td style = "text-align: right;">−0.31%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tokelau (New Zealand)</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">1,319</td>
+    <td style = "text-align: right;">1,340</td>
+    <td style = "text-align: right;">+1.59%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vatican City[z]</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">801</td>
+    <td style = "text-align: right;">799</td>
+    <td style = "text-align: right;">−0.25%</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">World</td>
+    <td style = "text-align: right;">missing</td>
+    <td style = "text-align: right;">missing</td>
+    <td style = "text-align: right;">7,631,091,040</td>
+    <td style = "text-align: right;">7,713,468,100</td>
+    <td style = "text-align: right;">+1.08%</td>
+  </tr>
+</table>
+</body>
+</html>

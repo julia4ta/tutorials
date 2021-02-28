@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">my18_sum</th>
+    <th style = "text-align: right;">my19_sum</th>
+    <th style = "text-align: right;">mydelta_sum</th>
+    <th style = "text-align: right;">mypct_c</th>
+    <th style = "text-align: right;">my100_c</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String?</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">4560.09</td>
+    <td style = "text-align: right;">4600.77</td>
+    <td style = "text-align: right;">40.681</td>
+    <td style = "text-align: right;">0.89</td>
+    <td style = "text-align: right;">59.67</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">1006.51</td>
+    <td style = "text-align: right;">1014.72</td>
+    <td style = "text-align: right;">8.208</td>
+    <td style = "text-align: right;">0.82</td>
+    <td style = "text-align: right;">13.16</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">1273.63</td>
+    <td style = "text-align: right;">1305.74</td>
+    <td style = "text-align: right;">32.114</td>
+    <td style = "text-align: right;">2.52</td>
+    <td style = "text-align: right;">16.93</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">746.421</td>
+    <td style = "text-align: right;">747.182</td>
+    <td style = "text-align: right;">0.761</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">9.69</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">41.58</td>
+    <td style = "text-align: right;">42.134</td>
+    <td style = "text-align: right;">0.554</td>
+    <td style = "text-align: right;">1.33</td>
+    <td style = "text-align: right;">0.55</td>
+  </tr>
+</table>
+</body>
+</html>

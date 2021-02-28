@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">variable</th>
+    <th style = "text-align: right;">mean</th>
+    <th style = "text-align: right;">std</th>
+    <th style = "text-align: right;">min</th>
+    <th style = "text-align: right;">q25</th>
+    <th style = "text-align: right;">median</th>
+    <th style = "text-align: right;">q75</th>
+    <th style = "text-align: right;">max</th>
+    <th style = "text-align: right;">nunique</th>
+    <th style = "text-align: right;">nmissing</th>
+    <th style = "text-align: right;">first</th>
+    <th style = "text-align: right;">last</th>
+    <th style = "text-align: right;">eltype</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Symbol</th>
+    <th style = "text-align: right;">U{Nothing, Float64}</th>
+    <th style = "text-align: right;">U{Nothing, Float64}</th>
+    <th style = "text-align: right;">Any</th>
+    <th style = "text-align: right;">U{Nothing, Float64}</th>
+    <th style = "text-align: right;">U{Nothing, Float64}</th>
+    <th style = "text-align: right;">U{Nothing, Float64}</th>
+    <th style = "text-align: right;">Any</th>
+    <th style = "text-align: right;">U{Nothing, Int64}</th>
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">Any</th>
+    <th style = "text-align: right;">Any</th>
+    <th style = "text-align: right;">Type</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">id</td>
+    <td style = "text-align: right;">117.0</td>
+    <td style = "text-align: right;">67.4055</td>
+    <td style = "text-align: right;">1</td>
+    <td style = "text-align: right;">59.0</td>
+    <td style = "text-align: right;">117.0</td>
+    <td style = "text-align: right;">175.0</td>
+    <td style = "text-align: right;">233</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">1</td>
+    <td style = "text-align: right;">233</td>
+    <td style = "text-align: right;">Int64</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">region</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">5</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Union{Missing, String}</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">subregion</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Australia and New Zealand</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">22</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Union{Missing, String}</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">country</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Afghanistan</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">Zimbabwe</td>
+    <td style = "text-align: right;">233</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">China[a]</td>
+    <td style = "text-align: right;">Vatican City[z]</td>
+    <td style = "text-align: right;">String</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">my18</td>
+    <td style = "text-align: right;">32.7392</td>
+    <td style = "text-align: right;">133.722</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.439</td>
+    <td style = "text-align: right;">5.453</td>
+    <td style = "text-align: right;">19.751</td>
+    <td style = "text-align: right;">1427.65</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">1427.65</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">Float64</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">my19</td>
+    <td style = "text-align: right;">33.0925</td>
+    <td style = "text-align: right;">134.72</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.44</td>
+    <td style = "text-align: right;">5.457</td>
+    <td style = "text-align: right;">20.321</td>
+    <td style = "text-align: right;">1433.78</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">1433.78</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">Float64</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">mydelta</td>
+    <td style = "text-align: right;">0.353296</td>
+    <td style = "text-align: right;">1.15455</td>
+    <td style = "text-align: right;">-0.371</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.044</td>
+    <td style = "text-align: right;">0.237</td>
+    <td style = "text-align: right;">13.776</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">6.136</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">Float64</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">mypct</td>
+    <td style = "text-align: right;">1.12481</td>
+    <td style = "text-align: right;">1.15918</td>
+    <td style = "text-align: right;">-3.49</td>
+    <td style = "text-align: right;">0.34</td>
+    <td style = "text-align: right;">1.01</td>
+    <td style = "text-align: right;">1.9</td>
+    <td style = "text-align: right;">4.57</td>
+    <td style = "text-align: right;">nothing</td>
+    <td style = "text-align: right;">0</td>
+    <td style = "text-align: right;">0.43</td>
+    <td style = "text-align: right;">-0.25</td>
+    <td style = "text-align: right;">Float64</td>
+  </tr>
+</table>
+</body>
+</html>

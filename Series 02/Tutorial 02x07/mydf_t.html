@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">id</th>
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">subregion</th>
+    <th style = "text-align: right;">country</th>
+    <th style = "text-align: right;">my18</th>
+    <th style = "text-align: right;">my19</th>
+    <th style = "text-align: right;">mydelta</th>
+    <th style = "text-align: right;">mypct</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String?</th>
+    <th style = "text-align: right;">String?</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">234</td>
+    <td style = "text-align: right;">missing</td>
+    <td style = "text-align: right;">missing</td>
+    <td style = "text-align: right;">World</td>
+    <td style = "text-align: right;">7631.09</td>
+    <td style = "text-align: right;">7713.47</td>
+    <td style = "text-align: right;">82.377</td>
+    <td style = "text-align: right;">1.08</td>
+  </tr>
+</table>
+</body>
+</html>
