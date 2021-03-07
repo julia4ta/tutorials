@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">id</th>
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">subregion</th>
+    <th style = "text-align: right;">country</th>
+    <th style = "text-align: right;">my18</th>
+    <th style = "text-align: right;">my19</th>
+    <th style = "text-align: right;">mydelta</th>
+    <th style = "text-align: right;">mypct</th>
+    <th style = "text-align: right;">my100</th>
+    <th style = "text-align: right;">gdp</th>
+    <th style = "text-align: right;">gdppc</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">206</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Bermuda (United Kingdom)</td>
+    <td style = "text-align: right;">0.063</td>
+    <td style = "text-align: right;">0.063</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.4</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">7.361</td>
+    <td style = "text-align: right;">116.841</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">208</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Greenland (Denmark)</td>
+    <td style = "text-align: right;">0.057</td>
+    <td style = "text-align: right;">0.057</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.19</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">3.023</td>
+    <td style = "text-align: right;">53.035</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">228</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Saint Pierre and Miquelon (France)</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.46</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.825</td>
+    <td style = "text-align: right;">137.5</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">173</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Maldives</td>
+    <td style = "text-align: right;">0.516</td>
+    <td style = "text-align: right;">0.531</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">2.96</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.642</td>
+    <td style = "text-align: right;">10.625</td>
+  </tr>
+</table>
+</body>
+</html>

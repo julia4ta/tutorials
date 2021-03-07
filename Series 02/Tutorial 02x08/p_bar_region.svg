@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="160mm" height="90mm" viewBox="0 0 160 90"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<defs>
+  <marker id="arrow" markerWidth="15" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L15,3.5 L0,7 z" stroke="context-stroke" fill="context-stroke"/>
+  </marker>
+</defs>
+<g stroke="#000000" stroke-opacity="0.000" fill="#FFFFFF" id="img-a3e12880-1">
+  <g transform="translate(80,45)">
+    <path d="M-80,-45 L80,-45 80,45 -80,45  z" class="primitive"/>
+  </g>
+</g>
+<g class="plotroot xscalable" id="img-a3e12880-2">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-a3e12880-3">
+    <g transform="translate(83.77,78.39)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Population (mils)</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-a3e12880-4">
+    <g transform="translate(29.3,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">0</text>
+      </g>
+    </g>
+    <g transform="translate(51.09,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">1000</text>
+      </g>
+    </g>
+    <g transform="translate(72.87,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2000</text>
+      </g>
+    </g>
+    <g transform="translate(94.66,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">3000</text>
+      </g>
+    </g>
+    <g transform="translate(116.45,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">4000</text>
+      </g>
+    </g>
+    <g transform="translate(138.23,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">5000</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide colorkey" id="img-a3e12880-5">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-a3e12880-6">
+      <g transform="translate(144.05,35.22)" id="img-a3e12880-7" class="color_Oceania">
+        <g class="primitive">
+          <text dy="0.35em">Oceania</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,38.85)" id="img-a3e12880-8" class="color_Europe">
+        <g class="primitive">
+          <text dy="0.35em">Europe</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,42.48)" id="img-a3e12880-9" class="color_Americas">
+        <g class="primitive">
+          <text dy="0.35em">Americas</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,46.1)" id="img-a3e12880-10" class="color_Africa">
+        <g class="primitive">
+          <text dy="0.35em">Africa</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,49.73)" id="img-a3e12880-11" class="color_Asia">
+        <g class="primitive">
+          <text dy="0.35em">Asia</text>
+        </g>
+      </g>
+    </g>
+    <g fill-opacity="1" id="img-a3e12880-12">
+      <g transform="translate(142.14,35.22)" id="img-a3e12880-13" stroke="#FFFFFF" fill="#00BFFF" class="color_Oceania">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,38.85)" id="img-a3e12880-14" stroke="#FFFFFF" fill="#D4CA3A" class="color_Europe">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,42.48)" id="img-a3e12880-15" stroke="#FFFFFF" fill="#FF6DAE" class="color_Americas">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,46.1)" id="img-a3e12880-16" stroke="#FFFFFF" fill="#00B78D" class="color_Africa">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,49.73)" id="img-a3e12880-17" stroke="#FFFFFF" fill="#BEA9FF" class="color_Asia">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-a3e12880-18">
+      <g transform="translate(141.23,31.4)" id="img-a3e12880-19">
+        <g class="primitive">
+          <text dy="-0em">Region</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g clip-path="url(#img-a3e12880-20)">
+    <g id="img-a3e12880-21">
+      <g pointer-events="visible" stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-a3e12880-22">
+        <g transform="translate(83.77,40.66)" id="img-a3e12880-23">
+          <path d="M-56.47,-30.05 L56.47,-30.05 56.47,30.05 -56.47,30.05  z" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-a3e12880-24">
+        <g transform="translate(83.77,58.69)" id="img-a3e12880-25">
+          <path fill="none" d="M-56.47,0 L56.47,0 " class="primitive"/>
+        </g>
+        <g transform="translate(83.77,46.67)" id="img-a3e12880-26">
+          <path fill="none" d="M-56.47,0 L56.47,0 " class="primitive"/>
+        </g>
+        <g transform="translate(83.77,34.65)" id="img-a3e12880-27">
+          <path fill="none" d="M-56.47,0 L56.47,0 " class="primitive"/>
+        </g>
+        <g transform="translate(83.77,22.63)" id="img-a3e12880-28">
+          <path fill="none" d="M-56.47,0 L56.47,0 " class="primitive"/>
+        </g>
+      </g>
+      <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-a3e12880-29">
+        <g transform="translate(29.3,40.66)" id="img-a3e12880-30">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(51.09,40.66)" id="img-a3e12880-31">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(72.87,40.66)" id="img-a3e12880-32">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(94.66,40.66)" id="img-a3e12880-33">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(116.45,40.66)" id="img-a3e12880-34">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(138.23,40.66)" id="img-a3e12880-35">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+      </g>
+      <g class="plotpanel" id="img-a3e12880-36">
+        <metadata>
+          <boundingbox value="27.298333333333346mm 10.611666666666665mm 112.935mm 60.10333333333334mm"/>
+          <unitbox value="-91.79786110983615 5.5 5183.595722219673 -5.0"/>
+        </metadata>
+        <g shape-rendering="crispEdges" stroke-width="0.3" id="img-a3e12880-37">
+          <g stroke="#000000" stroke-opacity="0.000" class="geometry" id="img-a3e12880-38">
+            <g transform="translate(79.16,17.62)" id="img-a3e12880-39" fill="#BEA9FF">
+              <path d="M-49.86,-5.51 L49.86,-5.51 49.86,5.51 -49.86,5.51  z" class="primitive"/>
+            </g>
+            <g transform="translate(43.5,29.64)" id="img-a3e12880-40" fill="#00B78D">
+              <path d="M-14.21,-5.51 L14.21,-5.51 14.21,5.51 -14.21,5.51  z" class="primitive"/>
+            </g>
+            <g transform="translate(40.34,41.66)" id="img-a3e12880-41" fill="#FF6DAE">
+              <path d="M-11.04,-5.51 L11.04,-5.51 11.04,5.51 -11.04,5.51  z" class="primitive"/>
+            </g>
+            <g transform="translate(37.43,53.68)" id="img-a3e12880-42" fill="#D4CA3A">
+              <path d="M-8.14,-5.51 L8.14,-5.51 8.14,5.51 -8.14,5.51  z" class="primitive"/>
+            </g>
+            <g transform="translate(29.75,65.7)" id="img-a3e12880-43" fill="#00BFFF">
+              <path d="M-0.45,-5.51 L0.45,-5.51 0.45,5.51 -0.45,5.51  z" class="primitive"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-a3e12880-44">
+    <g transform="translate(26.3,64.7)" id="img-a3e12880-45">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">Oceania</text>
+      </g>
+    </g>
+    <g transform="translate(26.3,52.68)" id="img-a3e12880-46">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">Europe</text>
+      </g>
+    </g>
+    <g transform="translate(26.3,40.66)" id="img-a3e12880-47">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">Americas</text>
+      </g>
+    </g>
+    <g transform="translate(26.3,28.64)" id="img-a3e12880-48">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">Africa</text>
+      </g>
+    </g>
+    <g transform="translate(26.3,16.62)" id="img-a3e12880-49">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">Asia</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-a3e12880-50">
+    <g transform="translate(8.81,38.66)" id="img-a3e12880-51">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.35em" transform="rotate(-90,0, 2)">Region</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-a3e12880-52">
+    <g transform="translate(83.77,5)" id="img-a3e12880-53">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2019 Population by Region</text>
+      </g>
+    </g>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-a3e12880-20">
+    <path d="M27.3,10.61 L140.23,10.61 140.23,70.72 27.3,70.72 " />
+  </clipPath>
+</defs>
+</svg>

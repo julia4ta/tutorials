@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">country</th>
+    <th style = "text-align: right;">gdp</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Int64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Afghanistan</td>
+    <td style = "text-align: right;">17876</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Albania</td>
+    <td style = "text-align: right;">15278</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Algeria</td>
+    <td style = "text-align: right;">171157</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">American Samoa (United States)</td>
+    <td style = "text-align: right;">844</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Andorra</td>
+    <td style = "text-align: right;">3154</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Angola</td>
+    <td style = "text-align: right;">85000</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Anguilla (United Kingdom)</td>
+    <td style = "text-align: right;">379</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Antigua and Barbuda</td>
+    <td style = "text-align: right;">1661</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Argentina</td>
+    <td style = "text-align: right;">449663</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Armenia</td>
+    <td style = "text-align: right;">13672</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Aruba (Netherlands)</td>
+    <td style = "text-align: right;">3293</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Australia[g]</td>
+    <td style = "text-align: right;">1380207</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Austria</td>
+    <td style = "text-align: right;">445075</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Azerbaijan[k]</td>
+    <td style = "text-align: right;">48047</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bahamas</td>
+    <td style = "text-align: right;">13578</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bahrain</td>
+    <td style = "text-align: right;">38574</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bangladesh</td>
+    <td style = "text-align: right;">301051</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Barbados</td>
+    <td style = "text-align: right;">5209</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belarus</td>
+    <td style = "text-align: right;">63080</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belgium</td>
+    <td style = "text-align: right;">533097</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Belize</td>
+    <td style = "text-align: right;">1906</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Benin</td>
+    <td style = "text-align: right;">14403</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bermuda (United Kingdom)</td>
+    <td style = "text-align: right;">7361</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bhutan</td>
+    <td style = "text-align: right;">2564</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bolivia</td>
+    <td style = "text-align: right;">40895</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bosnia and Herzegovina</td>
+    <td style = "text-align: right;">20164</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Botswana</td>
+    <td style = "text-align: right;">18340</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Brazil</td>
+    <td style = "text-align: right;">1847795</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">British Virgin Islands (United Kingdom)</td>
+    <td style = "text-align: right;">1296</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Brunei</td>
+    <td style = "text-align: right;">13469</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bulgaria</td>
+    <td style = "text-align: right;">67925</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burkina Faso</td>
+    <td style = "text-align: right;">15990</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burundi</td>
+    <td style = "text-align: right;">3002</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cambodia</td>
+    <td style = "text-align: right;">27097</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cameroon</td>
+    <td style = "text-align: right;">38861</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Canada</td>
+    <td style = "text-align: right;">1741496</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cape Verde</td>
+    <td style = "text-align: right;">1981</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cayman Islands (United Kingdom)</td>
+    <td style = "text-align: right;">6020</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Central African Republic</td>
+    <td style = "text-align: right;">2220</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chad</td>
+    <td style = "text-align: right;">11271</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chile</td>
+    <td style = "text-align: right;">282318</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">China[a]</td>
+    <td style = "text-align: right;">14342933</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Colombia</td>
+    <td style = "text-align: right;">323802</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Comoros</td>
+    <td style = "text-align: right;">1165</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Congo</td>
+    <td style = "text-align: right;">12397</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cook Islands (New Zealand)</td>
+    <td style = "text-align: right;">379</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Costa Rica</td>
+    <td style = "text-align: right;">61773</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Croatia</td>
+    <td style = "text-align: right;">60415</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cuba</td>
+    <td style = "text-align: right;">105354</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Curaçao (Netherlands)</td>
+    <td style = "text-align: right;">3101</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cyprus[t]</td>
+    <td style = "text-align: right;">24565</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Czech Republic</td>
+    <td style = "text-align: right;">250680</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Denmark</td>
+    <td style = "text-align: right;">350104</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Djibouti</td>
+    <td style = "text-align: right;">3166</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Dominica</td>
+    <td style = "text-align: right;">582</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Dominican Republic</td>
+    <td style = "text-align: right;">88941</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">DR Congo</td>
+    <td style = "text-align: right;">47319</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">East Timor</td>
+    <td style = "text-align: right;">2017</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ecuador</td>
+    <td style = "text-align: right;">107435</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Egypt</td>
+    <td style = "text-align: right;">317359</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">El Salvador</td>
+    <td style = "text-align: right;">27022</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Equatorial Guinea</td>
+    <td style = "text-align: right;">11024</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Eritrea</td>
+    <td style = "text-align: right;">1981</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Estonia</td>
+    <td style = "text-align: right;">31471</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Eswatini</td>
+    <td style = "text-align: right;">4594</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ethiopia</td>
+    <td style = "text-align: right;">92750</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">F.S. Micronesia</td>
+    <td style = "text-align: right;">414</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Fiji</td>
+    <td style = "text-align: right;">5504</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Finland[n]</td>
+    <td style = "text-align: right;">269296</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">France[b]</td>
+    <td style = "text-align: right;">2715518</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">French Polynesia (France)</td>
+    <td style = "text-align: right;">6023</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Gabon</td>
+    <td style = "text-align: right;">16887</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Gambia</td>
+    <td style = "text-align: right;">1822</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Georgia[r]</td>
+    <td style = "text-align: right;">17742</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Germany</td>
+    <td style = "text-align: right;">3861123</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ghana</td>
+    <td style = "text-align: right;">66999</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Greece</td>
+    <td style = "text-align: right;">205326</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Greenland (Denmark)</td>
+    <td style = "text-align: right;">3023</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Grenada</td>
+    <td style = "text-align: right;">1211</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guatemala</td>
+    <td style = "text-align: right;">76710</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guinea</td>
+    <td style = "text-align: right;">12354</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guinea-Bissau</td>
+    <td style = "text-align: right;">1322</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Guyana</td>
+    <td style = "text-align: right;">5173</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Haiti</td>
+    <td style = "text-align: right;">8051</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Honduras</td>
+    <td style = "text-align: right;">25095</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Hong Kong (China)[m]</td>
+    <td style = "text-align: right;">365710</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Hungary</td>
+    <td style = "text-align: right;">163469</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iceland</td>
+    <td style = "text-align: right;">24188</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">India</td>
+    <td style = "text-align: right;">2891582</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Indonesia</td>
+    <td style = "text-align: right;">1119190</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iran</td>
+    <td style = "text-align: right;">603779</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Iraq</td>
+    <td style = "text-align: right;">225232</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ireland</td>
+    <td style = "text-align: right;">398590</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Israel</td>
+    <td style = "text-align: right;">395098</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Italy</td>
+    <td style = "text-align: right;">2003576</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ivory Coast</td>
+    <td style = "text-align: right;">58539</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Jamaica</td>
+    <td style = "text-align: right;">15830</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Japan</td>
+    <td style = "text-align: right;">5082465</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Jordan</td>
+    <td style = "text-align: right;">44502</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kazakhstan</td>
+    <td style = "text-align: right;">181667</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kenya</td>
+    <td style = "text-align: right;">95501</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kiribati</td>
+    <td style = "text-align: right;">194</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kuwait</td>
+    <td style = "text-align: right;">134623</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Kyrgyzstan</td>
+    <td style = "text-align: right;">8454</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Laos</td>
+    <td style = "text-align: right;">18822</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Latvia</td>
+    <td style = "text-align: right;">34102</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lebanon</td>
+    <td style = "text-align: right;">56409</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lesotho</td>
+    <td style = "text-align: right;">2460</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Liberia</td>
+    <td style = "text-align: right;">2582</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Libya</td>
+    <td style = "text-align: right;">32600</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Liechtenstein</td>
+    <td style = "text-align: right;">6797</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Lithuania</td>
+    <td style = "text-align: right;">54627</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Luxembourg</td>
+    <td style = "text-align: right;">71104</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Macau (China)[u]</td>
+    <td style = "text-align: right;">53859</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Madagascar</td>
+    <td style = "text-align: right;">14104</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malawi</td>
+    <td style = "text-align: right;">8099</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malaysia[f]</td>
+    <td style = "text-align: right;">364684</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Maldives</td>
+    <td style = "text-align: right;">5642</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mali</td>
+    <td style = "text-align: right;">17432</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Malta</td>
+    <td style = "text-align: right;">14863</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Marshall Islands</td>
+    <td style = "text-align: right;">237</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mauritania</td>
+    <td style = "text-align: right;">7593</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mauritius[s]</td>
+    <td style = "text-align: right;">14180</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mexico</td>
+    <td style = "text-align: right;">1256440</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Moldova[q]</td>
+    <td style = "text-align: right;">11955</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Monaco</td>
+    <td style = "text-align: right;">7423</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mongolia</td>
+    <td style = "text-align: right;">13852</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Montenegro</td>
+    <td style = "text-align: right;">5542</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Montserrat (United Kingdom)</td>
+    <td style = "text-align: right;">67</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Morocco</td>
+    <td style = "text-align: right;">119700</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Mozambique</td>
+    <td style = "text-align: right;">15296</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Myanmar</td>
+    <td style = "text-align: right;">76784</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Namibia</td>
+    <td style = "text-align: right;">12366</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nauru</td>
+    <td style = "text-align: right;">132</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nepal</td>
+    <td style = "text-align: right;">30714</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Netherlands[i]</td>
+    <td style = "text-align: right;">907050</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">New Caledonia (France)</td>
+    <td style = "text-align: right;">9879</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">New Zealand</td>
+    <td style = "text-align: right;">206936</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nicaragua</td>
+    <td style = "text-align: right;">12520</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Niger</td>
+    <td style = "text-align: right;">12927</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nigeria</td>
+    <td style = "text-align: right;">474516</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">North Korea</td>
+    <td style = "text-align: right;">16331</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">North Macedonia</td>
+    <td style = "text-align: right;">12694</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Norway[o]</td>
+    <td style = "text-align: right;">403336</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Oman</td>
+    <td style = "text-align: right;">76331</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pakistan</td>
+    <td style = "text-align: right;">256996</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Palau</td>
+    <td style = "text-align: right;">280</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Palestine[p]</td>
+    <td style = "text-align: right;">17058</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Panama</td>
+    <td style = "text-align: right;">66787</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Papua New Guinea</td>
+    <td style = "text-align: right;">24969</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Paraguay</td>
+    <td style = "text-align: right;">38086</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Peru</td>
+    <td style = "text-align: right;">226850</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Philippines</td>
+    <td style = "text-align: right;">359354</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Poland</td>
+    <td style = "text-align: right;">595862</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Portugal[j]</td>
+    <td style = "text-align: right;">238785</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Puerto Rico (United States)</td>
+    <td style = "text-align: right;">104988</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Qatar</td>
+    <td style = "text-align: right;">183466</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Romania</td>
+    <td style = "text-align: right;">250075</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Russia</td>
+    <td style = "text-align: right;">1692930</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Rwanda</td>
+    <td style = "text-align: right;">10355</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">São Tomé and Príncipe</td>
+    <td style = "text-align: right;">421</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Kitts and Nevis</td>
+    <td style = "text-align: right;">1050</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Lucia</td>
+    <td style = "text-align: right;">2122</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saint Pierre and Miquelon (France)</td>
+    <td style = "text-align: right;">825</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">San Marino</td>
+    <td style = "text-align: right;">1602</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Saudi Arabia</td>
+    <td style = "text-align: right;">792966</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Senegal</td>
+    <td style = "text-align: right;">23664</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Serbia[l]</td>
+    <td style = "text-align: right;">59427</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Seychelles</td>
+    <td style = "text-align: right;">1698</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sierra Leone</td>
+    <td style = "text-align: right;">4121</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Singapore</td>
+    <td style = "text-align: right;">372073</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sint Maarten (Netherlands)</td>
+    <td style = "text-align: right;">1009</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Slovakia</td>
+    <td style = "text-align: right;">105079</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Slovenia</td>
+    <td style = "text-align: right;">54174</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Solomon Islands</td>
+    <td style = "text-align: right;">1302</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Somalia</td>
+    <td style = "text-align: right;">1626</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Africa</td>
+    <td style = "text-align: right;">351430</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Korea</td>
+    <td style = "text-align: right;">1646539</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">South Sudan</td>
+    <td style = "text-align: right;">4959</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Spain[d]</td>
+    <td style = "text-align: right;">1393490</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sri Lanka</td>
+    <td style = "text-align: right;">84008</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sudan</td>
+    <td style = "text-align: right;">34895</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Suriname</td>
+    <td style = "text-align: right;">3697</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sweden</td>
+    <td style = "text-align: right;">530883</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Switzerland</td>
+    <td style = "text-align: right;">731425</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Syria</td>
+    <td style = "text-align: right;">20379</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tajikistan</td>
+    <td style = "text-align: right;">8333</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tanzania[c]</td>
+    <td style = "text-align: right;">62941</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Thailand</td>
+    <td style = "text-align: right;">542016</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Togo</td>
+    <td style = "text-align: right;">7270</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tonga</td>
+    <td style = "text-align: right;">508</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Trinidad and Tobago</td>
+    <td style = "text-align: right;">23208</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tunisia</td>
+    <td style = "text-align: right;">38797</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turkey</td>
+    <td style = "text-align: right;">761425</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turkmenistan</td>
+    <td style = "text-align: right;">48276</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turks and Caicos Islands (United Kingdom)</td>
+    <td style = "text-align: right;">1197</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tuvalu</td>
+    <td style = "text-align: right;">47</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uganda</td>
+    <td style = "text-align: right;">32609</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Ukraine[e]</td>
+    <td style = "text-align: right;">153781</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United Arab Emirates</td>
+    <td style = "text-align: right;">421142</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United Kingdom</td>
+    <td style = "text-align: right;">2826441</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">United States</td>
+    <td style = "text-align: right;">21433226</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uruguay</td>
+    <td style = "text-align: right;">56045</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Uzbekistan</td>
+    <td style = "text-align: right;">57921</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vanuatu</td>
+    <td style = "text-align: right;">906</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Venezuela</td>
+    <td style = "text-align: right;">134960</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vietnam</td>
+    <td style = "text-align: right;">261921</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Yemen</td>
+    <td style = "text-align: right;">24935</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Zambia</td>
+    <td style = "text-align: right;">23085</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Zimbabwe</td>
+    <td style = "text-align: right;">21440</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">id</th>
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">subregion</th>
+    <th style = "text-align: right;">country</th>
+    <th style = "text-align: right;">my18</th>
+    <th style = "text-align: right;">my19</th>
+    <th style = "text-align: right;">mydelta</th>
+    <th style = "text-align: right;">mypct</th>
+    <th style = "text-align: right;">my100</th>
+    <th style = "text-align: right;">gdp</th>
+    <th style = "text-align: right;">gdppc</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">84</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Burundi</td>
+    <td style = "text-align: right;">10.524</td>
+    <td style = "text-align: right;">10.864</td>
+    <td style = "text-align: right;">0.34</td>
+    <td style = "text-align: right;">3.23</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">3.002</td>
+    <td style = "text-align: right;">0.276</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">163</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Comoros</td>
+    <td style = "text-align: right;">0.832</td>
+    <td style = "text-align: right;">0.851</td>
+    <td style = "text-align: right;">0.019</td>
+    <td style = "text-align: right;">2.23</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">1.165</td>
+    <td style = "text-align: right;">1.369</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">160</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Djibouti</td>
+    <td style = "text-align: right;">0.959</td>
+    <td style = "text-align: right;">0.974</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">1.53</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">3.166</td>
+    <td style = "text-align: right;">3.251</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">133</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Eritrea</td>
+    <td style = "text-align: right;">3.453</td>
+    <td style = "text-align: right;">3.497</td>
+    <td style = "text-align: right;">0.044</td>
+    <td style = "text-align: right;">1.28</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">1.981</td>
+    <td style = "text-align: right;">0.566</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">12</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Ethiopia</td>
+    <td style = "text-align: right;">109.224</td>
+    <td style = "text-align: right;">112.079</td>
+    <td style = "text-align: right;">2.855</td>
+    <td style = "text-align: right;">2.61</td>
+    <td style = "text-align: right;">1.45</td>
+    <td style = "text-align: right;">92.75</td>
+    <td style = "text-align: right;">0.828</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">27</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Kenya</td>
+    <td style = "text-align: right;">51.393</td>
+    <td style = "text-align: right;">52.574</td>
+    <td style = "text-align: right;">1.181</td>
+    <td style = "text-align: right;">2.3</td>
+    <td style = "text-align: right;">0.68</td>
+    <td style = "text-align: right;">95.501</td>
+    <td style = "text-align: right;">1.817</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">51</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Madagascar</td>
+    <td style = "text-align: right;">26.262</td>
+    <td style = "text-align: right;">26.969</td>
+    <td style = "text-align: right;">0.707</td>
+    <td style = "text-align: right;">2.69</td>
+    <td style = "text-align: right;">0.35</td>
+    <td style = "text-align: right;">14.104</td>
+    <td style = "text-align: right;">0.523</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">62</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Malawi</td>
+    <td style = "text-align: right;">18.143</td>
+    <td style = "text-align: right;">18.629</td>
+    <td style = "text-align: right;">0.486</td>
+    <td style = "text-align: right;">2.68</td>
+    <td style = "text-align: right;">0.24</td>
+    <td style = "text-align: right;">8.099</td>
+    <td style = "text-align: right;">0.435</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">157</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Mauritius[s]</td>
+    <td style = "text-align: right;">1.189</td>
+    <td style = "text-align: right;">1.199</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">0.78</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">14.18</td>
+    <td style = "text-align: right;">11.827</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">46</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Mozambique</td>
+    <td style = "text-align: right;">29.496</td>
+    <td style = "text-align: right;">30.366</td>
+    <td style = "text-align: right;">0.87</td>
+    <td style = "text-align: right;">2.95</td>
+    <td style = "text-align: right;">0.39</td>
+    <td style = "text-align: right;">15.296</td>
+    <td style = "text-align: right;">0.504</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">76</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Rwanda</td>
+    <td style = "text-align: right;">12.302</td>
+    <td style = "text-align: right;">12.627</td>
+    <td style = "text-align: right;">0.325</td>
+    <td style = "text-align: right;">2.64</td>
+    <td style = "text-align: right;">0.16</td>
+    <td style = "text-align: right;">10.355</td>
+    <td style = "text-align: right;">0.82</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">200</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Seychelles</td>
+    <td style = "text-align: right;">0.097</td>
+    <td style = "text-align: right;">0.098</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.66</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.698</td>
+    <td style = "text-align: right;">17.327</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">73</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Somalia</td>
+    <td style = "text-align: right;">15.008</td>
+    <td style = "text-align: right;">15.443</td>
+    <td style = "text-align: right;">0.435</td>
+    <td style = "text-align: right;">2.9</td>
+    <td style = "text-align: right;">0.2</td>
+    <td style = "text-align: right;">1.626</td>
+    <td style = "text-align: right;">0.105</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">83</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">South Sudan</td>
+    <td style = "text-align: right;">10.976</td>
+    <td style = "text-align: right;">11.062</td>
+    <td style = "text-align: right;">0.086</td>
+    <td style = "text-align: right;">0.79</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">4.959</td>
+    <td style = "text-align: right;">0.448</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">25</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Tanzania[c]</td>
+    <td style = "text-align: right;">56.313</td>
+    <td style = "text-align: right;">58.005</td>
+    <td style = "text-align: right;">1.692</td>
+    <td style = "text-align: right;">3.0</td>
+    <td style = "text-align: right;">0.75</td>
+    <td style = "text-align: right;">62.941</td>
+    <td style = "text-align: right;">1.085</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">32</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Uganda</td>
+    <td style = "text-align: right;">42.729</td>
+    <td style = "text-align: right;">44.27</td>
+    <td style = "text-align: right;">1.541</td>
+    <td style = "text-align: right;">3.61</td>
+    <td style = "text-align: right;">0.57</td>
+    <td style = "text-align: right;">32.609</td>
+    <td style = "text-align: right;">0.737</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">65</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Zambia</td>
+    <td style = "text-align: right;">17.352</td>
+    <td style = "text-align: right;">17.861</td>
+    <td style = "text-align: right;">0.509</td>
+    <td style = "text-align: right;">2.94</td>
+    <td style = "text-align: right;">0.23</td>
+    <td style = "text-align: right;">23.085</td>
+    <td style = "text-align: right;">1.292</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">74</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Eastern Africa</td>
+    <td style = "text-align: right;">Zimbabwe</td>
+    <td style = "text-align: right;">14.439</td>
+    <td style = "text-align: right;">14.645</td>
+    <td style = "text-align: right;">0.206</td>
+    <td style = "text-align: right;">1.43</td>
+    <td style = "text-align: right;">0.19</td>
+    <td style = "text-align: right;">21.44</td>
+    <td style = "text-align: right;">1.464</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">45</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Angola</td>
+    <td style = "text-align: right;">30.81</td>
+    <td style = "text-align: right;">31.825</td>
+    <td style = "text-align: right;">1.015</td>
+    <td style = "text-align: right;">3.3</td>
+    <td style = "text-align: right;">0.41</td>
+    <td style = "text-align: right;">85.0</td>
+    <td style = "text-align: right;">2.671</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">54</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Cameroon</td>
+    <td style = "text-align: right;">25.216</td>
+    <td style = "text-align: right;">25.876</td>
+    <td style = "text-align: right;">0.66</td>
+    <td style = "text-align: right;">2.62</td>
+    <td style = "text-align: right;">0.34</td>
+    <td style = "text-align: right;">38.861</td>
+    <td style = "text-align: right;">1.502</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">126</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Central African Republic</td>
+    <td style = "text-align: right;">4.666</td>
+    <td style = "text-align: right;">4.745</td>
+    <td style = "text-align: right;">0.079</td>
+    <td style = "text-align: right;">1.69</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">2.22</td>
+    <td style = "text-align: right;">0.468</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">72</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Chad</td>
+    <td style = "text-align: right;">15.478</td>
+    <td style = "text-align: right;">15.947</td>
+    <td style = "text-align: right;">0.469</td>
+    <td style = "text-align: right;">3.03</td>
+    <td style = "text-align: right;">0.21</td>
+    <td style = "text-align: right;">11.271</td>
+    <td style = "text-align: right;">0.707</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">118</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Congo</td>
+    <td style = "text-align: right;">5.244</td>
+    <td style = "text-align: right;">5.381</td>
+    <td style = "text-align: right;">0.137</td>
+    <td style = "text-align: right;">2.6</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">12.397</td>
+    <td style = "text-align: right;">2.304</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">16</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">DR Congo</td>
+    <td style = "text-align: right;">84.068</td>
+    <td style = "text-align: right;">86.791</td>
+    <td style = "text-align: right;">2.723</td>
+    <td style = "text-align: right;">3.24</td>
+    <td style = "text-align: right;">1.13</td>
+    <td style = "text-align: right;">47.319</td>
+    <td style = "text-align: right;">0.545</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">154</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Equatorial Guinea</td>
+    <td style = "text-align: right;">1.309</td>
+    <td style = "text-align: right;">1.356</td>
+    <td style = "text-align: right;">0.047</td>
+    <td style = "text-align: right;">3.59</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">11.024</td>
+    <td style = "text-align: right;">8.13</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">146</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">Gabon</td>
+    <td style = "text-align: right;">2.119</td>
+    <td style = "text-align: right;">2.173</td>
+    <td style = "text-align: right;">0.054</td>
+    <td style = "text-align: right;">2.52</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">16.887</td>
+    <td style = "text-align: right;">7.771</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">187</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Middle Africa</td>
+    <td style = "text-align: right;">São Tomé and Príncipe</td>
+    <td style = "text-align: right;">0.211</td>
+    <td style = "text-align: right;">0.215</td>
+    <td style = "text-align: right;">0.004</td>
+    <td style = "text-align: right;">1.91</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.421</td>
+    <td style = "text-align: right;">1.958</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">34</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Algeria</td>
+    <td style = "text-align: right;">42.228</td>
+    <td style = "text-align: right;">43.053</td>
+    <td style = "text-align: right;">0.825</td>
+    <td style = "text-align: right;">1.95</td>
+    <td style = "text-align: right;">0.56</td>
+    <td style = "text-align: right;">171.157</td>
+    <td style = "text-align: right;">3.975</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">14</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Egypt</td>
+    <td style = "text-align: right;">98.424</td>
+    <td style = "text-align: right;">100.388</td>
+    <td style = "text-align: right;">1.964</td>
+    <td style = "text-align: right;">2.0</td>
+    <td style = "text-align: right;">1.3</td>
+    <td style = "text-align: right;">317.359</td>
+    <td style = "text-align: right;">3.161</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">109</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Libya</td>
+    <td style = "text-align: right;">6.679</td>
+    <td style = "text-align: right;">6.777</td>
+    <td style = "text-align: right;">0.098</td>
+    <td style = "text-align: right;">1.48</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">32.6</td>
+    <td style = "text-align: right;">4.81</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">40</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Morocco</td>
+    <td style = "text-align: right;">36.029</td>
+    <td style = "text-align: right;">36.472</td>
+    <td style = "text-align: right;">0.443</td>
+    <td style = "text-align: right;">1.23</td>
+    <td style = "text-align: right;">0.47</td>
+    <td style = "text-align: right;">119.7</td>
+    <td style = "text-align: right;">3.282</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">35</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Sudan</td>
+    <td style = "text-align: right;">41.802</td>
+    <td style = "text-align: right;">42.813</td>
+    <td style = "text-align: right;">1.011</td>
+    <td style = "text-align: right;">2.42</td>
+    <td style = "text-align: right;">0.56</td>
+    <td style = "text-align: right;">34.895</td>
+    <td style = "text-align: right;">0.815</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">78</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Northern Africa</td>
+    <td style = "text-align: right;">Tunisia</td>
+    <td style = "text-align: right;">11.565</td>
+    <td style = "text-align: right;">11.695</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">1.12</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">38.797</td>
+    <td style = "text-align: right;">3.317</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">145</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">Botswana</td>
+    <td style = "text-align: right;">2.254</td>
+    <td style = "text-align: right;">2.304</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">2.2</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">18.34</td>
+    <td style = "text-align: right;">7.96</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">159</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">Eswatini</td>
+    <td style = "text-align: right;">1.136</td>
+    <td style = "text-align: right;">1.148</td>
+    <td style = "text-align: right;">0.012</td>
+    <td style = "text-align: right;">1.04</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">4.594</td>
+    <td style = "text-align: right;">4.002</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">147</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">Lesotho</td>
+    <td style = "text-align: right;">2.108</td>
+    <td style = "text-align: right;">2.125</td>
+    <td style = "text-align: right;">0.017</td>
+    <td style = "text-align: right;">0.8</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">2.46</td>
+    <td style = "text-align: right;">1.158</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">143</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">Namibia</td>
+    <td style = "text-align: right;">2.448</td>
+    <td style = "text-align: right;">2.495</td>
+    <td style = "text-align: right;">0.047</td>
+    <td style = "text-align: right;">1.89</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">12.366</td>
+    <td style = "text-align: right;">4.956</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">24</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Southern Africa</td>
+    <td style = "text-align: right;">South Africa</td>
+    <td style = "text-align: right;">57.793</td>
+    <td style = "text-align: right;">58.558</td>
+    <td style = "text-align: right;">0.765</td>
+    <td style = "text-align: right;">1.33</td>
+    <td style = "text-align: right;">0.76</td>
+    <td style = "text-align: right;">351.43</td>
+    <td style = "text-align: right;">6.001</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">77</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Benin</td>
+    <td style = "text-align: right;">11.485</td>
+    <td style = "text-align: right;">11.801</td>
+    <td style = "text-align: right;">0.316</td>
+    <td style = "text-align: right;">2.75</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">14.403</td>
+    <td style = "text-align: right;">1.22</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">59</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Burkina Faso</td>
+    <td style = "text-align: right;">19.751</td>
+    <td style = "text-align: right;">20.321</td>
+    <td style = "text-align: right;">0.57</td>
+    <td style = "text-align: right;">2.89</td>
+    <td style = "text-align: right;">0.26</td>
+    <td style = "text-align: right;">15.99</td>
+    <td style = "text-align: right;">0.787</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">172</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Cape Verde</td>
+    <td style = "text-align: right;">0.544</td>
+    <td style = "text-align: right;">0.55</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">1.13</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">1.981</td>
+    <td style = "text-align: right;">3.602</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">144</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Gambia</td>
+    <td style = "text-align: right;">2.28</td>
+    <td style = "text-align: right;">2.348</td>
+    <td style = "text-align: right;">0.068</td>
+    <td style = "text-align: right;">2.97</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">1.822</td>
+    <td style = "text-align: right;">0.776</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">48</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Ghana</td>
+    <td style = "text-align: right;">28.207</td>
+    <td style = "text-align: right;">28.834</td>
+    <td style = "text-align: right;">0.627</td>
+    <td style = "text-align: right;">2.22</td>
+    <td style = "text-align: right;">0.37</td>
+    <td style = "text-align: right;">66.999</td>
+    <td style = "text-align: right;">2.324</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">75</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Guinea</td>
+    <td style = "text-align: right;">12.414</td>
+    <td style = "text-align: right;">12.771</td>
+    <td style = "text-align: right;">0.357</td>
+    <td style = "text-align: right;">2.88</td>
+    <td style = "text-align: right;">0.17</td>
+    <td style = "text-align: right;">12.354</td>
+    <td style = "text-align: right;">0.967</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">150</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Guinea-Bissau</td>
+    <td style = "text-align: right;">1.874</td>
+    <td style = "text-align: right;">1.921</td>
+    <td style = "text-align: right;">0.047</td>
+    <td style = "text-align: right;">2.49</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">1.322</td>
+    <td style = "text-align: right;">0.688</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">53</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Ivory Coast</td>
+    <td style = "text-align: right;">25.069</td>
+    <td style = "text-align: right;">25.717</td>
+    <td style = "text-align: right;">0.648</td>
+    <td style = "text-align: right;">2.58</td>
+    <td style = "text-align: right;">0.33</td>
+    <td style = "text-align: right;">58.539</td>
+    <td style = "text-align: right;">2.276</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">123</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Liberia</td>
+    <td style = "text-align: right;">4.819</td>
+    <td style = "text-align: right;">4.937</td>
+    <td style = "text-align: right;">0.118</td>
+    <td style = "text-align: right;">2.46</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">2.582</td>
+    <td style = "text-align: right;">0.523</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">60</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Mali</td>
+    <td style = "text-align: right;">19.078</td>
+    <td style = "text-align: right;">19.658</td>
+    <td style = "text-align: right;">0.58</td>
+    <td style = "text-align: right;">3.04</td>
+    <td style = "text-align: right;">0.25</td>
+    <td style = "text-align: right;">17.432</td>
+    <td style = "text-align: right;">0.887</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">127</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Mauritania</td>
+    <td style = "text-align: right;">4.403</td>
+    <td style = "text-align: right;">4.526</td>
+    <td style = "text-align: right;">0.123</td>
+    <td style = "text-align: right;">2.78</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">7.593</td>
+    <td style = "text-align: right;">1.678</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">57</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Niger</td>
+    <td style = "text-align: right;">22.443</td>
+    <td style = "text-align: right;">23.311</td>
+    <td style = "text-align: right;">0.868</td>
+    <td style = "text-align: right;">3.87</td>
+    <td style = "text-align: right;">0.3</td>
+    <td style = "text-align: right;">12.927</td>
+    <td style = "text-align: right;">0.555</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">7</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Nigeria</td>
+    <td style = "text-align: right;">195.875</td>
+    <td style = "text-align: right;">200.964</td>
+    <td style = "text-align: right;">5.089</td>
+    <td style = "text-align: right;">2.6</td>
+    <td style = "text-align: right;">2.61</td>
+    <td style = "text-align: right;">474.516</td>
+    <td style = "text-align: right;">2.361</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">71</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Senegal</td>
+    <td style = "text-align: right;">15.854</td>
+    <td style = "text-align: right;">16.296</td>
+    <td style = "text-align: right;">0.442</td>
+    <td style = "text-align: right;">2.79</td>
+    <td style = "text-align: right;">0.21</td>
+    <td style = "text-align: right;">23.664</td>
+    <td style = "text-align: right;">1.452</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">103</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Sierra Leone</td>
+    <td style = "text-align: right;">7.65</td>
+    <td style = "text-align: right;">7.813</td>
+    <td style = "text-align: right;">0.163</td>
+    <td style = "text-align: right;">2.13</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">4.121</td>
+    <td style = "text-align: right;">0.527</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">102</td>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">Western Africa</td>
+    <td style = "text-align: right;">Togo</td>
+    <td style = "text-align: right;">7.889</td>
+    <td style = "text-align: right;">8.082</td>
+    <td style = "text-align: right;">0.193</td>
+    <td style = "text-align: right;">2.45</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">7.27</td>
+    <td style = "text-align: right;">0.9</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">223</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Anguilla (United Kingdom)</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.94</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.379</td>
+    <td style = "text-align: right;">25.267</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">201</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Antigua and Barbuda</td>
+    <td style = "text-align: right;">0.096</td>
+    <td style = "text-align: right;">0.097</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.86</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.661</td>
+    <td style = "text-align: right;">17.124</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">198</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Aruba (Netherlands)</td>
+    <td style = "text-align: right;">0.106</td>
+    <td style = "text-align: right;">0.106</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.44</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">3.293</td>
+    <td style = "text-align: right;">31.066</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">178</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Bahamas</td>
+    <td style = "text-align: right;">0.386</td>
+    <td style = "text-align: right;">0.389</td>
+    <td style = "text-align: right;">0.003</td>
+    <td style = "text-align: right;">1.0</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">13.578</td>
+    <td style = "text-align: right;">34.905</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">182</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Barbados</td>
+    <td style = "text-align: right;">0.287</td>
+    <td style = "text-align: right;">0.287</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">5.209</td>
+    <td style = "text-align: right;">18.15</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">219</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">British Virgin Islands (United Kingdom)</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.77</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.296</td>
+    <td style = "text-align: right;">43.2</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">205</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Cayman Islands (United Kingdom)</td>
+    <td style = "text-align: right;">0.064</td>
+    <td style = "text-align: right;">0.065</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">1.21</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">6.02</td>
+    <td style = "text-align: right;">92.615</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">81</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Cuba</td>
+    <td style = "text-align: right;">11.338</td>
+    <td style = "text-align: right;">11.333</td>
+    <td style = "text-align: right;">-0.005</td>
+    <td style = "text-align: right;">-0.04</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">105.354</td>
+    <td style = "text-align: right;">9.296</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">192</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Curaçao (Netherlands)</td>
+    <td style = "text-align: right;">0.163</td>
+    <td style = "text-align: right;">0.163</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.41</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">3.101</td>
+    <td style = "text-align: right;">19.025</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">204</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Dominica</td>
+    <td style = "text-align: right;">0.072</td>
+    <td style = "text-align: right;">0.072</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.26</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.582</td>
+    <td style = "text-align: right;">8.083</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">85</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Dominican Republic</td>
+    <td style = "text-align: right;">10.627</td>
+    <td style = "text-align: right;">10.739</td>
+    <td style = "text-align: right;">0.112</td>
+    <td style = "text-align: right;">1.05</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">88.941</td>
+    <td style = "text-align: right;">8.282</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">195</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Grenada</td>
+    <td style = "text-align: right;">0.111</td>
+    <td style = "text-align: right;">0.112</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.49</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.211</td>
+    <td style = "text-align: right;">10.812</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">82</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Haiti</td>
+    <td style = "text-align: right;">11.123</td>
+    <td style = "text-align: right;">11.264</td>
+    <td style = "text-align: right;">0.141</td>
+    <td style = "text-align: right;">1.26</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">8.051</td>
+    <td style = "text-align: right;">0.715</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">138</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Jamaica</td>
+    <td style = "text-align: right;">2.935</td>
+    <td style = "text-align: right;">2.948</td>
+    <td style = "text-align: right;">0.013</td>
+    <td style = "text-align: right;">0.46</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">15.83</td>
+    <td style = "text-align: right;">5.37</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">229</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Montserrat (United Kingdom)</td>
+    <td style = "text-align: right;">0.005</td>
+    <td style = "text-align: right;">0.005</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.08</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.067</td>
+    <td style = "text-align: right;">13.4</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">139</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Puerto Rico (United States)</td>
+    <td style = "text-align: right;">3.04</td>
+    <td style = "text-align: right;">2.933</td>
+    <td style = "text-align: right;">-0.107</td>
+    <td style = "text-align: right;">-3.49</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">104.988</td>
+    <td style = "text-align: right;">35.795</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">211</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Saint Kitts and Nevis</td>
+    <td style = "text-align: right;">0.052</td>
+    <td style = "text-align: right;">0.053</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.73</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.05</td>
+    <td style = "text-align: right;">19.811</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">189</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Saint Lucia</td>
+    <td style = "text-align: right;">0.182</td>
+    <td style = "text-align: right;">0.183</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.5</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">2.122</td>
+    <td style = "text-align: right;">11.596</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">213</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Sint Maarten (Netherlands)</td>
+    <td style = "text-align: right;">0.042</td>
+    <td style = "text-align: right;">0.042</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.07</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.009</td>
+    <td style = "text-align: right;">24.024</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">153</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Trinidad and Tobago</td>
+    <td style = "text-align: right;">1.39</td>
+    <td style = "text-align: right;">1.395</td>
+    <td style = "text-align: right;">0.005</td>
+    <td style = "text-align: right;">0.37</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">23.208</td>
+    <td style = "text-align: right;">16.637</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">215</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Caribbean</td>
+    <td style = "text-align: right;">Turks and Caicos Islands (United Kingdom)</td>
+    <td style = "text-align: right;">0.038</td>
+    <td style = "text-align: right;">0.038</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.4</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.197</td>
+    <td style = "text-align: right;">31.5</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">177</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Belize</td>
+    <td style = "text-align: right;">0.383</td>
+    <td style = "text-align: right;">0.39</td>
+    <td style = "text-align: right;">0.007</td>
+    <td style = "text-align: right;">1.9</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">1.906</td>
+    <td style = "text-align: right;">4.887</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">120</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Costa Rica</td>
+    <td style = "text-align: right;">4.999</td>
+    <td style = "text-align: right;">5.048</td>
+    <td style = "text-align: right;">0.049</td>
+    <td style = "text-align: right;">0.96</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">61.773</td>
+    <td style = "text-align: right;">12.237</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">111</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">El Salvador</td>
+    <td style = "text-align: right;">6.421</td>
+    <td style = "text-align: right;">6.454</td>
+    <td style = "text-align: right;">0.033</td>
+    <td style = "text-align: right;">0.51</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">27.022</td>
+    <td style = "text-align: right;">4.187</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">66</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Guatemala</td>
+    <td style = "text-align: right;">17.248</td>
+    <td style = "text-align: right;">17.581</td>
+    <td style = "text-align: right;">0.333</td>
+    <td style = "text-align: right;">1.93</td>
+    <td style = "text-align: right;">0.23</td>
+    <td style = "text-align: right;">76.71</td>
+    <td style = "text-align: right;">4.363</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">93</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Honduras</td>
+    <td style = "text-align: right;">9.588</td>
+    <td style = "text-align: right;">9.746</td>
+    <td style = "text-align: right;">0.158</td>
+    <td style = "text-align: right;">1.65</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">25.095</td>
+    <td style = "text-align: right;">2.575</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">10</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Mexico</td>
+    <td style = "text-align: right;">126.191</td>
+    <td style = "text-align: right;">127.576</td>
+    <td style = "text-align: right;">1.385</td>
+    <td style = "text-align: right;">1.1</td>
+    <td style = "text-align: right;">1.65</td>
+    <td style = "text-align: right;">1256.44</td>
+    <td style = "text-align: right;">9.849</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">110</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Nicaragua</td>
+    <td style = "text-align: right;">6.466</td>
+    <td style = "text-align: right;">6.546</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">1.24</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">12.52</td>
+    <td style = "text-align: right;">1.913</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">128</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Central America</td>
+    <td style = "text-align: right;">Panama</td>
+    <td style = "text-align: right;">4.177</td>
+    <td style = "text-align: right;">4.246</td>
+    <td style = "text-align: right;">0.069</td>
+    <td style = "text-align: right;">1.67</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">66.787</td>
+    <td style = "text-align: right;">15.729</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">206</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Bermuda (United Kingdom)</td>
+    <td style = "text-align: right;">0.063</td>
+    <td style = "text-align: right;">0.063</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.4</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">7.361</td>
+    <td style = "text-align: right;">116.841</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">39</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Canada</td>
+    <td style = "text-align: right;">37.075</td>
+    <td style = "text-align: right;">37.411</td>
+    <td style = "text-align: right;">0.336</td>
+    <td style = "text-align: right;">0.91</td>
+    <td style = "text-align: right;">0.49</td>
+    <td style = "text-align: right;">1741.5</td>
+    <td style = "text-align: right;">46.55</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">208</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Greenland (Denmark)</td>
+    <td style = "text-align: right;">0.057</td>
+    <td style = "text-align: right;">0.057</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.19</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">3.023</td>
+    <td style = "text-align: right;">53.035</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">228</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">Saint Pierre and Miquelon (France)</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.46</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.825</td>
+    <td style = "text-align: right;">137.5</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">3</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">Northern America</td>
+    <td style = "text-align: right;">United States</td>
+    <td style = "text-align: right;">327.096</td>
+    <td style = "text-align: right;">329.065</td>
+    <td style = "text-align: right;">1.969</td>
+    <td style = "text-align: right;">0.6</td>
+    <td style = "text-align: right;">4.27</td>
+    <td style = "text-align: right;">21433.2</td>
+    <td style = "text-align: right;">65.134</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">31</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Argentina</td>
+    <td style = "text-align: right;">44.361</td>
+    <td style = "text-align: right;">44.781</td>
+    <td style = "text-align: right;">0.42</td>
+    <td style = "text-align: right;">0.95</td>
+    <td style = "text-align: right;">0.58</td>
+    <td style = "text-align: right;">449.663</td>
+    <td style = "text-align: right;">10.041</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">80</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Bolivia</td>
+    <td style = "text-align: right;">11.353</td>
+    <td style = "text-align: right;">11.513</td>
+    <td style = "text-align: right;">0.16</td>
+    <td style = "text-align: right;">1.41</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">40.895</td>
+    <td style = "text-align: right;">3.552</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">6</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Brazil</td>
+    <td style = "text-align: right;">209.469</td>
+    <td style = "text-align: right;">211.05</td>
+    <td style = "text-align: right;">1.581</td>
+    <td style = "text-align: right;">0.75</td>
+    <td style = "text-align: right;">2.74</td>
+    <td style = "text-align: right;">1847.8</td>
+    <td style = "text-align: right;">8.755</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">63</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Chile</td>
+    <td style = "text-align: right;">18.729</td>
+    <td style = "text-align: right;">18.952</td>
+    <td style = "text-align: right;">0.223</td>
+    <td style = "text-align: right;">1.19</td>
+    <td style = "text-align: right;">0.25</td>
+    <td style = "text-align: right;">282.318</td>
+    <td style = "text-align: right;">14.896</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">29</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Colombia</td>
+    <td style = "text-align: right;">49.661</td>
+    <td style = "text-align: right;">50.339</td>
+    <td style = "text-align: right;">0.678</td>
+    <td style = "text-align: right;">1.37</td>
+    <td style = "text-align: right;">0.65</td>
+    <td style = "text-align: right;">323.802</td>
+    <td style = "text-align: right;">6.432</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">67</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Ecuador</td>
+    <td style = "text-align: right;">17.084</td>
+    <td style = "text-align: right;">17.374</td>
+    <td style = "text-align: right;">0.29</td>
+    <td style = "text-align: right;">1.69</td>
+    <td style = "text-align: right;">0.23</td>
+    <td style = "text-align: right;">107.435</td>
+    <td style = "text-align: right;">6.184</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">164</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Guyana</td>
+    <td style = "text-align: right;">0.779</td>
+    <td style = "text-align: right;">0.783</td>
+    <td style = "text-align: right;">0.004</td>
+    <td style = "text-align: right;">0.48</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.173</td>
+    <td style = "text-align: right;">6.607</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">106</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Paraguay</td>
+    <td style = "text-align: right;">6.956</td>
+    <td style = "text-align: right;">7.045</td>
+    <td style = "text-align: right;">0.089</td>
+    <td style = "text-align: right;">1.27</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">38.086</td>
+    <td style = "text-align: right;">5.406</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">43</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Peru</td>
+    <td style = "text-align: right;">31.989</td>
+    <td style = "text-align: right;">32.51</td>
+    <td style = "text-align: right;">0.521</td>
+    <td style = "text-align: right;">1.63</td>
+    <td style = "text-align: right;">0.42</td>
+    <td style = "text-align: right;">226.85</td>
+    <td style = "text-align: right;">6.978</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">171</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Suriname</td>
+    <td style = "text-align: right;">0.576</td>
+    <td style = "text-align: right;">0.581</td>
+    <td style = "text-align: right;">0.005</td>
+    <td style = "text-align: right;">0.93</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">3.697</td>
+    <td style = "text-align: right;">6.363</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">134</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Uruguay</td>
+    <td style = "text-align: right;">3.449</td>
+    <td style = "text-align: right;">3.462</td>
+    <td style = "text-align: right;">0.013</td>
+    <td style = "text-align: right;">0.36</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">56.045</td>
+    <td style = "text-align: right;">16.189</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">50</td>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">South America</td>
+    <td style = "text-align: right;">Venezuela</td>
+    <td style = "text-align: right;">28.887</td>
+    <td style = "text-align: right;">28.516</td>
+    <td style = "text-align: right;">-0.371</td>
+    <td style = "text-align: right;">-1.29</td>
+    <td style = "text-align: right;">0.37</td>
+    <td style = "text-align: right;">134.96</td>
+    <td style = "text-align: right;">4.733</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">64</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">Kazakhstan</td>
+    <td style = "text-align: right;">18.32</td>
+    <td style = "text-align: right;">18.551</td>
+    <td style = "text-align: right;">0.231</td>
+    <td style = "text-align: right;">1.27</td>
+    <td style = "text-align: right;">0.24</td>
+    <td style = "text-align: right;">181.667</td>
+    <td style = "text-align: right;">9.793</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">112</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">Kyrgyzstan</td>
+    <td style = "text-align: right;">6.304</td>
+    <td style = "text-align: right;">6.416</td>
+    <td style = "text-align: right;">0.112</td>
+    <td style = "text-align: right;">1.77</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">8.454</td>
+    <td style = "text-align: right;">1.318</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">96</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">Tajikistan</td>
+    <td style = "text-align: right;">9.101</td>
+    <td style = "text-align: right;">9.321</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">2.42</td>
+    <td style = "text-align: right;">0.12</td>
+    <td style = "text-align: right;">8.333</td>
+    <td style = "text-align: right;">0.894</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">113</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">Turkmenistan</td>
+    <td style = "text-align: right;">5.851</td>
+    <td style = "text-align: right;">5.942</td>
+    <td style = "text-align: right;">0.091</td>
+    <td style = "text-align: right;">1.56</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">48.276</td>
+    <td style = "text-align: right;">8.125</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">42</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Central Asia</td>
+    <td style = "text-align: right;">Uzbekistan</td>
+    <td style = "text-align: right;">32.476</td>
+    <td style = "text-align: right;">32.982</td>
+    <td style = "text-align: right;">0.506</td>
+    <td style = "text-align: right;">1.56</td>
+    <td style = "text-align: right;">0.43</td>
+    <td style = "text-align: right;">57.921</td>
+    <td style = "text-align: right;">1.756</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">1</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">China[a]</td>
+    <td style = "text-align: right;">1427.65</td>
+    <td style = "text-align: right;">1433.78</td>
+    <td style = "text-align: right;">6.136</td>
+    <td style = "text-align: right;">0.43</td>
+    <td style = "text-align: right;">18.6</td>
+    <td style = "text-align: right;">14342.9</td>
+    <td style = "text-align: right;">10.004</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">104</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">Hong Kong (China)[m]</td>
+    <td style = "text-align: right;">7.372</td>
+    <td style = "text-align: right;">7.436</td>
+    <td style = "text-align: right;">0.064</td>
+    <td style = "text-align: right;">0.87</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">365.71</td>
+    <td style = "text-align: right;">49.181</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">11</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">Japan</td>
+    <td style = "text-align: right;">127.202</td>
+    <td style = "text-align: right;">126.86</td>
+    <td style = "text-align: right;">-0.342</td>
+    <td style = "text-align: right;">-0.27</td>
+    <td style = "text-align: right;">1.65</td>
+    <td style = "text-align: right;">5082.47</td>
+    <td style = "text-align: right;">40.064</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">167</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">Macau (China)[u]</td>
+    <td style = "text-align: right;">0.632</td>
+    <td style = "text-align: right;">0.64</td>
+    <td style = "text-align: right;">0.008</td>
+    <td style = "text-align: right;">1.39</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">53.859</td>
+    <td style = "text-align: right;">84.155</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">136</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">Mongolia</td>
+    <td style = "text-align: right;">3.17</td>
+    <td style = "text-align: right;">3.225</td>
+    <td style = "text-align: right;">0.055</td>
+    <td style = "text-align: right;">1.73</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">13.852</td>
+    <td style = "text-align: right;">4.295</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">52</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">North Korea</td>
+    <td style = "text-align: right;">25.55</td>
+    <td style = "text-align: right;">25.666</td>
+    <td style = "text-align: right;">0.116</td>
+    <td style = "text-align: right;">0.46</td>
+    <td style = "text-align: right;">0.33</td>
+    <td style = "text-align: right;">16.331</td>
+    <td style = "text-align: right;">0.636</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">28</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Eastern Asia</td>
+    <td style = "text-align: right;">South Korea</td>
+    <td style = "text-align: right;">51.172</td>
+    <td style = "text-align: right;">51.225</td>
+    <td style = "text-align: right;">0.053</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">0.66</td>
+    <td style = "text-align: right;">1646.54</td>
+    <td style = "text-align: right;">32.143</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">176</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Brunei</td>
+    <td style = "text-align: right;">0.429</td>
+    <td style = "text-align: right;">0.433</td>
+    <td style = "text-align: right;">0.004</td>
+    <td style = "text-align: right;">1.01</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">13.469</td>
+    <td style = "text-align: right;">31.106</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">70</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Cambodia</td>
+    <td style = "text-align: right;">16.25</td>
+    <td style = "text-align: right;">16.487</td>
+    <td style = "text-align: right;">0.237</td>
+    <td style = "text-align: right;">1.46</td>
+    <td style = "text-align: right;">0.21</td>
+    <td style = "text-align: right;">27.097</td>
+    <td style = "text-align: right;">1.644</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">156</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">East Timor</td>
+    <td style = "text-align: right;">1.268</td>
+    <td style = "text-align: right;">1.293</td>
+    <td style = "text-align: right;">0.025</td>
+    <td style = "text-align: right;">1.98</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">2.017</td>
+    <td style = "text-align: right;">1.56</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">4</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Indonesia</td>
+    <td style = "text-align: right;">267.671</td>
+    <td style = "text-align: right;">270.626</td>
+    <td style = "text-align: right;">2.955</td>
+    <td style = "text-align: right;">1.1</td>
+    <td style = "text-align: right;">3.51</td>
+    <td style = "text-align: right;">1119.19</td>
+    <td style = "text-align: right;">4.136</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">105</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Laos</td>
+    <td style = "text-align: right;">7.062</td>
+    <td style = "text-align: right;">7.169</td>
+    <td style = "text-align: right;">0.107</td>
+    <td style = "text-align: right;">1.53</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">18.822</td>
+    <td style = "text-align: right;">2.625</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">44</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Malaysia[f]</td>
+    <td style = "text-align: right;">31.528</td>
+    <td style = "text-align: right;">31.95</td>
+    <td style = "text-align: right;">0.422</td>
+    <td style = "text-align: right;">1.34</td>
+    <td style = "text-align: right;">0.41</td>
+    <td style = "text-align: right;">364.684</td>
+    <td style = "text-align: right;">11.414</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">26</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Myanmar</td>
+    <td style = "text-align: right;">53.708</td>
+    <td style = "text-align: right;">54.045</td>
+    <td style = "text-align: right;">0.337</td>
+    <td style = "text-align: right;">0.63</td>
+    <td style = "text-align: right;">0.7</td>
+    <td style = "text-align: right;">76.784</td>
+    <td style = "text-align: right;">1.421</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">13</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Philippines</td>
+    <td style = "text-align: right;">106.651</td>
+    <td style = "text-align: right;">108.117</td>
+    <td style = "text-align: right;">1.466</td>
+    <td style = "text-align: right;">1.37</td>
+    <td style = "text-align: right;">1.4</td>
+    <td style = "text-align: right;">359.354</td>
+    <td style = "text-align: right;">3.324</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">114</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Singapore</td>
+    <td style = "text-align: right;">5.757</td>
+    <td style = "text-align: right;">5.804</td>
+    <td style = "text-align: right;">0.047</td>
+    <td style = "text-align: right;">0.81</td>
+    <td style = "text-align: right;">0.08</td>
+    <td style = "text-align: right;">372.073</td>
+    <td style = "text-align: right;">64.106</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">20</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Thailand</td>
+    <td style = "text-align: right;">68.864</td>
+    <td style = "text-align: right;">69.038</td>
+    <td style = "text-align: right;">0.174</td>
+    <td style = "text-align: right;">0.25</td>
+    <td style = "text-align: right;">0.9</td>
+    <td style = "text-align: right;">542.016</td>
+    <td style = "text-align: right;">7.851</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">15</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">South-eastern Asia</td>
+    <td style = "text-align: right;">Vietnam</td>
+    <td style = "text-align: right;">95.546</td>
+    <td style = "text-align: right;">96.462</td>
+    <td style = "text-align: right;">0.916</td>
+    <td style = "text-align: right;">0.96</td>
+    <td style = "text-align: right;">1.25</td>
+    <td style = "text-align: right;">261.921</td>
+    <td style = "text-align: right;">2.715</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">37</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Afghanistan</td>
+    <td style = "text-align: right;">37.172</td>
+    <td style = "text-align: right;">38.042</td>
+    <td style = "text-align: right;">0.87</td>
+    <td style = "text-align: right;">2.34</td>
+    <td style = "text-align: right;">0.49</td>
+    <td style = "text-align: right;">17.876</td>
+    <td style = "text-align: right;">0.47</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">8</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Bangladesh</td>
+    <td style = "text-align: right;">161.377</td>
+    <td style = "text-align: right;">163.046</td>
+    <td style = "text-align: right;">1.669</td>
+    <td style = "text-align: right;">1.03</td>
+    <td style = "text-align: right;">2.11</td>
+    <td style = "text-align: right;">301.051</td>
+    <td style = "text-align: right;">1.846</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">165</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Bhutan</td>
+    <td style = "text-align: right;">0.754</td>
+    <td style = "text-align: right;">0.763</td>
+    <td style = "text-align: right;">0.009</td>
+    <td style = "text-align: right;">1.15</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">2.564</td>
+    <td style = "text-align: right;">3.36</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">2</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">India</td>
+    <td style = "text-align: right;">1352.64</td>
+    <td style = "text-align: right;">1366.42</td>
+    <td style = "text-align: right;">13.776</td>
+    <td style = "text-align: right;">1.02</td>
+    <td style = "text-align: right;">17.72</td>
+    <td style = "text-align: right;">2891.58</td>
+    <td style = "text-align: right;">2.116</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">19</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Iran</td>
+    <td style = "text-align: right;">81.8</td>
+    <td style = "text-align: right;">82.914</td>
+    <td style = "text-align: right;">1.114</td>
+    <td style = "text-align: right;">1.36</td>
+    <td style = "text-align: right;">1.08</td>
+    <td style = "text-align: right;">603.779</td>
+    <td style = "text-align: right;">7.282</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">173</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Maldives</td>
+    <td style = "text-align: right;">0.516</td>
+    <td style = "text-align: right;">0.531</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">2.96</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.642</td>
+    <td style = "text-align: right;">10.625</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">49</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Nepal</td>
+    <td style = "text-align: right;">28.096</td>
+    <td style = "text-align: right;">28.609</td>
+    <td style = "text-align: right;">0.513</td>
+    <td style = "text-align: right;">1.83</td>
+    <td style = "text-align: right;">0.37</td>
+    <td style = "text-align: right;">30.714</td>
+    <td style = "text-align: right;">1.074</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">5</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Pakistan</td>
+    <td style = "text-align: right;">212.228</td>
+    <td style = "text-align: right;">216.565</td>
+    <td style = "text-align: right;">4.337</td>
+    <td style = "text-align: right;">2.04</td>
+    <td style = "text-align: right;">2.81</td>
+    <td style = "text-align: right;">256.996</td>
+    <td style = "text-align: right;">1.187</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">58</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Sri Lanka</td>
+    <td style = "text-align: right;">21.229</td>
+    <td style = "text-align: right;">21.324</td>
+    <td style = "text-align: right;">0.095</td>
+    <td style = "text-align: right;">0.45</td>
+    <td style = "text-align: right;">0.28</td>
+    <td style = "text-align: right;">84.008</td>
+    <td style = "text-align: right;">3.94</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">137</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Armenia</td>
+    <td style = "text-align: right;">2.952</td>
+    <td style = "text-align: right;">2.958</td>
+    <td style = "text-align: right;">0.006</td>
+    <td style = "text-align: right;">0.2</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">13.672</td>
+    <td style = "text-align: right;">4.622</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">90</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Azerbaijan[k]</td>
+    <td style = "text-align: right;">9.95</td>
+    <td style = "text-align: right;">10.048</td>
+    <td style = "text-align: right;">0.098</td>
+    <td style = "text-align: right;">0.99</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">48.047</td>
+    <td style = "text-align: right;">4.782</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">152</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Bahrain</td>
+    <td style = "text-align: right;">1.569</td>
+    <td style = "text-align: right;">1.641</td>
+    <td style = "text-align: right;">0.072</td>
+    <td style = "text-align: right;">4.57</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">38.574</td>
+    <td style = "text-align: right;">23.506</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">158</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Cyprus[t]</td>
+    <td style = "text-align: right;">1.17</td>
+    <td style = "text-align: right;">1.18</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">0.81</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">24.565</td>
+    <td style = "text-align: right;">20.818</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">132</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Georgia[r]</td>
+    <td style = "text-align: right;">4.003</td>
+    <td style = "text-align: right;">3.997</td>
+    <td style = "text-align: right;">-0.006</td>
+    <td style = "text-align: right;">-0.15</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">17.742</td>
+    <td style = "text-align: right;">4.439</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">36</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Iraq</td>
+    <td style = "text-align: right;">38.434</td>
+    <td style = "text-align: right;">39.31</td>
+    <td style = "text-align: right;">0.876</td>
+    <td style = "text-align: right;">2.28</td>
+    <td style = "text-align: right;">0.51</td>
+    <td style = "text-align: right;">225.232</td>
+    <td style = "text-align: right;">5.73</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">101</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Israel</td>
+    <td style = "text-align: right;">8.382</td>
+    <td style = "text-align: right;">8.519</td>
+    <td style = "text-align: right;">0.137</td>
+    <td style = "text-align: right;">1.64</td>
+    <td style = "text-align: right;">0.11</td>
+    <td style = "text-align: right;">395.098</td>
+    <td style = "text-align: right;">46.378</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">89</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Jordan</td>
+    <td style = "text-align: right;">9.965</td>
+    <td style = "text-align: right;">10.102</td>
+    <td style = "text-align: right;">0.137</td>
+    <td style = "text-align: right;">1.37</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">44.502</td>
+    <td style = "text-align: right;">4.405</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">129</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Kuwait</td>
+    <td style = "text-align: right;">4.137</td>
+    <td style = "text-align: right;">4.207</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">1.69</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">134.623</td>
+    <td style = "text-align: right;">32.0</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">108</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Lebanon</td>
+    <td style = "text-align: right;">6.859</td>
+    <td style = "text-align: right;">6.856</td>
+    <td style = "text-align: right;">-0.003</td>
+    <td style = "text-align: right;">-0.05</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">56.409</td>
+    <td style = "text-align: right;">8.228</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">122</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Oman</td>
+    <td style = "text-align: right;">4.829</td>
+    <td style = "text-align: right;">4.975</td>
+    <td style = "text-align: right;">0.146</td>
+    <td style = "text-align: right;">3.01</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">76.331</td>
+    <td style = "text-align: right;">15.343</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">121</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Palestine[p]</td>
+    <td style = "text-align: right;">4.863</td>
+    <td style = "text-align: right;">4.981</td>
+    <td style = "text-align: right;">0.118</td>
+    <td style = "text-align: right;">2.44</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">17.058</td>
+    <td style = "text-align: right;">3.425</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">141</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Qatar</td>
+    <td style = "text-align: right;">2.782</td>
+    <td style = "text-align: right;">2.832</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">1.81</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">183.466</td>
+    <td style = "text-align: right;">64.783</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">41</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Saudi Arabia</td>
+    <td style = "text-align: right;">33.703</td>
+    <td style = "text-align: right;">34.269</td>
+    <td style = "text-align: right;">0.566</td>
+    <td style = "text-align: right;">1.68</td>
+    <td style = "text-align: right;">0.44</td>
+    <td style = "text-align: right;">792.966</td>
+    <td style = "text-align: right;">23.139</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">69</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Syria</td>
+    <td style = "text-align: right;">16.945</td>
+    <td style = "text-align: right;">17.07</td>
+    <td style = "text-align: right;">0.125</td>
+    <td style = "text-align: right;">0.74</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">20.379</td>
+    <td style = "text-align: right;">1.194</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">18</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Turkey</td>
+    <td style = "text-align: right;">82.34</td>
+    <td style = "text-align: right;">83.43</td>
+    <td style = "text-align: right;">1.09</td>
+    <td style = "text-align: right;">1.32</td>
+    <td style = "text-align: right;">1.08</td>
+    <td style = "text-align: right;">761.425</td>
+    <td style = "text-align: right;">9.127</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">92</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">United Arab Emirates</td>
+    <td style = "text-align: right;">9.631</td>
+    <td style = "text-align: right;">9.771</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">1.45</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">421.142</td>
+    <td style = "text-align: right;">43.101</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">47</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Western Asia</td>
+    <td style = "text-align: right;">Yemen</td>
+    <td style = "text-align: right;">28.499</td>
+    <td style = "text-align: right;">29.162</td>
+    <td style = "text-align: right;">0.663</td>
+    <td style = "text-align: right;">2.33</td>
+    <td style = "text-align: right;">0.38</td>
+    <td style = "text-align: right;">24.935</td>
+    <td style = "text-align: right;">0.855</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">95</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Belarus</td>
+    <td style = "text-align: right;">9.453</td>
+    <td style = "text-align: right;">9.452</td>
+    <td style = "text-align: right;">-0.001</td>
+    <td style = "text-align: right;">-0.0</td>
+    <td style = "text-align: right;">0.12</td>
+    <td style = "text-align: right;">63.08</td>
+    <td style = "text-align: right;">6.674</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">107</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Bulgaria</td>
+    <td style = "text-align: right;">7.052</td>
+    <td style = "text-align: right;">7.0</td>
+    <td style = "text-align: right;">-0.052</td>
+    <td style = "text-align: right;">-0.73</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">67.925</td>
+    <td style = "text-align: right;">9.704</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">86</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Czech Republic</td>
+    <td style = "text-align: right;">10.666</td>
+    <td style = "text-align: right;">10.689</td>
+    <td style = "text-align: right;">0.023</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">250.68</td>
+    <td style = "text-align: right;">23.452</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">94</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Hungary</td>
+    <td style = "text-align: right;">9.707</td>
+    <td style = "text-align: right;">9.685</td>
+    <td style = "text-align: right;">-0.022</td>
+    <td style = "text-align: right;">-0.24</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">163.469</td>
+    <td style = "text-align: right;">16.879</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">131</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Moldova[q]</td>
+    <td style = "text-align: right;">4.052</td>
+    <td style = "text-align: right;">4.043</td>
+    <td style = "text-align: right;">-0.009</td>
+    <td style = "text-align: right;">-0.21</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">11.955</td>
+    <td style = "text-align: right;">2.957</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">38</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Poland</td>
+    <td style = "text-align: right;">37.922</td>
+    <td style = "text-align: right;">37.888</td>
+    <td style = "text-align: right;">-0.034</td>
+    <td style = "text-align: right;">-0.09</td>
+    <td style = "text-align: right;">0.49</td>
+    <td style = "text-align: right;">595.862</td>
+    <td style = "text-align: right;">15.727</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">61</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Romania</td>
+    <td style = "text-align: right;">19.506</td>
+    <td style = "text-align: right;">19.365</td>
+    <td style = "text-align: right;">-0.141</td>
+    <td style = "text-align: right;">-0.73</td>
+    <td style = "text-align: right;">0.25</td>
+    <td style = "text-align: right;">250.075</td>
+    <td style = "text-align: right;">12.914</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">9</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Russia</td>
+    <td style = "text-align: right;">145.734</td>
+    <td style = "text-align: right;">145.872</td>
+    <td style = "text-align: right;">0.138</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">1.89</td>
+    <td style = "text-align: right;">1692.93</td>
+    <td style = "text-align: right;">11.606</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">117</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Slovakia</td>
+    <td style = "text-align: right;">5.453</td>
+    <td style = "text-align: right;">5.457</td>
+    <td style = "text-align: right;">0.004</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">105.079</td>
+    <td style = "text-align: right;">19.256</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">33</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Eastern Europe</td>
+    <td style = "text-align: right;">Ukraine[e]</td>
+    <td style = "text-align: right;">44.246</td>
+    <td style = "text-align: right;">43.994</td>
+    <td style = "text-align: right;">-0.252</td>
+    <td style = "text-align: right;">-0.57</td>
+    <td style = "text-align: right;">0.57</td>
+    <td style = "text-align: right;">153.781</td>
+    <td style = "text-align: right;">3.495</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">115</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Denmark</td>
+    <td style = "text-align: right;">5.752</td>
+    <td style = "text-align: right;">5.772</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">0.34</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">350.104</td>
+    <td style = "text-align: right;">60.656</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">155</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Estonia</td>
+    <td style = "text-align: right;">1.323</td>
+    <td style = "text-align: right;">1.326</td>
+    <td style = "text-align: right;">0.003</td>
+    <td style = "text-align: right;">0.21</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">31.471</td>
+    <td style = "text-align: right;">23.734</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">116</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Finland[n]</td>
+    <td style = "text-align: right;">5.523</td>
+    <td style = "text-align: right;">5.532</td>
+    <td style = "text-align: right;">0.009</td>
+    <td style = "text-align: right;">0.17</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">269.296</td>
+    <td style = "text-align: right;">48.68</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">180</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Iceland</td>
+    <td style = "text-align: right;">0.337</td>
+    <td style = "text-align: right;">0.339</td>
+    <td style = "text-align: right;">0.002</td>
+    <td style = "text-align: right;">0.69</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">24.188</td>
+    <td style = "text-align: right;">71.351</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">124</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Ireland</td>
+    <td style = "text-align: right;">4.819</td>
+    <td style = "text-align: right;">4.882</td>
+    <td style = "text-align: right;">0.063</td>
+    <td style = "text-align: right;">1.32</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">398.59</td>
+    <td style = "text-align: right;">81.645</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">151</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Latvia</td>
+    <td style = "text-align: right;">1.928</td>
+    <td style = "text-align: right;">1.907</td>
+    <td style = "text-align: right;">-0.021</td>
+    <td style = "text-align: right;">-1.13</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">34.102</td>
+    <td style = "text-align: right;">17.883</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">142</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Lithuania</td>
+    <td style = "text-align: right;">2.801</td>
+    <td style = "text-align: right;">2.76</td>
+    <td style = "text-align: right;">-0.041</td>
+    <td style = "text-align: right;">-1.49</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">54.627</td>
+    <td style = "text-align: right;">19.792</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">119</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Norway[o]</td>
+    <td style = "text-align: right;">5.338</td>
+    <td style = "text-align: right;">5.379</td>
+    <td style = "text-align: right;">0.041</td>
+    <td style = "text-align: right;">0.77</td>
+    <td style = "text-align: right;">0.07</td>
+    <td style = "text-align: right;">403.336</td>
+    <td style = "text-align: right;">74.983</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">91</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">Sweden</td>
+    <td style = "text-align: right;">9.972</td>
+    <td style = "text-align: right;">10.036</td>
+    <td style = "text-align: right;">0.064</td>
+    <td style = "text-align: right;">0.65</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">530.883</td>
+    <td style = "text-align: right;">52.898</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">21</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Northern Europe</td>
+    <td style = "text-align: right;">United Kingdom</td>
+    <td style = "text-align: right;">67.142</td>
+    <td style = "text-align: right;">67.53</td>
+    <td style = "text-align: right;">0.388</td>
+    <td style = "text-align: right;">0.58</td>
+    <td style = "text-align: right;">0.88</td>
+    <td style = "text-align: right;">2826.44</td>
+    <td style = "text-align: right;">41.855</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">140</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Albania</td>
+    <td style = "text-align: right;">2.883</td>
+    <td style = "text-align: right;">2.881</td>
+    <td style = "text-align: right;">-0.002</td>
+    <td style = "text-align: right;">-0.06</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">15.278</td>
+    <td style = "text-align: right;">5.303</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">203</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Andorra</td>
+    <td style = "text-align: right;">0.077</td>
+    <td style = "text-align: right;">0.077</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.18</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">3.154</td>
+    <td style = "text-align: right;">40.961</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">135</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Bosnia and Herzegovina</td>
+    <td style = "text-align: right;">3.324</td>
+    <td style = "text-align: right;">3.301</td>
+    <td style = "text-align: right;">-0.023</td>
+    <td style = "text-align: right;">-0.69</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">20.164</td>
+    <td style = "text-align: right;">6.108</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">130</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Croatia</td>
+    <td style = "text-align: right;">4.156</td>
+    <td style = "text-align: right;">4.13</td>
+    <td style = "text-align: right;">-0.026</td>
+    <td style = "text-align: right;">-0.63</td>
+    <td style = "text-align: right;">0.05</td>
+    <td style = "text-align: right;">60.415</td>
+    <td style = "text-align: right;">14.628</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">87</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Greece</td>
+    <td style = "text-align: right;">10.522</td>
+    <td style = "text-align: right;">10.473</td>
+    <td style = "text-align: right;">-0.049</td>
+    <td style = "text-align: right;">-0.46</td>
+    <td style = "text-align: right;">0.14</td>
+    <td style = "text-align: right;">205.326</td>
+    <td style = "text-align: right;">19.605</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">23</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Italy</td>
+    <td style = "text-align: right;">60.627</td>
+    <td style = "text-align: right;">60.55</td>
+    <td style = "text-align: right;">-0.077</td>
+    <td style = "text-align: right;">-0.13</td>
+    <td style = "text-align: right;">0.79</td>
+    <td style = "text-align: right;">2003.58</td>
+    <td style = "text-align: right;">33.09</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">175</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Malta</td>
+    <td style = "text-align: right;">0.439</td>
+    <td style = "text-align: right;">0.44</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.26</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">14.863</td>
+    <td style = "text-align: right;">33.78</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">168</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Montenegro</td>
+    <td style = "text-align: right;">0.628</td>
+    <td style = "text-align: right;">0.628</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.542</td>
+    <td style = "text-align: right;">8.825</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">148</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">North Macedonia</td>
+    <td style = "text-align: right;">2.083</td>
+    <td style = "text-align: right;">2.083</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.02</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">12.694</td>
+    <td style = "text-align: right;">6.094</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">88</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Portugal[j]</td>
+    <td style = "text-align: right;">10.256</td>
+    <td style = "text-align: right;">10.226</td>
+    <td style = "text-align: right;">-0.03</td>
+    <td style = "text-align: right;">-0.29</td>
+    <td style = "text-align: right;">0.13</td>
+    <td style = "text-align: right;">238.785</td>
+    <td style = "text-align: right;">23.351</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">217</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">San Marino</td>
+    <td style = "text-align: right;">0.034</td>
+    <td style = "text-align: right;">0.034</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.602</td>
+    <td style = "text-align: right;">47.118</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">99</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Serbia[l]</td>
+    <td style = "text-align: right;">8.803</td>
+    <td style = "text-align: right;">8.772</td>
+    <td style = "text-align: right;">-0.031</td>
+    <td style = "text-align: right;">-0.35</td>
+    <td style = "text-align: right;">0.11</td>
+    <td style = "text-align: right;">59.427</td>
+    <td style = "text-align: right;">6.775</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">149</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Slovenia</td>
+    <td style = "text-align: right;">2.078</td>
+    <td style = "text-align: right;">2.079</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">0.03</td>
+    <td style = "text-align: right;">54.174</td>
+    <td style = "text-align: right;">26.058</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">30</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Southern Europe</td>
+    <td style = "text-align: right;">Spain[d]</td>
+    <td style = "text-align: right;">46.693</td>
+    <td style = "text-align: right;">46.737</td>
+    <td style = "text-align: right;">0.044</td>
+    <td style = "text-align: right;">0.09</td>
+    <td style = "text-align: right;">0.61</td>
+    <td style = "text-align: right;">1393.49</td>
+    <td style = "text-align: right;">29.816</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">97</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Austria</td>
+    <td style = "text-align: right;">8.891</td>
+    <td style = "text-align: right;">8.955</td>
+    <td style = "text-align: right;">0.064</td>
+    <td style = "text-align: right;">0.72</td>
+    <td style = "text-align: right;">0.12</td>
+    <td style = "text-align: right;">445.075</td>
+    <td style = "text-align: right;">49.701</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">79</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Belgium</td>
+    <td style = "text-align: right;">11.482</td>
+    <td style = "text-align: right;">11.539</td>
+    <td style = "text-align: right;">0.057</td>
+    <td style = "text-align: right;">0.5</td>
+    <td style = "text-align: right;">0.15</td>
+    <td style = "text-align: right;">533.097</td>
+    <td style = "text-align: right;">46.2</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">22</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">France[b]</td>
+    <td style = "text-align: right;">64.991</td>
+    <td style = "text-align: right;">65.13</td>
+    <td style = "text-align: right;">0.139</td>
+    <td style = "text-align: right;">0.21</td>
+    <td style = "text-align: right;">0.84</td>
+    <td style = "text-align: right;">2715.52</td>
+    <td style = "text-align: right;">41.694</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">17</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Germany</td>
+    <td style = "text-align: right;">83.124</td>
+    <td style = "text-align: right;">83.517</td>
+    <td style = "text-align: right;">0.393</td>
+    <td style = "text-align: right;">0.47</td>
+    <td style = "text-align: right;">1.08</td>
+    <td style = "text-align: right;">3861.12</td>
+    <td style = "text-align: right;">46.232</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">216</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Liechtenstein</td>
+    <td style = "text-align: right;">0.038</td>
+    <td style = "text-align: right;">0.038</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.29</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">6.797</td>
+    <td style = "text-align: right;">178.868</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">169</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Luxembourg</td>
+    <td style = "text-align: right;">0.604</td>
+    <td style = "text-align: right;">0.616</td>
+    <td style = "text-align: right;">0.012</td>
+    <td style = "text-align: right;">1.9</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">71.104</td>
+    <td style = "text-align: right;">115.429</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">214</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Monaco</td>
+    <td style = "text-align: right;">0.039</td>
+    <td style = "text-align: right;">0.039</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.73</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">7.423</td>
+    <td style = "text-align: right;">190.333</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">68</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Netherlands[i]</td>
+    <td style = "text-align: right;">17.06</td>
+    <td style = "text-align: right;">17.097</td>
+    <td style = "text-align: right;">0.037</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">0.22</td>
+    <td style = "text-align: right;">907.05</td>
+    <td style = "text-align: right;">53.053</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">100</td>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">Western Europe</td>
+    <td style = "text-align: right;">Switzerland</td>
+    <td style = "text-align: right;">8.526</td>
+    <td style = "text-align: right;">8.591</td>
+    <td style = "text-align: right;">0.065</td>
+    <td style = "text-align: right;">0.77</td>
+    <td style = "text-align: right;">0.11</td>
+    <td style = "text-align: right;">731.425</td>
+    <td style = "text-align: right;">85.139</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">55</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Australia and New Zealand</td>
+    <td style = "text-align: right;">Australia[g]</td>
+    <td style = "text-align: right;">24.898</td>
+    <td style = "text-align: right;">25.203</td>
+    <td style = "text-align: right;">0.305</td>
+    <td style = "text-align: right;">1.23</td>
+    <td style = "text-align: right;">0.33</td>
+    <td style = "text-align: right;">1380.21</td>
+    <td style = "text-align: right;">54.764</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">125</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Australia and New Zealand</td>
+    <td style = "text-align: right;">New Zealand</td>
+    <td style = "text-align: right;">4.743</td>
+    <td style = "text-align: right;">4.783</td>
+    <td style = "text-align: right;">0.04</td>
+    <td style = "text-align: right;">0.84</td>
+    <td style = "text-align: right;">0.06</td>
+    <td style = "text-align: right;">206.936</td>
+    <td style = "text-align: right;">43.265</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">161</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">Fiji</td>
+    <td style = "text-align: right;">0.883</td>
+    <td style = "text-align: right;">0.89</td>
+    <td style = "text-align: right;">0.007</td>
+    <td style = "text-align: right;">0.73</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.504</td>
+    <td style = "text-align: right;">6.184</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">183</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">New Caledonia (France)</td>
+    <td style = "text-align: right;">0.28</td>
+    <td style = "text-align: right;">0.283</td>
+    <td style = "text-align: right;">0.003</td>
+    <td style = "text-align: right;">0.98</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">9.879</td>
+    <td style = "text-align: right;">34.908</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">98</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">Papua New Guinea</td>
+    <td style = "text-align: right;">8.606</td>
+    <td style = "text-align: right;">8.776</td>
+    <td style = "text-align: right;">0.17</td>
+    <td style = "text-align: right;">1.97</td>
+    <td style = "text-align: right;">0.11</td>
+    <td style = "text-align: right;">24.969</td>
+    <td style = "text-align: right;">2.845</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">166</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">Solomon Islands</td>
+    <td style = "text-align: right;">0.653</td>
+    <td style = "text-align: right;">0.67</td>
+    <td style = "text-align: right;">0.017</td>
+    <td style = "text-align: right;">2.6</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">1.302</td>
+    <td style = "text-align: right;">1.943</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">181</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Melanesia</td>
+    <td style = "text-align: right;">Vanuatu</td>
+    <td style = "text-align: right;">0.293</td>
+    <td style = "text-align: right;">0.3</td>
+    <td style = "text-align: right;">0.007</td>
+    <td style = "text-align: right;">2.46</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.906</td>
+    <td style = "text-align: right;">3.02</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">194</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">F.S. Micronesia</td>
+    <td style = "text-align: right;">0.113</td>
+    <td style = "text-align: right;">0.114</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">1.04</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.414</td>
+    <td style = "text-align: right;">3.632</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">193</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">Kiribati</td>
+    <td style = "text-align: right;">0.116</td>
+    <td style = "text-align: right;">0.118</td>
+    <td style = "text-align: right;">0.002</td>
+    <td style = "text-align: right;">1.52</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.194</td>
+    <td style = "text-align: right;">1.644</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">207</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">Marshall Islands</td>
+    <td style = "text-align: right;">0.058</td>
+    <td style = "text-align: right;">0.059</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.65</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.237</td>
+    <td style = "text-align: right;">4.017</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">226</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">Nauru</td>
+    <td style = "text-align: right;">0.011</td>
+    <td style = "text-align: right;">0.011</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.81</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.132</td>
+    <td style = "text-align: right;">12.0</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">221</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Micronesia</td>
+    <td style = "text-align: right;">Palau</td>
+    <td style = "text-align: right;">0.018</td>
+    <td style = "text-align: right;">0.018</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.56</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.28</td>
+    <td style = "text-align: right;">15.556</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">210</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">American Samoa (United States)</td>
+    <td style = "text-align: right;">0.055</td>
+    <td style = "text-align: right;">0.055</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">-0.28</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.844</td>
+    <td style = "text-align: right;">15.345</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">222</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">Cook Islands (New Zealand)</td>
+    <td style = "text-align: right;">0.018</td>
+    <td style = "text-align: right;">0.018</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.17</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.379</td>
+    <td style = "text-align: right;">21.056</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">185</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">French Polynesia (France)</td>
+    <td style = "text-align: right;">0.278</td>
+    <td style = "text-align: right;">0.279</td>
+    <td style = "text-align: right;">0.001</td>
+    <td style = "text-align: right;">0.58</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">6.023</td>
+    <td style = "text-align: right;">21.588</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">196</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">Tonga</td>
+    <td style = "text-align: right;">0.111</td>
+    <td style = "text-align: right;">0.111</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.32</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.508</td>
+    <td style = "text-align: right;">4.577</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">224</td>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">Polynesia</td>
+    <td style = "text-align: right;">Tuvalu</td>
+    <td style = "text-align: right;">0.012</td>
+    <td style = "text-align: right;">0.012</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">1.2</td>
+    <td style = "text-align: right;">0.0</td>
+    <td style = "text-align: right;">0.047</td>
+    <td style = "text-align: right;">3.917</td>
+  </tr>
+</table>
+</body>
+</html>

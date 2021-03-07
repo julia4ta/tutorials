@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">id</th>
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">subregion</th>
+    <th style = "text-align: right;">country</th>
+    <th style = "text-align: right;">my18</th>
+    <th style = "text-align: right;">my19</th>
+    <th style = "text-align: right;">mydelta</th>
+    <th style = "text-align: right;">mypct</th>
+    <th style = "text-align: right;">my100</th>
+    <th style = "text-align: right;">gdp</th>
+    <th style = "text-align: right;">gdppc</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">Int64</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">37</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Afghanistan</td>
+    <td style = "text-align: right;">37.172</td>
+    <td style = "text-align: right;">38.042</td>
+    <td style = "text-align: right;">0.87</td>
+    <td style = "text-align: right;">2.34</td>
+    <td style = "text-align: right;">0.49</td>
+    <td style = "text-align: right;">17.876</td>
+    <td style = "text-align: right;">0.47</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">8</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Bangladesh</td>
+    <td style = "text-align: right;">161.377</td>
+    <td style = "text-align: right;">163.046</td>
+    <td style = "text-align: right;">1.669</td>
+    <td style = "text-align: right;">1.03</td>
+    <td style = "text-align: right;">2.11</td>
+    <td style = "text-align: right;">301.051</td>
+    <td style = "text-align: right;">1.846</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">165</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Bhutan</td>
+    <td style = "text-align: right;">0.754</td>
+    <td style = "text-align: right;">0.763</td>
+    <td style = "text-align: right;">0.009</td>
+    <td style = "text-align: right;">1.15</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">2.564</td>
+    <td style = "text-align: right;">3.36</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">2</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">India</td>
+    <td style = "text-align: right;">1352.64</td>
+    <td style = "text-align: right;">1366.42</td>
+    <td style = "text-align: right;">13.776</td>
+    <td style = "text-align: right;">1.02</td>
+    <td style = "text-align: right;">17.72</td>
+    <td style = "text-align: right;">2891.58</td>
+    <td style = "text-align: right;">2.116</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">19</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Iran</td>
+    <td style = "text-align: right;">81.8</td>
+    <td style = "text-align: right;">82.914</td>
+    <td style = "text-align: right;">1.114</td>
+    <td style = "text-align: right;">1.36</td>
+    <td style = "text-align: right;">1.08</td>
+    <td style = "text-align: right;">603.779</td>
+    <td style = "text-align: right;">7.282</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">173</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Maldives</td>
+    <td style = "text-align: right;">0.516</td>
+    <td style = "text-align: right;">0.531</td>
+    <td style = "text-align: right;">0.015</td>
+    <td style = "text-align: right;">2.96</td>
+    <td style = "text-align: right;">0.01</td>
+    <td style = "text-align: right;">5.642</td>
+    <td style = "text-align: right;">10.625</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">49</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Nepal</td>
+    <td style = "text-align: right;">28.096</td>
+    <td style = "text-align: right;">28.609</td>
+    <td style = "text-align: right;">0.513</td>
+    <td style = "text-align: right;">1.83</td>
+    <td style = "text-align: right;">0.37</td>
+    <td style = "text-align: right;">30.714</td>
+    <td style = "text-align: right;">1.074</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">5</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Pakistan</td>
+    <td style = "text-align: right;">212.228</td>
+    <td style = "text-align: right;">216.565</td>
+    <td style = "text-align: right;">4.337</td>
+    <td style = "text-align: right;">2.04</td>
+    <td style = "text-align: right;">2.81</td>
+    <td style = "text-align: right;">256.996</td>
+    <td style = "text-align: right;">1.187</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">58</td>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">Southern Asia</td>
+    <td style = "text-align: right;">Sri Lanka</td>
+    <td style = "text-align: right;">21.229</td>
+    <td style = "text-align: right;">21.324</td>
+    <td style = "text-align: right;">0.095</td>
+    <td style = "text-align: right;">0.45</td>
+    <td style = "text-align: right;">0.28</td>
+    <td style = "text-align: right;">84.008</td>
+    <td style = "text-align: right;">3.94</td>
+  </tr>
+</table>
+</body>
+</html>

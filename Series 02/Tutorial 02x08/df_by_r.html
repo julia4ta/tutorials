@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">region</th>
+    <th style = "text-align: right;">my18_sum</th>
+    <th style = "text-align: right;">my19_sum</th>
+    <th style = "text-align: right;">mydelta_sum</th>
+    <th style = "text-align: right;">mypct_c</th>
+    <th style = "text-align: right;">my100_c</th>
+    <th style = "text-align: right;">gdp_sum</th>
+    <th style = "text-align: right;">gdppc_c</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+    <th style = "text-align: right;">Float64</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Africa</td>
+    <td style = "text-align: right;">1271.91</td>
+    <td style = "text-align: right;">1304.0</td>
+    <td style = "text-align: right;">32.087</td>
+    <td style = "text-align: right;">2.52</td>
+    <td style = "text-align: right;">16.97</td>
+    <td style = "text-align: right;">2460.57</td>
+    <td style = "text-align: right;">1.887</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Americas</td>
+    <td style = "text-align: right;">1005.17</td>
+    <td style = "text-align: right;">1013.36</td>
+    <td style = "text-align: right;">8.199</td>
+    <td style = "text-align: right;">0.82</td>
+    <td style = "text-align: right;">13.19</td>
+    <td style = "text-align: right;">28619.0</td>
+    <td style = "text-align: right;">28.242</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Asia</td>
+    <td style = "text-align: right;">4536.36</td>
+    <td style = "text-align: right;">4576.99</td>
+    <td style = "text-align: right;">40.633</td>
+    <td style = "text-align: right;">0.9</td>
+    <td style = "text-align: right;">59.57</td>
+    <td style = "text-align: right;">32474.1</td>
+    <td style = "text-align: right;">7.095</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Europe</td>
+    <td style = "text-align: right;">746.084</td>
+    <td style = "text-align: right;">746.841</td>
+    <td style = "text-align: right;">0.757</td>
+    <td style = "text-align: right;">0.1</td>
+    <td style = "text-align: right;">9.72</td>
+    <td style = "text-align: right;">21645.0</td>
+    <td style = "text-align: right;">28.982</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Oceania</td>
+    <td style = "text-align: right;">41.146</td>
+    <td style = "text-align: right;">41.7</td>
+    <td style = "text-align: right;">0.554</td>
+    <td style = "text-align: right;">1.35</td>
+    <td style = "text-align: right;">0.54</td>
+    <td style = "text-align: right;">1638.76</td>
+    <td style = "text-align: right;">39.299</td>
+  </tr>
+</table>
+</body>
+</html>
