@@ -1,0 +1,637 @@
+length,date,channel,category,brand,item,title,price,rating
+4:22,01/11/12,Fast Food,Burger,McDonald's,Big Mac,Running On Empty -- Food Review -- McDonalds Part 2.,3,7
+4:24,01/18/12,Fast Food,Chicken nuggets,McDonald's,Chicken McBites,Running On Empty -- Food Review -- McDonalds Part 3.,4.99,10
+3:15,01/27/12,Fast Food,Burger,McDonald's,Angus Bacon and Cheese Burger,Running On Empty--Food Review--McDonalds Part 4,4,8
+4:02,02/03/12,Fast Food,Chicken sandwich,McDonald's,McChicken Sandwich,Running On Empty--Food Review--McDonalds Part 5,1,9
+4:02,02/03/12,Fast Food,Chicken tenders,McDonald's,3-pc Chicken Selects,Running On Empty--Food Review--McDonalds Part 5,3.49,9
+4:47,02/11/12,Fast Food,BLT,McDonald's,Ranch BLT,Running On Empty--Food Review--McDonalds Part 6.,4,7.5
+4:07,02/19/12,Fast Food,Burger,McDonald's,Angus Deluxe,Running On Empty--Food Review--McDonalds Part 7.,4,9
+4:25,03/02/12,Fast Food,Fish sandwich,McDonald's,Filet-O-Fish,Running On Empty--Food Review--McDonalds Part 8.,3,7
+5:41,03/24/12,Fast Food,Wrap,McDonald's,Angus Deluxe Snack Wrap,Running On Empty--Food Review--McDonalds Part 9.,1.99,7
+5:00,03/31/12,Fast Food,Wrap,McDonald's,Chicken Snack Wrap,Running On Empty--Food Review--McDonalds Part 10.,2,9
+5:00,03/31/12,Fast Food,Chicken sandwich,McDonald's,McChicken Sandwich,Running On Empty--Food Review--McDonalds Part 10.,1,9
+3:16,04/06/12,Fast Food,Burger,McDonald's,Double Quarter Pounder,Running On Empty--Food Review--McDonalds Part 11.,3,8
+4:22,08/06/12,Fast Food,Chicken wings,Planet Wings,10-pc Boneless Medium Wings,Running On Empty--Food Review--Planet Wings,6.99,10
+5:19,12/01/12,Fast Food,Pizza (fresh),Domino's,Pan Pizza,Domino's Pan Pizza--Running On Empty--Food Review,8,8
+5:19,12/01/12,Fast Food,Breadsticks,Domino's,Garlic breadsticks,Domino's Pan Pizza--Running On Empty--Food Review,6,8
+4:20,12/18/12,Grocery,Pizza (frozen),Red Baron,Pepperoni Super Slice,Red Baron Super Slice - Pizza Review,5,10
+8:36,01/19/13,Fast Food,Pizza (fresh),Domino's,Medium Pepperoni Pizza,Domino's Pizza Review - Running On Empty - Food Review,12.99,9
+8:36,01/19/13,Fast Food,Chicken wings,Domino's,Wings,Domino's Pizza Review - Running On Empty - Food Review,12.99,9
+10:14,04/23/13,Grocery,Slider,White Castle,Frozen sliders,White Castle (Frozen) -- Running On Empty -- Food Review,6,5.432
+5:13,05/06/13,Grocery,Pizza (frozen),DiGiorno,Pizza Dipping Strips,DIGIORNO Dipping Strips -- Running On Empty -- Food Review,4.5,7.1
+7:16,05/13/13,Fast Food,Fried chicken,KFC,Boneless Chicken,KFC Boneless Chicken -- Running On Empty -- Food Review,4.99,9
+8:51,06/05/13,Grocery,Pizza (frozen),Red Baron,"Singles, Deep Dish Supreme Pizza",Red Baron Singles -- Running On Empty -- Food Review,5,9
+7:14,06/15/13,Grocery,Chicken nuggets,Perdue,Popcorn Chicken,Perdue Popcorn Chicken -- Running On Empty -- Food Review,7.69,5
+9:43,06/30/13,Fast Food,Chicken nuggets,KFC,Popcorn Chicken,KFC Popcorn Chicken & Wings -- Food Review,3.39,8
+9:43,06/30/13,Fast Food,Chicken wings,KFC,Fiery Buffalo Wings,KFC Popcorn Chicken & Wings -- Food Review,3.39,6
+8:57,07/16/13,Grocery,Pizza (frozen),DiGiorno,Stuffed Crust Pepperoni Personal Pizza,DIGIORNO Stuffed Crust -- Running On Empty -- Food Review,3.5,7
+8:56,08/05/13,Fast Food,Burger,Five Guys,Bacon Burger,Five Guys -- Running On Empty -- Food Review,6,9.8
+8:56,08/05/13,Fast Food,French fries,Five Guys,Cajun Fries,Five Guys -- Running On Empty -- Food Review,3,9.8
+8:18,08/13/13,Fast Food,Sub sandwich,Subway,BLT,Subway BLT -- Running On Empty -- Food Review,5.99,6
+6:13,08/28/13,Fast Food,Burger,Wendy's,Pretzel Bacon Cheeseburger,Wendy's Pretzel Burger -- Running On Empty -- Food Review,6,4
+5:30,09/27/13,Fast Food,Chicken wings,McDonald's,10-pc Mighty Wings,McDonalds Mighty Wings -- Running On Empty -- Food Review,10,8
+5:38,10/03/13,Fast Food,Chicken nuggets,Wendy's,Chicken Nuggets,Wendy's Chicken Nuggets -- Running On Empty -- Food Review,3,6
+7:44,10/14/13,Fast Food,Pizza (fresh),Papa John's,Pepperoni Bacon Sausage Pizza,Papa Johns Pizza & Cookie -- Running On Empty -- Food Review,10,8
+7:44,10/14/13,Fast Food,Cookie,Papa John's,Chocolate Chip Cookie Pie,Papa Johns Pizza & Cookie -- Running On Empty -- Food Review,10,6.5
+3:24,10/26/13,Grocery,Fried chicken,T.G.I. Friday's,Honey BBQ Boneless Chicken,T.G.I Friday's Boneless Chicken -- Food Review,6,9
+4:56,10/31/13,Grocery,Breadsticks,New York Bakery,Garlic Bread Sticks,New York Breadsticks -- Running On Empty -- Food Review,4,7
+3:34,11/14/13,Fast Food,Burger,McDonald's,Bacon McDouble,McDonald's Bacon McDouble -- Running On Empty -- Food Review,2,8.5
+5:44,11/18/13,Fast Food,Chicken sandwich,Wendy's,Pretzel Pub Chicken Sandwich,Wendy's Pretzel Pub Chicken -- Running On Empty -- Food Review,6,7
+6:06,11/23/13,Fast Food,Burger,Planet Wings,Bacon Burger,Planet Wings Burger -- Running On Empty -- Food Review,5.49,9
+5:06,12/02/13,Fast Food,Burger,Wendy's,Dave's Hot 'N Juicy,Wendy's Dave's Hot 'N Juicy -- Running On Empty -- Food Review,4.89,7
+9:35,12/05/13,Fast Food,Chicken wings,Planet Wings,Suicidal Wings (10-ct boneless),Planet Wings Suicide Wings -- Running On Empty -- Food Review,7,9
+6:00,12/10/13,Fast Food,Burger,McDonald's,"Quarter Pounder, Bacon & Cheese",Quarter Pounder Bacon & Cheese -- Running On Empty -- Food Review,4.79,8
+5:30,12/18/13,Fast Food,Chicken wings,Planet Wings,Butter Garlic Wings (boneless),Planet Wings Butter Garlic Wings -- Running On Empty -- Food Review,7,7.9
+4:27,12/23/13,Fast Food,Chicken tenders,KFC,Go Cups (with Extra Crispy Chicken Tenders),KFC Go Cups -- Running On Empty -- Food Review,2.4,8.7
+4:34,12/28/13,Fast Food,Chicken sandwich,McDonald's,Bacon Buffalo Ranch McChicken Sandwich,Bacon Buffalo Ranch McChicken -- Running On Empty -- Food Review,2,6.1
+5:07,01/03/14,Fast Food,Chicken wings,Planet Wings,Hot Wings (boneless),Planet Wings Hot Wings -- Running On Empty -- Food Review,7,8.34
+3:58,01/07/14,Grocery,Pizza (frozen),Red Baron,"Singles, Thin Crust Pepperoni Pizza",Red Barons Singles Thin Crust -- Running On Empty -- Food Review,5,7.7
+4:31,01/10/14,Fast Food,Chicken wings,Planet Wings,Classic BBQ chicken wings (boneless),Planet Wings Classic BBQ -- Running On Empty -- Food Review,7,8.1
+9:40,01/13/14,Fast Food,Novelty,Taco Bell,Grilled Stuft Nacho,Taco Bell Grilled Stuft Nacho -- Food Review,1.89,1
+9:31,01/17/14,Fast Food,Pizza (fresh),Domino's,MeatZZa Feast Pizza,Domino's MeatZZa Feast Pizza -- Running On Empty -- Food Review,24,8.1
+9:31,01/17/14,Fast Food,Breadsticks,Domino's,Stuffed Cheesy Breadsticks,Domino's MeatZZa Feast Pizza -- Running On Empty -- Food Review,24,6
+5:58,01/21/14,Fast Food,Chicken wings,Planet Wings,Cajun Wings (boneless),Cajun Wings & Curly Fries -- Running On Empty -- Food Review,4,7
+5:58,01/21/14,Fast Food,French fries,Planet Wings,Curly Fries,Cajun Wings & Curly Fries -- Running On Empty -- Food Review,3,7
+7:11,01/25/14,Grocery,Toaster pastry,Kellogg's,Cherry Pop Tarts,Cherry Pop Tarts -- Running On Empty -- Food Review,2.5,6.4
+6:08,01/29/14,Fast Food,Chicken wings,Planet Wings,Honey BBQ wings (boneless),Planet Wings Honey BBQ -- Running On Empty -- Food Review,7,8.35
+7:39,02/05/14,Fast Food,Pizza (fresh),Pizza Hut,Three-Cheese Stuffed Crust Pepperoni Pizza,Pizza Hut Three-Cheese Stuffed Crust Review -- Running On Empty,21,7.9
+7:39,02/05/14,Fast Food,Chicken wings,Pizza Hut,WingStreet Chicken Wings -- Boneless with  Buffalo Medium Sauce,Pizza Hut Three-Cheese Stuffed Crust Review -- Running On Empty,21,7.3
+6:22,02/13/14,Fast Food,Chicken wings,Planet Wings,Mild Wings (boneless),Planet Wings Mild Wings -- Running On Empty -- Food Review,7,6
+9:03,02/25/14,Fast Food,Pizza (fresh),Pizza Hut,Hand Tossed Pepperoni Pizza,Pizza Hut Hand Tossed -- Running On Empty -- Food Review,14,8.22
+9:03,02/25/14,Fast Food,Breadsticks,Pizza Hut,Breadsticks,Pizza Hut Hand Tossed -- Running On Empty -- Food Review,14,8.22
+10:46,03/04/14,Grocery,Toaster pastry,Kellogg's,"Pop Tarts, Cookies & Crème","Pop Tarts, Cookies & Crème -- Running On Empty -- Food Review",2.5,7
+13:35,03/11/14,Grocery (fresh),Rotisserie Chicken,A&P,Sunday Roaster Rotisserie Chicken,A&P Rotisserie Chicken -- Running On Empty -- Food Review,8.99,5.9
+7:54,03/25/14,Grocery,Pizza (frozen),Sbarro,Sbarro Frozen Pepperoni Pizza,Sbarro Frozen Pizza -- Running On Empty -- Food Review,5,5
+4:51,04/01/14,Fast Food,Chicken wings,Planet Wings,Jamaican Jerk Wings (boneless),Planet Wings Jamaican Jerk -- Running On Empty -- Food Review,7,8.1
+6:59,04/16/14,Grocery,Pizza (frozen),Freschetta,"Brick Oven, Three Meat Medley Pizza","Freschetta Brick Oven, Three Meat Medley -- Food Review",6.5,8.4
+12:32,04/24/14,Grocery,Jerky,Slim Jim,"Slim Jim, Original",Slim Jim Original - Running On Empty - Food Review,1.5,7.7
+4:09,05/07/14,Fast Food,Chicken nuggets,Wendy's,Spicy Chicken Nuggets,Wendy's Spicy Chicken Nuggets - Running On Empty - Food Review,3.94,8.7
+6:28,05/15/14,Grocery,Pizza (frozen),Pizzeria Uno,Chicago Deep Dish Pepperoni Pizza,UNO Chicago Deep Dish Frozen - Running On Empty - Food Review,7,7.9
+5:49,05/19/14,Fast Food,Chicken wings,Planet Wings,Hot BBQ Wings (boneless),Planet Wings Hot BBQ - Running On Empty - Food Review,4,7.5
+6:56,05/28/14,Grocery,Pizza (frozen),Freschetta,Brick Oven Zesty Italian Supreme Pizza,FRESCHETTA Brick Oven Supreme Pizza - Food Review,8,7
+10:20,06/04/14,Grocery,Licorice,Twizzlers,Twizzlers Strawberry flavor,Twizzlers (Strawberry) - Running On Empty - Food Review,2,8.7
+8:02,06/09/14,Grocery,Pizza (frozen),Freschetta,Brick Oven Pepperoni Pizza,"FRESCHETTA Brick Oven, Pepperoni Pizza - Food Review",6.5,8.1
+6:42,06/11/14,Fast Food,Chicken wings,Planet Wings,Smokey Mountain BBQ Wings (boneless),"Smokey Mountain BBQ, Planet Wings - Food Review",8.12,7.9
+10:39,06/16/14,Fast Food,Pizza (fresh),Domino's,Ultimate Pepperoni Feast Pizza,Domino's Specialty Chicken & Ultimate Pepperoni Feast Pizza Review,15,8.91
+10:39,06/16/14,Fast Food,Chicken wings,Domino's,Specialty Chicken (boneless),Domino's Specialty Chicken & Ultimate Pepperoni Feast Pizza Review,6,7.9
+10:21,06/22/14,Fast Food,Chicken nuggets,KFC,Original Recipe Bites,KFC Misc. Items -- Running On Empty -- Food Review,3.49,5.19
+10:21,06/22/14,Fast Food,Fried chicken,KFC,Extra Crispy Drumstick,KFC Misc. Items -- Running On Empty -- Food Review,3.7,8.06
+8:04,06/25/14,Fast Food,Chicken wings,Planet Wings,Hot Gourmet Garlic Wings (boneless),Hot Gourmet Garlic Wings - Planet Wings - Food Review,4,7.52
+10:30,07/02/14,Fast Food,Chicken sandwich,KFC,Double Down Chicken Sandwich,KFC Double Down Chicken Sandwich - Running On Empty - Food Review,5.69,5.5
+8:51,07/08/14,Grocery,Pizza (frozen),Red Baron,Thin & Crispy Pepperoni Pizza,Red Baron Thin Crust - Running On Empty - Food Review,7,6.13
+7:41,07/12/14,Fast Food,Pizza (fresh),Pizza Hut,Cheesy Bites Pepperoni Pizza,Pizza Hut Cheesy Bites Pizza Review - Running On Empty,12,9.34
+8:21,07/14/14,Fast Food,Soft Pretzel,Dunkin',Pretzel Twist,Dunkin Donuts Pretzel Twist - Running On Empty - Food Review,0.99,6.56
+8:52,07/20/14,Grocery,Pizza (frozen),DiGiorno,Rising Crust Pepperoni Pizza,DiGiorno Rising Crust - Running On Empty - Food Review,7,8
+5:15,07/24/14,Fast Food,Chicken wings,Planet Wings,Oriental Sesame Wings (boneless),Planet Wings Oriental Sesame - Running On Empty - Food Review,4,7.3
+6:08,07/26/14,Fast Food,Burger,Wendy's,Pretzel Burger,Wendy's Pretzel Burger REVISITED - Running On Empty - Food Review,6,7.6
+10:35,07/28/14,Grocery,Pizza (frozen),DiGiorno,Pizzeria!,DiGiorno Pizzeria! - Running On Empty - Food Review,9.5,7.1
+10:44,07/30/14,Grocery,Pizza (frozen),Red Baron,Classic Crust Pepperoni Pizza,Red Baron Classic Crust - Running On Empty - Food Review,7.5,6
+6:34,08/03/14,Fast Food,Chicken wings,Planet Wings,Sweet & Tangy Wings (boneless),Planet Wings Sweet & Tangy - Running On Empty - Food Review,4.5,6.5
+11:24,08/05/14,Grocery,Pizza (frozen),DiGiorno,Cheese Stuffed Crust Pepperoni Pizza,DiGiorno Cheese Stuffed Crust - Running On Empty - Food Review,10,7.8
+11:08,08/07/14,Grocery,Pizza (frozen),Freschetta,Naturally Rising Crust Pepperoni Pizza,Freschetta Rising Crust - Running On Empty - Food Review,7,7.5
+11:37,08/12/14,Grocery,Pizza (frozen),DiGiorno,Pizzeria! Supreme Speciale Pizza,DiGiorno Pizzeria! (Supreme) - Running On Empty - Food Review,10.5,8.1
+11:39,08/13/14,Grocery,Pizza (frozen),Tombstone,Original Pepperoni Pizza,Tombstone Pizza - Running On Empty - Food Review,7,8.2
+15:13,08/15/14,Grocery,Pizza (frozen),DiGiorno,Design A Pizza Kit (Pepperoni and Sausage with Peppers & Onions),"DiGiorno Design A Pizza Kit, Assembly & Review",11.5,8.322
+7:02,08/17/14,Fast Food,Chicken nuggets,Burger King,Chicken Fries,Burger King Chicken Fries - Running On Empty - Food Review,3.29,8.7
+8:45,08/20/14,Grocery,Snack (sweet),Hostess,Chocodile Twinkies,Chocodile Twinkies - Running On Empty - Food Review,6,6.1
+8:32,08/21/14,Fast Food,Burger,McDonald's,Jalapeno Double,McDonald's Jalapeno Double - Running On Empty - Food Review,2,8
+13:49,08/24/14,Grocery,Pizza (frozen),DiGiorno,Meatball Marinara Pizza,DiGiorno Meatball Marinara - Running On Empty - Food Review,11,7.7
+7:48,08/26/14,Grocery,Snack (sweet),Hostess,Chocolate Crème Twinkies,Chocolate Crème Twinkies - Running On Empty - Food Review,6,7.6
+10:34,08/28/14,Grocery,Pizza (frozen),DiGiorno,"Rising Crust, Supreme Pizza","DiGiorno Rising Crust, Supreme - Food Review",9.5,6.8
+6:05,09/02/14,Grocery,Cookie,Nabisco,Cookie Dough Oreo Cookies,Cookie Dough Oreo's - Running On Empty - Food Review,5,7.5
+8:29,09/04/14,Grocery,Pizza (frozen),Freschetta,"Rising Crust, Pepperoni & Sausage Pizza","Freschetta Rising Crust, Pepperoni & Sausage - Review",8.5,7.7
+6:29,09/09/14,Fast Food,Chicken wings,Planet Wings,Lemon Pepper Wings (boneless),Planet Wings Lemon Pepper - Running On Empty - Food Review,4,7.4
+9:01,09/15/14,Grocery,Pizza (frozen),DiGiorno,Thin & Crispy Pepperoni Pizza,DiGiorno Thin & Crispy - Running On Empty - Food Review,9,7.8
+5:41,09/17/14,Fast Food,Chicken sandwich,Wendy's,Smoked Gouda Chicken on Brioche,Wendy's Smoked Gouda Chicken on Brioche - Review,5.59,7
+12:46,09/19/14,Grocery,Pizza (frozen),DiGiorno,"Design A Pizza Kit (Chicken, Green Peppers & Red Onions with Pepperoni)","DiGiorno Design A Pizza Kit, Assembly & Review II",12,7.5
+10:36,09/21/14,Fast Food,Pizza (fresh),Pizza Hut,Bacon & Cheese Stuffed Crust Pepperoni Pizza,Pizza Hut Bacon & Cheese Stuffed Crust - Review,11,8.3
+6:40,09/22/14,Fast Food,Pulled pork sandwich,Wendy's,BBQ Pulled Pork Sandwich,Wendy's BBQ Pulled Pork Sandwich - Review,5.19,8.2
+8:01,09/26/14,Grocery,Pizza (frozen),Ellio's,Pepperoni Pizza,Ellio's Pizza - Running On Empty - Food Review,6,7.7
+9:06,09/28/14,Grocery,Pizza (frozen),Newman's Own,Thin & Crispy Pepperoni Pizza,Newman's Own Pizza - Running On Empty - Food Review,9,6.4
+6:28,10/02/14,Fast Food,Service,Wendy's,Pulled Pork Cheeseburger,"Failed Pulled Pork Cheeseburger Review, Shame On You Wendy's",5,0
+9:03,10/05/14,Grocery,Snack (salty),Lay's,Ceddar Bacon Mac & Cheese Potato Chips,Lay's Bacon Mac & Cheese - Running On Empty - Food Review,3.5,7.62
+7:02,10/06/14,Fast Food,Burger,Wendy's,Pulled Pork Cheeseburger,Wendy's Pulled Pork Cheeseburger - Food Review,5.59,8.4
+7:56,10/08/14,Grocery,Pizza (frozen),Red Baron,Rising Crust Pepperoni Pizza,Red Baron Rising Crust - Running On Empty - Food Review,8,7
+7:28,10/11/14,Fast Food,Chicken tenders,Planet Wings,Chicken Tenders,"Planet Wings, Chicken Tenders - Running On Empty - Food Review",3.99,7.4
+9:20,10/13/14,Fast Food,French fries,Wendy's,Pulled Pork Cheese Fries,Wendy's Pulled Pork Cheese Fries - Review,5,7
+5:43,10/15/14,Fast Food,Burger,McDonald's,Quarter Pounder Bacon Habanero Ranch,McDonald's Quarter Pounder Bacon Habanero Ranch - Review,5.29,7.8
+7:52,10/25/14,Grocery,Pizza (frozen),DiGiorno,Pizza & Breadsticks,DiGiorno Pizza & Breadsticks - Running On Empty - Food Review,12,7.2
+7:28,10/30/14,Grocery,Snack (sweet),M&M's,Pumpkin Spice M&M's,M&Ms - Running On Empty - Food Review,4.5,8
+5:21,11/02/14,Grocery,Cookie,Nabisco,Root Beer Float Oreo Cookies,Root Beer Float Oreos - Running On Empty - Food Review,4,8.1
+9:56,11/06/14,Grocery,Pizza (frozen),DiGiorno,"Design A Pizza Kit (Spinach, Tomato & Red Onion with Pepperoni)","DiGiorno Design A Pizza Kit, Assembly & Review III",13,7.8
+8:01,11/17/14,Grocery,Pizza (frozen),Tombstone,Original Supreme Pizza,Tombstone Supreme Pizza - Running On Empty - Food Review,8,7.3
+7:40,11/20/14,Fast Food,Side,McDonald's,Mozzarella Sticks,McDonald's Mozzarella Sticks - Running On Empty - Food Review,1,8
+8:16,11/27/14,Grocery,Pizza (frozen),California Pizza Kitchen,Crispy Thin Crust Four Cheese Pizza,"California Pizza Kitchen, Four Cheese Pizza - Review",8,7.4
+8:03,12/01/14,Fast Food,Burger,Wendy's,Bacon Portabella Melt On Brioche,Wendy's Bacon Portabella Melt On Brioche - Food Review,6,7.4
+7:36,12/05/14,Grocery,Cookie,Nabisco,Peppermint Creme Oreo Cookies,Peppermint Oreo's - Running On Empty - Food Review,3,8.5
+10:25,12/08/14,Fast Food,Pizza (fresh),Pizza Hut,Giddy-Up BBQ Chicken Pizza,Pizza Hut Giddy-Up BBQ Chicken Pizza - Food Review,11,9
+8:39,12/14/14,Grocery,Pizza (frozen),Tony's,Pizzeria Style Pepperoni Pizza,TONY'S Pizzeria Style Pepperoni Pizza - Food Review,6.5,7.7
+12:56,12/20/14,Fast Food,Pizza (fresh),Pizza Hut,Buffalo State Of Mind Pizza,Pizza Hut Buffalo State Of Mind Pizza - Food Review,18,7.9
+12:56,12/20/14,Fast Food,Breadsticks,Pizza Hut,Flavor Sticks,Pizza Hut Buffalo State Of Mind Pizza - Food Review,5,8.4
+9:13,12/28/14,Fast Food,Burger,McDonald's,Grilled Onion Cheddar Burger,McDonald's Grilled Onion Cheddar Burger - Food Review,1,8.2
+10:29,01/03/15,Grocery,Pizza (frozen),ShopRite,Rising Crust Pepperoni Pizza,ShopRite Rising Crust Pepperoni Pizza - Review,5,8.5
+9:51,01/12/15,Grocery,Pizza (frozen),Newman's Own,Supreme Pizza,Newman's Own Supreme Pizza - Running On Empty - Food Review,7,8.2
+11:08,01/21/15,Fast Food,Chicken sandwich,Wendy's,Asiago Ranch Chicken Club,Wendy's Asiago Ranch Chicken Club - Food Review,5.69,7.8
+11:18,01/26/15,Grocery,Snack (sweet),Sara Lee,Party Sprinkled Iced Brownies,Sara Lee Party Sprinkled Iced Brownies - Review,2.5,9
+7:47,02/07/15,Grocery,Slider,White Castle,Frozen Chicken Sliders,White Castle Frozen Chicken Sliders - Food Review,5.5,8.1
+8:56,02/13/15,Grocery,Snack (sweet),Sara Lee,Brownie Chocolate Chip Cakes,Sara Lee Brownie Chocolate Chip Cakes - Review,2.5,8.5
+8:59,02/17/15,Fast Food,Pizza (fresh),Pizza Hut,Triple Cheese Covered Stuffed Crust Pepperoni Pizza,Pizza Hut Triple Cheese Covered Stuffed Crust Pizza - Review,11.99,7.6
+10:34,02/23/15,Fast Food,Chicken nuggets,KFC,Popcorn Nuggets,KFC Popcorn Nuggets - Running On Empty - Food Review,3.99,8.7
+8:24,03/03/15,Grocery,Snack (salty),Lay's,Wavy Milk Chocolate Covered Potato Chips,Lays Wavy Milk Chocolate - Running On Empty - Food Review,3.99,7.2
+9:12,03/07/15,Grocery,Pizza (frozen),Tony's,Supreme Pizza,Tony's Supreme Pizza - Running On Empty - Food Review,5,7.3
+10:45,03/15/15,Grocery,Snack (sweet),M&M's,Red Velvet M&M's,Red Velvet M&M's - Running On Empty - Food Review,5,8.5
+9:31,03/17/15,Fast Food,Chicken tenders,McDonald's,Chicken Select Tenders,McDonald's Chicken Select Tenders - Food Review,3.5,8.5
+9:03,03/27/15,Grocery,Pizza (frozen),Red Baron,"Singles, French Bread Pepperoni Pizza",Red Baron Singles French Bread Pizza - Food Review,5,8.1
+10:26,03/31/15,Grocery,Toaster pastry,Kellogg's,Pop Tarts Gone Nutty PB&J Strawberry,Pop Tarts Gone Nutty PB&J Strawberry - Food Review,2,7
+11:15,04/03/15,Grocery,Pizza (frozen),Screamin' Sicilian,Holy Pepperoni Pizza,Screamin Sicilian Holy Pepperoni Pizza - Food Review,8,8.4
+10:08,04/12/15,Grocery,Cookie,Sara Lee,Chocolate Chip Crisps,Sara Lee Chocolate Chip Crisps - Running On Empty - Food Review,3.99,7.5
+10:42,04/17/15,Grocery,Snack (salty),Lay's,Wavy Mango Salsa,Lay's Wavy Mango Salsa Potato Chips - Food Review,3.29,6.2
+10:49,04/20/15,Fast Food,Bowl,KFC,Sweet N' Spicy BBQ Chicken & Rice Bowl,KFC Sweet N' Spicy BBQ Chicken & Rice Bowl Review,5,7.9
+9:26,04/24/15,Grocery,Pizza (frozen),Red Baron,Brick Oven Crust Pepperoni Pizza,Red Baron Brick Oven Crust Pepperoni Pizza - Food Review,7.5,7.6
+10:15,05/02/15,Grocery,Snack (sweet),Twix,Twix Unwrapped Bites,Twix Unwrapped Bites - Running On Empty - Food Review,4.5,7.7
+11:36,05/05/15,Fast Food,Chicken sandwich,McDonald's,Artisan Grilled Chicken Sandwich,McDonald's Artisan Grilled Chicken Sandwich - Review,5.99,6.5
+10:14,05/13/15,Grocery,Donut,Entenmann's,French Toast Soft'ees Plain Donuts,Entenmann's French Toast Soft'ees (Plain) - Food Review,5.89,7.9
+8:34,05/19/15,Grocery,Snack (sweet),Sara Lee,Individually Wrapped Crumb Cakes,Sara Lee Crumb Cakes - Running On empty - Food Review,3.99,8.24
+11:05,05/23/15,Grocery,Pizza (frozen),DiGiorno,"Pizzeria! Thin, Primo Pepperoni Pizza","DiGiorno Pizzeria! Thin, Primo Pepperoni - Food Review",8.5,7.46
+7:10,06/02/15,Grocery,Cookie,Nabisco,Limited Edition Reese's Peanut Butter Cup Oreo Cookies,Limited Edition Reese's Peanut Butter Cup Oreos - Review,5,8.4
+12:28,06/05/15,Grocery,Pizza (frozen),DiGiorno,Italian Favorites Meat Trio Pizza,DiGiorno Italian Favorites Meat Trio - Food Review,8.5,8.5
+10:32,06/10/15,Grocery,Snack (salty),Popchips,Popchips,Popchips - Running On Empty - Food Review,5,7
+10:36,06/16/15,Grocery,Toaster pastry,Kellogg's,Pop Tarts Chocolatey Strawberry,Pop Tarts Chocolatey Strawberry - Running On Empty - Food Review,2.5,7.9
+9:16,06/29/15,Fast Food,Pizza (fresh),Pizza Hut,Hot Dog Bites Pepperoni Pizza,Pizza Hut Hot Dog Bites Pizza - Food Review,11.99,8
+11:09,07/01/15,Fast Food,French fries,Wendy's,Baconator Fries,Wendy's Baconator Fries - Running On Empty - Food Review,1.99,7.5
+11:42,07/04/15,Fast Food,Chalupa,Taco Bell,Bacon Club Chalupa,Taco Bell Bacon Club Chalupa - Food Review,3.49,7.924
+10:15,07/21/15,Fast Food,Breadsticks,Little Caesars,Cheese-N-Pretzel Dippers,Little Caesars Cheese-N-Pretzel Dippers Food Review,3.29,8.1
+9:14,07/23/15,Fast Food,Burger,Hardee's,Single All-Natural Burger,Hardee's Single All-Natural Burger - Food Review,4.99,8.5
+10:13,07/24/15,Fast Food,Sub sandwich,Arby's,Loaded Italian Sandwich,Arby's Loaded Italian Sandwich - Food Review,4.99,8.427
+13:32,07/27/15,Fast Food,Fried fish,Long John Silver's,Fish & Chicken Combo,"Long John Silver's Chicken, Fish, Fries & Hushpuppies Review",6.39,8.7
+13:32,07/27/15,Fast Food,Fried chicken,Long John Silver's,Fish & Chicken Combo,"Long John Silver's Chicken, Fish, Fries & Hushpuppies Review",6.39,8.7
+10:40,08/05/15,Fast Food,BBQ beef sandwich,Starbucks,BBQ Beef Brisket on Sourdough,Starbucks BBQ Beef Brisket on Sourdough - Food Review,6.9,6.5
+13:15,08/15/15,Grocery,Soft Pretzel,SuperPretzel,Bavarian Restaurant Style Soft Pretzel Sticks,Super Pretzel Bavarian Pretzel Sticks - Food Review,6.5,3.5
+8:33,08/18/15,Fast Food,Burrito,Taco Bell,Fiery Ghost Pepper Dare Devil Griller,Taco Bell Fiery Ghost Pepper Dare Devil Griller Review,1,7.8
+9:43,08/20/15,Fast Food,Chicken nuggets,Burger King,Fiery Chicken Fries,Burger King Fiery Chicken Fries Review,3.69,7.5
+11:30,08/24/15,Fast Food,Chicken sandwich,McDonald's,Premium Buttermilk Crispy Chicken Deluxe Sandwich,McDonald's Buttermilk Crispy Chicken Deluxe Sandwich Review,5.99,7
+9:33,08/25/15,Fast Food,Slider,Arby's,Jalapeno Roast Beef Slider,Arby's Sliders Jalapeno Roast Beef & Chicken 'N Cheese Review,1,8.2
+9:33,08/25/15,Fast Food,Slider,Arby's,Chicken 'N Cheese Slider,Arby's Sliders Jalapeno Roast Beef & Chicken 'N Cheese Review,1,7.5
+10:54,08/27/15,Fast Food,Chicken wings,Ker's WingHouse,Hot Wings,Ker's WingHouse Hot Wings Review,9,7
+10:49,08/30/15,Fast Food,Chicken sandwich,Wendy's,Grilled Chicken Sandwich,Wendy's Grilled Chicken Sandwich - Food Review,4.99,8.3
+13:04,09/01/15,Fast Food,Burger,Steak 'n Shake,Bacon 'n Cheese Double,Steak N' Shake Bacon 'N Cheese Double Review,5.99,8.6
+13:22,09/03/15,Fast Food,Donut,Dunkin',Pumpkin Cheesecake (shell) Reese Peanut Butter (filling) Square,Peanut Butter Cheesecake?? A Dunkin Donuts Error - Review,1.59,6
+9:25,09/09/15,Fast Food,Chicken wings,Planet Wings,Honey Mustard Wings (boneless),Planet Wings Honey Mustard Wings - Running On Empty - Food Review,4,7.2
+7:57,09/17/15,Fast Food,Fried chicken,Popeyes,Bonafide Big Box,Popeyes Bonafide Big Box - Running On Empty - Food Review,5,8.6
+10:52,09/24/15,Fast Food,Taco,Chipotle,Steak Taco,Chipotle Steak Taco - Running On empty - Food Review,8,8.5
+10:01,09/26/15,Fast Food,Pizza (fresh),Pizza Hut,Twisted Crust Pepperoni Pizza,Pizza Hut Twisted Crust Pizza - Food Review,11.99,7.8
+10:10,09/28/15,Fast Food,Burrito,Taco Bell,Volcano Quesarito,Taco Bell Volcano Quesarito - Food Review,3.09,8.9926
+8:36,10/01/15,Fast Food,Burger,Burger King,A. 1. Halloween Whopper,Burger King A. 1. Halloween Whopper - Food Review,5.99,7.2
+10:46,10/05/15,Fast Food,Burger,MOOYAH,"Double Hamburger with Bacon, Lettuce and Ketchup","MOOYAH Burgers, Fries & Shakes - Food Review",7.79,8.7
+10:46,10/05/15,Fast Food,French fries,MOOYAH,Fries,"MOOYAH Burgers, Fries & Shakes - Food Review",2.59,7.5
+8:35,10/08/15,Fast Food,Pizza (fresh),Sbarro,New York Style Pepperoni Pizza Slice,Sbarro New York Style Pepperoni Pizza Slice - Food Review,4,6
+11:24,10/12/15,Fast Food,Brownie,Domino's,Marbled Cookie Brownie,Domino's Marbled Cookie Brownie - Food Review,5.99,7.9
+8:09,10/15/15,Fast Food,Chicken tenders,Popeyes,Wild Pepper Tenderloins,Popeyes Wild Pepper Tenderloins - Food Review,4.99,8.3222
+11:28,10/19/15,Fast Food,Burger,Burger King,Extra Long Sriracha Cheeseburger,Burger King Extra Long Sriracha Cheeseburger - Food Review,3.79,8.16
+10:55,10/26/15,Fast Food,Taco,Planet Wings,Soft-Shell Beef Taco,Planet Wings Soft-Shell Beef Taco - Food Review,2,7
+10:07,10/29/15,Fast Food,Boss wrap,Taco Bell,Steak and Potato BOSS Wrap,Taco Bell Steak and Potato BOSS Wrap - Food Review,5.43,6.8
+8:25,11/02/15,Fast Food,Chicken nuggets,Burger King,Buffalo Chicken Fries,Burger King Buffalo Chicken Fries - Food Review,3.5,7.5
+8:59,11/04/15,Grocery,Snack (sweet),Sara Lee,Devil's Food Crème Cakes,The Long Lost Review of 2015 - Sara Lee,3.99,6.8
+7:39,11/05/15,Fast Food,Breadsticks,Sbarro,Garlic Breadsticks,Sbarro Garlic Breadsticks - Food Review,1.4,7.1
+8:53,11/09/15,Fast Food,Breakfast item,Dunkin',Sweet Black Pepper Bacon Breakfast Sandwich,Dunkin Donuts Sweet Black Pepper Bacon Breakfast Sandwich Review,3.99,6.3
+8:40,11/12/15,Fast Food,Shrimp,Popeyes,Spicy Garlic Butterfly Shrimp,Popeyes Spicy Garlic Butterfly Shrimp - Food Review,4.99,8.3
+11:00,11/15/15,Grocery,Cookie,Nabisco,Limited Edition Hot Cocoa Cookies,Chips Ahoy! Limited Edition Hot Cocoa Cookies - Review,3.5,8.7
+16:21,11/15/15,Fast Food,Slider,White Castle,Bistro Turkey Slider,White Castle Turkey Sliders (All 3 Reviewed) - Food Review,1.19,7.5
+16:21,11/15/15,Fast Food,Slider,White Castle,Turkey Dinner Slider,White Castle Turkey Sliders (All 3 Reviewed) - Food Review,1.69,6.9
+16:21,11/15/15,Fast Food,Slider,White Castle,Cranberry Turkey Slider,White Castle Turkey Sliders (All 3 Reviewed) - Food Review,1.29,7.7
+7:15,11/19/15,Fast Food,Hot dog,Nathan's Famous,Hot Dog,Nathan's Famous Hot Dog - Food Review,3.75,7.4
+11:19,11/21/15,Fast Food,Brownie,Pizza Hut,Hershey's Hot Chocolate Brownie,Pizza Hut Hot Chocolate Brownie - Food Review,6.99,8.1
+11:00,11/23/15,Fast Food,Burger,Wendy's,Gouda Bacon Cheeseburger,Wendy's Gouda Bacon Cheeseburger - Food Review,5.79,8
+8:42,11/25/15,Fast Food,Boss wrap,Taco Bell,Fully Loaded Steak Boss Wrap,Fully Loaded Steak Boss Wrap - Food Review,4.99,7.2
+11:23,12/03/15,Fast Food,Chicken tenders,Popeyes,Tabasco Spiced Pepper Barrel Tenders,Popeyes Tabasco Spiced Pepper Barrel Tenders - Review,5,8.8
+10:42,12/07/15,Grocery,Snack (sweet),Hostess,Peppermint Ho Hos,Hostess Peppermint Ho Hos - Running On Empty - Food Review,5.5,7.9441
+12:13,12/08/15,Fast Food,Nachos,Taco Bell,Boss Nachos,Taco Bell Boss Nachos - Food Review,7.99,5.9
+11:53,12/14/15,Fast Food,Chicken sandwich,Planet Wings,Buffalo Chicken Sandwich,Planet Wings Buffalo Chicken Sandwich - Review,7.99,6.7
+7:36,12/16/15,Fast Food,Chicken wings,Buffalo Wild Wings,Mountain Dew Wings,Buffalo Wild Wings Mountain Dew Wings - Food Review,6.79,8.5
+9:27,12/20/15,Fast Food,Burger,Hardee's,Steakhouse Thickburger,Hardees Steakhouse Thickburger - Food Review,11,8.1
+11:08,12/23/15,Fast Food,Burger,Cook Out,Big Double Tray,Cook Out - Running On Empty - Food Review,5,9
+8:53,12/27/15,Fast Food,Chicken sandwich,Burger King,Flame Grilled Chicken Burger,Burger King Flame Grilled Chicken Burger -- Food Review,3.99,7
+9:10,12/29/15,Fast Food,Boss wrap,Taco Bell,Sriracha Chicken Crunchwrap Slider,Taco Bell Sriracha Chicken Crunchwrap Slider - Food Review,1,6.7
+11:18,01/06/16,Fast Food,Flatbread sandwich,Arby's,Fiery Steak Fajita Flatbread,Arby's Fiery Steak Fajita Flatbread - Food Review,5.78,7.2
+9:49,01/09/16,Fast Food,Chicken sandwich,Bojangles',Cajun Filet Biscuit,Bojangles Cajun Filet Biscuit - Food Review,3.29,8.8
+10:16,01/11/16,Fast Food,Chicken sandwich,Chick-fil-A,Original Chicken Sandwich,Chick-fil-A Chicken Sandwich - Food Review,2.99,8.5
+8:15,01/16/16,Fast Food,Burger,In-N-Out Burger,Double Double,In-N-Out Burger Double Double - Food Review,3.7,9.2
+9:24,01/18/16,Fast Food,Fried chicken,KFC,Nashville Hot Chicken,KFC Nashville Hot Chicken - Food Review,5.49,6.3
+9:28,01/20/16,Fast Food,Boss wrap,Taco Bell,Spicy Beefy Nacho Crunchwrap Slider,Taco Bell Spicy Beefy Nacho Crunchwrap Slider - Review,1,5
+10:58,01/24/16,Fast Food,Pizza (fresh),Little Caesars,Deep Deep Dish Pepperoni Pizza,A Failed Little Caesars Pizza Review,8,8.5
+9:28,01/26/16,Fast Food,Pizza (fresh),Pizza Hut,Stuffed Garlic Knots Pepperoni Pizza,Pizza Hut Stuffed Garlic Knots Pizza - Food Review,15,6.6
+10:02,01/29/16,Fast Food,Burger,Burger King,Extra Long Buttery Cheeseburger,Burger King Extra Long Buttery Cheeseburger - Food Review,3.89,7.6
+7:27,02/01/16,Fast Food,Chicken nuggets,Burger King,Jalapeno Chicken Fries,Burger King Jalapeno Chicken Fries - Food Review,3.69,7.1
+11:13,02/03/16,Grocery,Cookie,Nabisco,Brownie Filled Cookies,Chewy Chips Ahoy! Brownie Filled Cookies - Food Review,7.5,6.5
+10:31,02/05/16,Fast Food,Fish sandwich,Wendy's,Premium North Pacific Cod Fillet Sandwich,Wendy's Premium Cod Fillet Sandwich - Food Review,4.19,7
+11:51,02/08/16,Fast Food,Taco,Taco Bell,Quesalupa (beef),Taco Bell Quesalupa - Food Review,3,7.7
+8:24,02/12/16,Fast Food,Fish sandwich,Burger King,Extra Long Fish Sandwich,Burger King Extra Long Fish Sandwich - Food Review,4.29,8.5
+11:23,02/14/16,Grocery,Snack (sweet),M&M's,Cherry M&M's,Cherry M&M's - Running On Empty - Food Review,3.5,8.422
+10:49,02/17/16,Fast Food,Burger,Wendy's,Dave's Single,Wendy's Dave's Single - Food Review,4.39,7.5
+8:12,02/19/16,Fast Food,Burger,Nathan's Famous,Double Cheeseburger,Nathan's Double Cheeseburger - Food Review,6.82,6.1
+10:06,02/22/16,Fast Food,Shrimp,White Castle,Sriracha Shrimp Nibblers,White Castle Sriracha Shrimp Nibblers - Food Review,4,6.7
+11:20,02/23/16,Fast Food,Hot dog,Burger King,Grilled Hot Dog,Burger King Grilled Hot Dog - Food Review,2,8.3
+10:04,02/26/16,Grocery,Snack (sweet),M&M's,White Strawberry Shortcake M&M's,White Strawberry Shortcake M&M's - Food Review,3.5,8.6
+10:14,02/27/16,Fast Food,Pizza (fresh),Pizza Hut,Stuffed Crust Pepperoni Pizza,Pizza Hut Stuffed Crust Pizza - Food Review,15,7.7
+10:18,02/29/16,Fast Food,Burrito,Dunkin',Sausage GranDDe Burrito,Dunkin Donuts Sausage GranDDe Burrito - Review,3.99,8.5
+12:14,03/02/16,Fast Food,Sub sandwich,Subway,Rotisserie-Style Chicken Sandwich,Subway Rotisserie-Style Chicken Sandwich - Review,5.75,7.9
+9:52,03/07/16,Fast Food,Hot dog,Five Guys,Hot Dog,Five Guys Hot Dog - Running On Empty - Food Review,4,8.8
+9:52,03/14/16,Fast Food,Fish sandwich,Hardee's,Beer Battered Cod Fish Sandwich,Hardees Beer Battered Cod Fish Sandwich - Food Review,3.49,5
+10:56,03/24/16,Grocery,Pizza (frozen),Freschetta,Brick Oven Pepperoni Pizza,"Freschetta Brick Oven, Pepperoni Pizza - Food Review",6.5,8.5
+11:05,03/26/16,Fast Food,Chicken wings,Pizza Hut,Jim Beam Devil's Cut Spicy Bourbon BBQ Wings,Pizza Hut Jim Beam Devil's Cut Spicy Bourbon BBQ Wings - Review,8,6.3
+10:01,03/31/16,Fast Food,Burger,Burger King,Angriest Whopper,Burger King Angriest Whopper - Food Review,5.5,8.522
+13:04,04/01/16,Fast Food,Chicken sandwich,Wendy's,Jalapeno Fresco Spicy Chicken Sandwich,Wendy's Jalapeno Fresco Spicy Chicken Sandwich - Review,6.06,7.4
+8:15,04/05/16,Fast Food,Burger,Burger King,Extra Long Philly Cheeseburger,Burger King Extra Long Philly Cheeseburger - Review,4.59,4.9
+9:55,04/09/16,Fast Food,Breadsticks,Pizza Hut,Stuffed Garlic Knots,Pizza Hut Stuffed Garlic Knots - Food Review,5,7.5
+9:35,04/11/16,Fast Food,Sub sandwich,Subway,Carved Turkey & Bacon Sandwich,Subway Carved Turkey & Bacon Sandwich - Review,7,8.2
+11:15,04/13/16,Fast Food,Breadsticks,Domino's,Bacon and Jalapeno Cheesy Bread,Domino's Bacon and Jalapeno Cheesy Bread - Review,6,8.5
+6:59,04/15/16,Fast Food,Pizza (fresh),Sbarro,X-Treme Pepperoni Pizza Slice,Sbarro X-Treme Pepperoni Pizza - Review,7,2.5
+6:03,04/16/16,Fast Food,Breadsticks,Sbarro,Pepperoni Stick,Sbarro Pepperoni Stick - Food Review,2.49,6.3
+8:58,04/18/16,Fast Food,Slider,White Castle,Roasted Garlic Cheese Slider,White Castle Roasted Garlic Chesse Slider - Review,0.98,7.9
+8:04,04/22/16,Fast Food,Burrito,Taco Bell,Beefy Crunch Burrito,Taco Bell Beefy Crunch Burrito - Food Review,1,6.2
+8:29,04/23/16,Fast Food,Burrito,Taco Bell,Cheesy Double Beef Burrito,Taco Bell Cheesy Double Beef Burrito - Food Review,1,7.72
+9:47,04/25/16,Grocery,Snack (sweet),M&M's,Chili Nut M&M's,Chili Nut M&M's - Food Review,0.88,8.6
+10:14,04/26/16,Fast Food,Chicken nuggets,Burger King,Chicken Fries Rings,Burger King Chicken Fries Rings - Food Review,3,6.9
+9:16,04/29/16,Fast Food,Chicken wings,KFC,Honey BBQ wings,KFC Honey BBQ Wings (Re-Released) - Food Review,5.83,7.5
+10:25,05/02/16,Fast Food,Quesadilla,Taco Bell,Doubledilla (steak),Taco Bell Doubledilla - Food Review,4.99,4.9
+9:31,05/04/16,Grocery,Snack (sweet),M&M's,Honey Nut M&M's,Honey Nut M&M's - Food Review,0.88,8.3
+9:52,05/05/16,Fast Food,Chicken tenders,Popeyes,Southern Fair Chicken Tenders,Popeyes Southern Fair Chicken Tenders - Food Review,4.99,9.2
+7:48,05/07/16,Fast Food,Pizza (fresh),Pizza Hut,Bacon Stuffed Crust Pepperoni Pizza,Pizza Hut Bacon Stuffed Crust Pizza - Review,12.99,8.5
+8:32,05/10/16,Fast Food,Side,Popeyes,Cajun Fries and Biscuit,Popeyes Sides (Cajun Fries and Biscuit) - Review,4.99,8.1
+7:30,05/12/16,Fast Food,Hot dog,Burger King,Whopper Dog,Burger King Whopper Dog - Food Review,1.99,8.42
+8:25,05/17/16,Fast Food,Chicken sandwich,Chick-fil-A,Spicy Chicken Sandwich,Chick-fil-A Spicy Chicken Sandwich - Review,6,8.5
+7:43,05/20/16,Fast Food,Burger,Hardee's,Midnight Moonshine Burger,Hardee's Midnight Moonshine Burger - Food Review,5.99,7.9
+10:02,05/20/16,Fast Food,Pizza (fresh),Little Caesars,DEEP! DEEP! Dish Pizza,Little Caesars Stuffed Crust DEEP! DEEP! Dish Pizza - Review,10,8
+5:55,05/24/16,Fast Food,Fish sandwich,Long John Silver's,Coastal Cod Sandwich,Long John Silver's Coastal Cod Sandwich - Food Review,4.99,7.3
+7:39,05/27/16,Fast Food,Breakfast item,Hardee's,Pretzel Breakfast Sandwich,Hardees Pretzel Breakfast Sandwich - Food Review,1.99,7.1
+6:11,05/29/16,Fast Food,Slider,Arby's,Buffalo Chicken Slider,Arby's Buffalo Chicken Slider - Food Review,1,7.7
+9:38,06/08/16,Fast Food,Burger,Wendy's,Bacon Mozzarella Burger,Wendy's Bacon Mozzarella Burger - Food Review,5.99,5.9
+8:34,06/10/16,Fast Food,Flatbread sandwich,Taco Bell,Flatbread Sandwich (steak),Taco Bell Flatbread Sandwiches - Food Review,1.49,7.8
+8:59,06/11/16,Fast Food,Cookie,Pizza Hut,Hershey's Toasted S'mores Cookie,Pizza Hut Hershey's Toasted S'mores Cookie - Review,6.99,6.6
+11:38,06/13/16,Grocery,Pizza (frozen),DiGiorno,Spicy Pepperoni & Poblanos Pizza,DiGiorno Spicy Pepperoni & Poblanos Pizza - Review,6,8.8
+8:05,06/14/16,Fast Food,Baked chicken,Boston Market,Oven Crisp Chicken,Boston Market Oven Crisp Chicken - Food Review,8,8.9
+6:57,06/16/16,Fast Food,Burger,Burger King,Double Stacker,Burger King Double Stacker - Food Review,3.99,5.3
+8:45,06/20/16,Fast Food,Chicken sandwich,Planet Wings,Chicken and Waffle BLT,Planet Wings Chicken and Waffle BLT,5.42,7.6
+7:06,06/23/16,Fast Food,Novelty,Burger King,Mac n' Cheetos,Burger King Mac N' Cheetos - Food Review,2.69,8.22
+8:38,06/26/16,Fast Food,Chicken sandwich,Hardee's,Charbroiled Chicken Club Sandwich,Hardees Charbroiled Chicken Club Sandwich - Food Review,4.99,6
+8:54,06/28/16,Fast Food,Burger,Steak 'n Shake,Peppercorn Bacon Steakburger,Steak 'n Shake Peppercorn Bacon Steakburger - Review,5,8.99
+7:54,06/30/16,Fast Food,Turkey sandwich,Arby's,King's Hawaiian Brown Sugar Bacon Turkey Sandwich,Arby's Brown Sugar Bacon Turkey Sandwich - Review,5.99,8.4
+5:22,07/04/16,Fast Food,Burger,Dairy Queen,Bacon Cheeseburger,Dairy Queen Bacon Cheeseburger - Food Review,5,5.2
+7:49,07/07/16,Fast Food,BLT,Arby's,King's Hawaiian Brown Sugar Bacon BLT,Arby's Brown Sugar Bacon BLT - Food Review,5.99,7.9
+5:29,07/09/16,Fast Food,Breadsticks,Little Caesars,Crazy Bread,Little Caesars Crazy Bread - Food Review,3,8.4
+6:23,07/11/16,Fast Food,Chicken nuggets,Cook Out,Chicken Nuggets,Cook Out Chicken Nuggets - Food Review,0.99,8.5
+7:53,07/16/16,Fast Food,Boss wrap,Taco Bell,Triple Double Crunchwrap,Taco Bell Triple Double Crunchwrap - Food Review,3.49,7
+12:46,07/20/16,Fast Food,Breadsticks,Pizza Hut,Big Flavor Dipper Pizza USA Edition,Pizza Hut Big Flavor Dipper Pizza USA Edition - Food Review,12.99,8
+8:42,07/22/16,Fast Food,Burger,Hardee's,Bacon 3-Way Burger,Hardee's Bacon 3-Way Burger - Food Review,5.45,7.8
+5:16,07/26/16,Fast Food,Breakfast item,Hardee's,Chicken Fillet Biscuit,Hardee's Chicken Fillet Biscuit - Food Review,3,8.1
+9:40,07/28/16,Fast Food,Boss wrap,Taco Bell,Spicy Triple Double Crunchwrap,Taco Bell Spicy Triple Double Crunchwrap - Food Review,2.5,7.9
+12:05,07/29/16,Fast Food,Chicken wings,Buffalo Wild Wings,Asian Zing Wings (boneless),Buffalo Wild Wings Asian Zing Wings - Review,1,8.1
+9:34,08/01/16,Fast Food,Chicken tenders,Chick-fil-A,Chick-n-Strips,Chick-fil-A Chick-n-Strips - Food Review,4.29,7.5
+12:49,08/04/16,Fast Food,Chicken wings,Zaxby's,Wings & Things (meal),Zaxby's Wings & Things - Food Review,7,7.8
+12:49,08/04/16,Fast Food,Chicken wings,Zaxby's,Traditional Wings (boneless),Zaxby's Wings & Things - Food Review,7,8
+12:49,08/04/16,Fast Food,Chicken tenders,Zaxby's,Chicken Fingerz,Zaxby's Wings & Things - Food Review,7,6
+12:49,08/04/16,Fast Food,French fries,Zaxby's,Crinkle Fries,Zaxby's Wings & Things - Food Review,7,7.5
+12:49,08/04/16,Fast Food,Bread,Zaxby's,Texas Toast,Zaxby's Wings & Things - Food Review,7,7.5
+10:08,08/07/16,Fast Food,Burger,McDonald's,Big Mac,McDonald's Big Mac Re-Reviewed (Food Review),3,6.8
+8:54,08/09/16,Fast Food,Burger,Sonic,SuperSONIC Bacon Double Cheeseburger,Sonic SuperSONIC Bacon Double Cheeseburger - Review,6.59,5.3
+10:56,08/12/16,Fast Food,Burrito,Taco Bell,Crunchy Cheesy Core Burrito,Taco Bell Crunchy Cheesey Core Burrito - Review,2,6.5
+10:56,08/15/16,Fast Food,Burrito,Burger King,Whopperito,Burger King Whopperito - Food Review,2.99,7.7
+9:28,08/17/16,Fast Food,Chicken wings,Hooters,Daytona Beach Style Wings,Hooters Daytona Beach Style Wings - Review,11.5,7.6
+8:53,08/19/16,Fast Food,Chinese,Panda Express,General Tso's Chicken,Panda Express General Tso's Chicken - Review,5.9,7.5
+9:32,08/23/16,Fast Food,Chicken wings,Little Caesars,Hot-N-Ready Caesar Wings,Little Caesars Hot-N-Ready Caesar Wings - Review,5.98,4.7
+7:25,08/25/16,Fast Food,Slider,Krystal,Original Slider,Krystal Original Slider - Food Review,0.8,7
+9:22,08/30/16,Fast Food,Fried chicken,Popeyes,$5 Bonafide Big Box,Popeyes $5 Bonafide Big Box - Review,5,8.7
+9:34,09/02/16,Fast Food,Burrito,Taco Bell,Spicy Cheesy Core Burrito,Taco Bell Spicy Cheesy Core Burrito - Review,1.99,8.35
+6:46,09/07/16,Fast Food,Chicken sandwich,KFC,Chicken Littles,KFC Chicken Littles - Food Review,1.61,4.1
+10:06,09/14/16,Fast Food,Chicken nuggets,Burger King,Cheetos Chicken Fries,Burger King Cheetos Chicken Fries - Food Review,3.99,7.1
+9:25,09/16/16,Fast Food,Burrito,Taco Bell,Cheddar Habanero Quesarito,Taco Bell Cheddar Habanero Quesarito - Review,3.29,8
+8:39,09/21/16,Fast Food,Pizza (fresh),Pizza Hut,Grilled Cheese Stuffed Crust Pepperoni Pizza,Pizza Hut Grilled Cheese Stuffed Crust Pizza - Review,12.99,4.2
+8:34,09/23/16,Fast Food,Donut,Krispy Kreme,Original Glazed Doughnut,Krispy Kreme Original Glazed Doughnut - Review,0.95,9.17
+10:45,09/24/16,Fast Food,Pork sandwich,Arby's,Smokehouse Pork Belly Sandwich,Arby's Smokehouse Pork Belly Sandwich - Review,5.49,7
+8:30,09/26/16,Fast Food,Pizza (fresh),McDonald's,Pepperoni Pizza,McDonald's Pizza - Food Review,8.99,9
+8:02,09/28/16,Fast Food,Burger,Sonic,Fiery Cheeseburger,Sonic Fiery Cheeseburger - Food Review,4.39,6.2
+9:57,09/30/16,Fast Food,Chicken nuggets,Checkers,Sweet & Spicy Chicken Bites & Fries Box,Checkers Sweet & Spicy Chicken Bites & Fries Box - Review,2.13,7.6
+12:30,10/02/16,Fast Food,Pulled pork sandwich,Sonny's BBQ,BBQ Pulled Pork Sandwich,Sonny's BBQ Pulled Pork Sandwich - Review,10,8.8
+10:09,10/06/16,Fast Food,Pizza (fresh),Papa John's,Pan Pizza (pepperoni),Papa John's Pan Pizza - Food Review,14,8.1
+10:18,10/10/16,Fast Food,Chicken sandwich,KFC,Nashville Hot Chicken Littles,KFC Nashville Hot Chicken Littles - Food Review,1.69,7.1
+10:24,10/12/16,Fast Food,Burger,Burger King,Bacon King Sandwich,Burger King Bacon King Sandwich - Food Review,5.99,3
+9:15,10/15/16,Fast Food,Burrito,Taco Bell,Beefy Nacho Griller,Taco Bell Beefy Nacho Griller - Food Review,1.69,8.6
+9:59,10/18/16,Fast Food,Burger,Wendy's,Swiss Jr. Bacon Cheeseburger,Wendy's Swiss Junior Bacon Cheeseburger - Review,1.99,8.9
+12:02,10/20/16,Grocery,Pizza (frozen),DiGiorno,Pizzeria! Tuscan Style Chicken Pizza,DiGiorno Pizzeria! Tuscan Style Chicken Pizza - Review,6,7.6
+12:21,10/21/16,Fast Food,Taquito,Taco Bell,Rolled Chicken Tacos,Taco Bell Rolled Chicken Tacos - Review,2.19,7.9
+10:07,10/25/16,Fast Food,Flatbread sandwich,Arby's,Mild Chicken Fajita Flatbread,Arby's Chicken Fajita Flatbread - Food Review,5.32,6
+13:02,10/27/16,Fast Food,Burger,Hardee's,Budeweiser Beer Cheese Bacon Burger,Hardees Budweiser Beer Cheese Bacon Burger - Review,5.31,6.1
+9:14,10/29/16,Fast Food,Chicken tenders,Steak 'n Shake,Chicken Fingers & Sauces,Steak 'n Shake Chicken Fingers & Sauces - Review,3.7,8.5
+9:24,11/03/16,Fast Food,Shrimp,Popeyes,Hushpuppy Butterfly Shrimp,Popeyes Hushpuppy Butterfly Shrimp - Food Review,4.99,9.7
+7:53,11/05/16,Fast Food,Chicken nuggets,McDonald's,Chicken McNuggets,McDonald's Chicken McNuggets - Food Review,3.39,8
+7:43,11/10/16,Fast Food,Donut,Krispy Kreme,Raspberry Jelly Doughnut,Krispy Kreme Raspberry Jelly Doughnut - Review,1.2,8.3
+7:59,11/14/16,Fast Food,Breakfast item,Biscuitville,Fried Chicken Biscuit,Biscuitville Fried Chicken Biscuit - Food Review,3.29,6.3
+6:45,11/16/16,Fast Food,Chicken wings,Hooters,Hot Wings,Hooters Hot Wings - Food Review,10.79,7.3
+6:08,11/21/16,Fast Food,Burrito,Taco Bell,Steakhouse Burrito & NEW Queso Sauce,Taco Bell Steakhouse Burrito & NEW Queso Sauce - Review,6,8.5
+9:59,11/24/16,Fast Food,Burger,McDonald's,Grand Mac,McDonald's NEW Grand Mac - Review,4.5,7
+6:54,11/26/16,Fast Food,Pizza (fresh),Little Caesars,Pepperoni Stuffed Crust Pepperoni Pizza,Little Caesars Pepperoni Stuffed Crust Pizza - Review,10,6
+9:16,11/27/16,Fast Food,Pancakes,Burger King,89 Cent Pancakes,Burger King 89 Cent Pancakes - Food Review,0.89,8.81
+8:13,11/29/16,Fast Food,Roast beef sandwich,Arby's,Three Cheese Steak Sandwich,Arby's Three Cheese Steak Sandwich - Review,5.6,5.2
+9:09,12/01/16,Fast Food,French fries,Wendy's,Bacon Sriracha Fries,Wendy's NEW Bacon Sriracha Fries - Review,2,7.1
+8:12,12/02/16,Fast Food,Tater tots,Burger King,Cheesy Tots,Burger King NEW Cheesy Tots - Review,1.99,6.9
+7:21,12/04/16,Fast Food,Chicken wings,Popeyes,$5 Boneless Wing Bash,Popeyes $5 Boneless Wing Bash - Review,5,8.92
+10:21,12/06/16,Fast Food,Chicken sandwich,Wendy's,Spicy Sriracha Chicken Sandwich,Wendy's Spicy Sriracha Chicken Sandwich - Review,6.3,8.6
+7:15,12/08/16,Fast Food,Pizza (fresh),Hungry Howie's,Pepperoni Pizza,Hungry Howie's Pepperoni Pizza - Review,13,6.3
+6:51,12/12/16,Fast Food,Burger,McDonald's,Mac Jr.,McDonald's NEW Mac Jr. - Food Review,2.19,8.9
+6:28,12/15/16,Fast Food,Breakfast item,Taco Bell,A.M. Crunchwrap,Taco Bell A.M. Crunchwrap - Review,2.69,8.3
+7:44,12/17/16,Fast Food,Chicken wings,Sonic,Hot Honey Boneless Wings,Sonic Hot Honey Boneless Wings - Review,4.69,8.5
+7:54,12/22/16,Fast Food,Taco,Taco Bell,Cool Habanero Double Stacked Taco,Taco Bell Cool Habanero Double Stacked Taco - Review,1,9.5
+9:31,12/27/16,Fast Food,Breadsticks,Papa John's,Bacon Cheddar Stuffed Cheesesticks,Papa Johns Bacon Cheddar & Wisconsin Cheesesticks - Review,5,3
+9:31,12/27/16,Fast Food,Breadsticks,Papa John's,Wisconsin Stuffed Cheesesticks,Papa Johns Bacon Cheddar & Wisconsin Cheesesticks - Review,5,7
+9:02,12/29/16,Fast Food,Slider,Sonic,Lil' Patty Grillers,Sonic Lil' Grillers - Food Review,1.49,8.1
+9:02,12/29/16,Fast Food,Slider,Sonic,Lil' Chickie Grillers,Sonic Lil' Grillers - Food Review,1.49,5.4
+6:54,01/02/17,Fast Food,Taco,Taco Bell,Spicy Sweet Double Stacked Taco,Taco Bell Spicy Sweet Double Stacked Taco - Food Review,1,7.5
+8:04,01/04/17,Fast Food,Breakfast item,McDonald's,Chicken McGriddle,McDonald's NEW Chicken McGriddle - Food Review,1.49,6.7
+7:03,01/06/17,Fast Food,Taco,Taco Bell,Nacho Crunch Double Stacked Taco,Taco Bell Nacho Crunch Double Stacked Taco - Review,1,7
+6:18,01/08/17,Fast Food,Novelty,Little Caesars,Cinnamon Loaded Crazy Bites,Little Caesars Cinnamon Loaded Crazy Bites - Review,5,8.8
+9:34,01/11/17,Fast Food,Chinese,Panda Express,Firecracker Chicken Breast,Panda Express Firecracker Chicken Breast - Review,6,7.9
+10:57,01/16/17,Fast Food,Burger,Checkers,Roadhouse Baconzilla,Checkers NEW Roadhouse Baconzilla - Food Review,5,7.3
+9:27,01/18/17,Fast Food,Burger,Burger King,BBQ Bacon King,Burger King NEW BBQ Bacon King - Food Review,6,2.6
+7:01,01/21/17,Fast Food,Chicken sandwich,McDonald's,Jalapeno McChicken Sandwich,McDonald's Jalapeno McChicken Sandwich - Food Review,1.79,6.6
+8:53,01/26/17,Fast Food,Breakfast item,McDonald's,McChicken Biscuit,McDonald's McChicken Biscuit - Food Review,1.49,6.1
+10:44,01/27/17,Fast Food,Chalupa,Taco Bell,Naked Chicken Chalupa,Taco Bell Naked Chicken Chalupa - Review,3.6,7.49
+9:56,01/30/17,Fast Food,Fried chicken,KFC,Georgia Gold Chicken,KFC Georgia Gold Chicken - Food Review,5.25,7.5
+10:21,02/02/17,Fast Food,Pizza (fresh),Papa John's,Ultimate Meats Pizza,Papa Johns Ultimate Meats Pizza - Food Review,11.77,8.7
+9:58,02/05/17,Fast Food,French fries,Wendy's,Bacon Ranch Fries,Wendy's Bacon Ranch Fries - Food Review,2,8.26
+8:23,02/08/17,Fast Food,Chicken nuggets,Burger King,Jalapeno Chicken Fries,Burger King Jalapeno Chicken Fries - Food Review,2,8.5
+9:43,02/13/17,Fast Food,Pizza (fresh),Pizza Hut,Heart-Shaped Valentine's Day Pizza,Pizza Hut Heart-Shaped Valentine's Day Pizza - Food Review,10,7.1
+7:46,02/16/17,Grocery (fresh),Sub sandwich,Publix,Chicken Tender Sub,Publix Chicken Tender Sub - Food Review,8,9.5
+6:59,02/19/17,Fast Food,Chicken wings,Sonic,Buffalo Boneless Wings,Sonic Buffalo Boneless Wings - Food Review,4.69,8.8
+9:26,02/22/17,Fast Food,Breakfast item,Chick-fil-A,Chicken Biscuit,Chick-fil-A Chicken Biscuit - Review,2.8,9
+9:18,02/24/17,Fast Food,Chicken tenders,Hardee's,Hand-Breaded Spicy Chicken Tenders,Hardee's Hand-Breaded Spicy Chicken Tenders - Food Review,4.38,8.3
+8:44,02/27/17,Fast Food,Novelty,Sonic,Pancake on a Stick,Sonic Pancake on a Stick - Food Review,2.13,7.6
+8:46,03/02/17,Fast Food,Pizza (fresh),Little Caesars,Smokehouse Pizza,Little Caesars Smokehouse Pizza - Food Review,9,9.2
+8:27,03/04/17,Fast Food,Boss wrap,Taco Bell,Triple Double Crunchwrap,Taco Bell Triple Double Crunchwrap - Food Review,5,9
+9:51,03/06/17,Fast Food,Chicken sandwich,Burger King,Crispy Chicken Sandwich,Burger King NEW Crispy Chicken Sandwich - Food Review,4.39,5.5
+8:52,03/09/17,Fast Food,Novelty,Arby's,Meat Mountain Sandwich,Arby's Meat Mountain Sandwich - Food Review,10.7,8.5
+9:12,03/13/17,Fast Food,Fish sandwich,Wendy's,Premium Cod Fillet Fish Sandwich,Wendy's Premium Cod Fillet Sandwich - Food Review,3.99,7
+8:47,03/16/17,Fast Food,Breadsticks,Hungry Howie's,Howie Bread,Hungry Howie's Howie Bread - Food Review,3.75,8.5
+7:21,03/17/17,Fast Food,Donut,Krispy Kreme,St. Patrick's Day Green Original Glazed Doughnut,Krispy Kreme St. Patrick's Day Green Original Glazed Doughnut - Review,6.54,9
+9:31,03/20/17,Fast Food,Chinese,Panda Express,Five Flavor Shrimp,Panda Express Five Flavor Shrimp - Food Review,5,8.6
+9:59,03/23/17,Fast Food,Taco,Del Taco,The Del Taco (soft),Del Taco Soft Taco - Food Review,1.4,7.1
+9:08,03/26/17,Fast Food,Hot dog,Sonic,Cheesy Bacon Lil' Doggie,Sonic Cheesy Bacon Lil' Doggie - Food Review,1.49,7
+9:34,03/29/17,Fast Food,Chicken wings,Wingstop,Original Hot Wings,Wingstop Original Hot Wings - Food Review,8.99,8.6
+12:04,04/02/17,Fast Food,Pizza (fresh),Papa John's,Double Pepperoni Pizza,Papa John's Double Pepperoni Pizza - Review,9,9.3
+9:31,04/04/17,Fast Food,Chicken sandwich,Sonic,BBQ Bacon Lil' Chickie,Sonic Honey BBQ Bacon Lil' Chickie - Food Review,1.49,7.3
+12:01,04/07/17,Fast Food,Burrito,Taco Bell,Loaded Taco Burrito,Taco Bell NEW Loaded Taco Burrito - Food Review,1.49,7.6
+8:56,04/11/17,Fast Food,Pizza (fresh),Little Caesars,Hot-N-Ready Classic Pepperoni Pizza,Little Caesars Hot-N-Ready Classic Pepperoni Pizza - Food Review,5,8.7
+12:36,04/16/17,Fast Food,Chicken sandwich,Wendy's,Mozzarella Chicken Sandwich,Wendy's Fresh Mozzarella Chicken Sandwich - Food Review,5.66,5.6
+13:04,04/18/17,Fast Food,Burger,Burger King,Steakhouse King,Burger King New Steakhouse King - Food Review,5.99,7
+11:50,04/22/17,Fast Food,Chicken sandwich,KFC,Zinger Sandwich,KFC Zinger Sandwich - Food Review,4,8.1
+14:03,04/27/17,Fast Food,Burger,Hardee's,Baby Back Rib Burger,Hardee's / Carl's Jr. Baby Back Rib Burger - Food Review,5.98,7.6
+14:19,04/30/17,Fast Food,Burger,McDonald's,Signature Crafted Sweet BBQ Bacon Burger,McDonald's New Signature Crafted Sweet BBQ Bacon Burger - Food Review,4.79,6.5
+11:53,05/03/17,Fast Food,Pork sandwich,Arby's,Smokehouse Pork Belly Sandwich,Arby's Smokehouse Pork Belly Sandwich - Review,6,6.5
+12:09,05/06/17,Fast Food,Chicken sandwich,Chick-fil-A,Deluxe Chicken Sandwich,Chick-fil-A Deluxe Chicken Sandwich - Food Review,2.85,7.2
+9:49,05/12/17,Fast Food,Chicken nuggets,Taco Bell,Naked Chicken Chips,Taco Bell Naked Chicken Chips - Food Review,2.45,8
+9:55,05/18/17,Fast Food,Novelty,Burger King,Mac n' Cheetos,Burger King Mac N' Cheetos - Food Review,2,8
+13:55,05/21/17,Fast Food,Burger,Steak 'n Shake,Bacon 'n Cheese Triple Xtreme Burger,Steak 'n Shake Bacon 'n Cheese Triple Xtreme Burger,6,9.6
+11:45,05/27/17,Fast Food,Chicken sandwich,Chick-fil-A,Smokehouse BBQ Bacon Sandwich,Chick-fil-A Smokehouse BBQ Bacon Sandwich - Review,6,9.7
+12:34,05/30/17,Fast Food,Chicken sandwich,McDonald's,Signature Crafted Maple Bacon Dijon Chicken Sandwich,McDonald's Signature Crafted Maple Bacon Dijon Chicken Sandwich - Review,5.13,1
+9:53,06/01/17,Fast Food,Pizza (fresh),Little Caesars,ExtraMostBestest Pizza,Little Caesars ExtraMostBestest Pizza - Review,6,9.2
+11:12,06/04/17,Fast Food,Pizza (fresh),Pizza Hut,Cheesy Bites Pepperoni Pizza,Pizza Hut Cheesy Bites Pizza - Food Review,12,8.9
+12:00,06/08/17,Fast Food,Breakfast item,Taco Bell,Bacon Breakfast Quesadilla,Taco Bell Breakfast Quesadilla + Breakfast Salsa - Review,2.34,9.7
+12:00,06/08/17,Fast Food,Sauce,Taco Bell,Breakfast Salsa,Taco Bell Breakfast Quesadilla + Breakfast Salsa - Review,2.34,9.75
+12:46,06/15/17,Fast Food,Chicken tenders,Popeyes,Sweet & Crunchy Chicken Tenders without sauce,Popeyes Sweet & Crunchy Chicken Tenders - Review,5.35,5.1
+12:46,06/15/17,Fast Food,Chicken tenders,Popeyes,Sweet & Crunchy Chicken Tenders with sauce,Popeyes Sweet & Crunchy Chicken Tenders - Review,5.35,7.5
+11:16,06/18/17,Fast Food,Burger,Culver's,Bacon Deluxe Burger,Culver's Bacon Deluxe Burger - Food Review,5,9.4
+14:07,06/20/17,Fast Food,Burger,Burger King,Mushroom & Swiss King,Burger King Mushroom & Swiss King - Food Review,6.59,3
+11:34,06/22/17,Fast Food,Chalupa,Taco Bell,Double Chalupa,Taco Bell New Double Chalupa - Food Review,3.79,8.5
+12:08,06/25/17,Fast Food,Pizza (fresh),Papa John's,Bacon Cheddarburger Pan Pizza,Papa John's Bacon Cheddarburger Pizza - Food Review,10,7
+11:59,07/02/17,Fast Food,Chicken sandwich,Burger King,BBQ Bacon Crispy Chicken Sandwich,Burger King BBQ Bacon Crispy Chicken Sandwich - Food Review,5.63,0.5
+14:29,07/04/17,Fast Food,Shrimp,Popeyes,Cheddar Biscuit Butterfly Shrimp,Popeyes Cheddar Biscuit Butterfly Shrimp - Food Review,5,4.8
+12:10,07/06/17,Fast Food,Breadsticks,Domino's,Parmesan Bread Twists,Domino's Parmesan Bread Twists - Food Review,5.99,7
+12:34,07/09/17,Fast Food,BLT,Arby's,Triple Thick Brown Sugar Bacon BLT,Arby's Triple Thick Brown Sugar Bacon BLT - Food Review,5.8,5
+11:22,07/13/17,Fast Food,Burger,Wendy's,Bacon Queso Cheeseburger,Wendy's Bacon Queso Cheeseburger - Food Review,5.87,8.4
+10:07,07/16/17,Fast Food,Hot dog,Sonic,Original Pretzel Dog,Sonic Original Pretzel Dog - Food Review,2.45,8
+10:41,07/20/17,Fast Food,Chicken nuggets,Papa John's,Chicken Poppers,Papa John's Chicken Poppers - Food Review,6,8.1
+12:35,07/25/17,Fast Food,Chicken tenders,Culver's,Buffalo Chicken Tenders,Culver's Buffalo Chicken Tenders - Food Review,10.64,9.38
+14:01,07/27/17,Fast Food,Burger,McDonald's,Signature Crafted Sriracha Burger,McDonald's Signature Crafted Sriracha Burger - Food Review,5.13,4.2
+13:23,07/31/17,Fast Food,Burrito,Taco Bell,Beefy Potato-Rito,Taco Bell Beefy Potato-Rito - Food Review,1,8.6
+12:00,08/06/17,Grocery (fresh),Sub sandwich,Publix,Buffalo Chicken Tender Sub,Publix Buffalo Chicken Tender Sub - Food Review,8,9.6
+15:05,08/08/17,Fast Food,Chicken sandwich,Sonic,Garlic Parmesan Dunked Ultimate Chicken Sandwich,Sonic Garlic Parmesan Dunked Chicken Sandwich - Food Review,6.49,5
+11:29,08/14/17,Fast Food,Chicken wings,Domino's,Hot Wings,Domino's Hot Wings - Food Review,6,9.2
+8:02,08/17/17,Fast Food,Chicken tenders,Popeyes,Hot Honey Crunch Tenders,Popeyes Hot Honey Crunch Tenders - Food Review,5,8.8
+9:15,08/20/17,Fast Food,Tater tots,Burger King,Cheesy Tots,Burger King Cheesy Tots - Food Review,2.13,7.6
+11:38,08/27/17,Fast Food,Burger,Burger King,Rodeo King Burger,Burger King Rodeo King Burger - Food Review,6,8.5
+15:08,09/03/17,Fast Food,Pizza (fresh),Pizza Hut,Backyard BBQ Chicken Pizza,Spontaneous Pizza Hut Backyard BBQ Chicken Pizza Review,12,8.95
+14:42,09/24/17,Fast Food,Breakfast item,Hardee's,Chicken Biscuit,Hardee's Chicken Biscuit - Food Review,1.3,9.7
+10:40,09/26/17,Fast Food,Chicken nuggets,Popeyes,1/4 LB Popcorn Chicken,Popeyes 1/4 LB Popcorn Chicken - Food Review,4,9
+14:34,10/07/17,Fast Food,Chicken tenders,McDonald's,Buttermilk Crispy Tenders,McDonald's Buttermilk Crispy Tenders - Food Review,4,9.2
+12:34,10/09/17,Fast Food,Quesadilla,Taco Bell,Crispy Chicken Quesadilla,Taco Bell Crispy Chicken Quesadilla - Food Review,3,8.7
+12:11,10/17/17,Fast Food,Chicken nuggets,Burger King,Spicy Chicken Nuggets,Burger King Spicy Chicken Nuggets - Food Review,1.49,9
+15:58,10/22/17,Grocery,Cookie,Nabisco,Mystery Flavor Oreo Cookies,Mystery Flavor Oreo Cookies - Food Review,4,8.4
+12:10,10/30/17,Fast Food,Chicken tenders,Wendy's,Chicken Tenders,Wendy's Chicken Tenders - Food Review,3,8.6
+10:48,11/10/17,Fast Food,Pizza (fresh),Domino's,Buffalo Chicken Pizza,Domino's Buffalo Chicken Pizza - Food Review,13,7.7
+13:20,11/14/17,Fast Food,Slider,White Castle,Cheddar and Apple Butter Turkey Slider,White Castle Cheddar and Apple Butter Turkey Slider - Review,1,9
+16:00,11/20/17,Fast Food,Taquito,Taco Bell,Rolled Chicken Tacos,Trying out Taco Bell's Rolled Chicken Tacos,4,7.3
+16:00,11/20/17,Fast Food,Taquito,Taco Bell,Rolled Chicken Tacos with Spicy Ranch Dressing,Trying out Taco Bell's Rolled Chicken Tacos,4,8.6
+10:11,11/26/17,Fast Food,Pizza (fresh),Pizza Hut,Ultimate Cheesy Crust Pepperoni Pizza,Pizza Hut Ultimate Cheesy Crust Pizza - Review,12,9.3
+11:12,11/28/17,Fast Food,Pizza (fresh),Sbarro,New York Style Pepperoni Pizza Slice,Sbarro New York Style Pepperoni Pizza - Food Review,4.09,7.3
+11:34,12/03/17,Fast Food,Novelty,Burger King,Flamin' Hot Mac n' Cheetos,Burger King Flamin' Hot Mac n' Cheetos - Food Reivew,2.99,8.6
+12:29,12/12/17,Fast Food,Donut,Krispy Kreme,Limited Edition Gingerbread Doughnut,Krispy Kreme Limited Edition Gingerbread Doughnut Review,0.8,6.5
+10:19,01/02/18,Fast Food,Quesadilla,Taco Bell,StackeR,The Elusive Taco Bell StackeR Review,1,8.8
+12:44,01/05/18,Fast Food,Chicken sandwich,McDonald's,Classic Chicken Sandwich,Checking Out the New McDonald's Dollar Menu,3,8.3
+12:44,01/05/18,Fast Food,Burger,McDonald's,Bacon McDouble,Checking Out the New McDonald's Dollar Menu,2,6.5
+11:39,01/11/18,Fast Food,Chicken wings,Popeyes,Ghost Pepper Wings,How Spicy are the Ghost Pepper Wings from Popeyes?,4.99,7.2
+11:50,01/22/18,Fast Food,Burger,Burger King,Double Quarter Pound King,Will Burger King Redeem Themselves with the Double Quarter Pound King,5,8.9
+10:59,01/25/18,Fast Food,French fries,Taco Bell,Nacho Fries,Are Taco Bell's Nacho Fries Worth the Hype?,1,9.5
+10:57,01/29/18,Fast Food,Chicken tenders,KFC,Smoky Mountain BBQ Chicken,Trying Out KFC's New Smoky Mountain BBQ Chicken,5,6.8
+11:10,02/06/18,Fast Food,Pizza (fresh),McDonald's,Vegetarian Pizza,Vegetarian Pizza from McDonald's is not a Myth,9,9.3
+13:15,02/22/18,Fast Food,Tater tots,Burger King,Cheesy Tots,The Long Awaited Return of the Cheesy Tots!,2,1
+13:15,02/22/18,Fast Food,Tater tots,Burger King,Cheesy Tots,The Long Awaited Return of the Cheesy Tots!,2,7
+13:12,02/26/18,Fast Food,Sauce,McDonald's,Szechuan Sauce,How Good is McDonald's New Szechuan Sauce?,0,9.4
+11:05,03/06/18,Fast Food,Chicken sandwich,Burger King,Spicy Crispy Chicken Sandwich,Is Burger King's Spicy Crispy Chicken Sandwich Hot Enough?,4,8.8
+12:44,03/15/18,Fast Food,Pizza (fresh),Little Caesars,ExtraMostBestest Pizza,My Full Analysis of Little Caesars Stuffed Crust Pizza,9,8.5
+14:30,03/19/18,Grocery,Baby food,Gerber,Apple Strawberry Banana Baby Food,Gerber Apple Strawberry Banana Baby Food Review,1.5,6.7
+11:59,04/07/18,Fast Food,Burrito,Taco Bell,Triple Melt Burrito,Is Taco Bell's Triple Melt Burrito Worth The Buck?,1,7.3
+13:10,04/13/18,Fast Food,Burger,McDonald's,Garlic White Cheddar Burger,Is McDonald's Garlic White Cheddar Burger Really That Bad?,4.59,2
+10:14,04/22/18,Fast Food,Chicken nuggets,Burger King,Spicy Chicken Nuggets,Firing It Up With Burger King's Spicy Chicken Nuggets,1.69,8.2
+13:44,05/01/18,Fast Food,Pizza (fresh),Pizza Hut,Double Cheesy Crust Pizza,How Cheesy Is Pizza Hut's Double Cheesy Crust Pizza?,15,8
+11:17,05/14/18,Fast Food,Chalupa,Taco Bell,Wild Naked Chicken Chalupa,The New Taco Bell Wild Naked Chicken Chalupa Review,2.99,8
+11:37,05/19/18,Fast Food,Burger,McDonald's,Quarter Pounder,How Fresh Is McDonald's New Quarter Pounder?,4,8.7
+12:52,05/23/18,Fast Food,Donut,Krispy Kreme,Blueberry Glazed Doughnuts,How Blue Are Krispy Kreme's New Blueberry Glazed Doughnuts?,5,6.2
+12:56,06/01/18,Fast Food,Fried chicken,Popeyes,Rip'n Chick'n,Checking Out Popeyes New Rip'n Chick'n!,5,7.5
+14:20,06/04/18,Fast Food,Breakfast item,McDonald's,Chicken McGriddle,Revisiting McDonald's Chicken McGriddle,1.49,8
+13:25,06/09/18,Fast Food,Chicken nuggets,Burger King,Pretzel Chicken Fries,Are Burger King's Pretzel Chicken Fries Any Good?,3.09,7
+12:51,06/16/18,Fast Food,Burger,IHOP,Classic Burger with Bacon,IHOb Burger ?,9,8.5
+11:57,06/26/18,Fast Food,Chicken sandwich,KFC,Pickle Fried Chicken,Pickle Fried Chicken at KFC?,4.8,6
+13:49,07/02/18,Fast Food,Burger,Burger King,American Brewhouse King,Burger King American Brewhouse King Review!,6,5
+11:12,07/05/18,Fast Food,Burger,McDonald's,Bacon Smokehouse Burger,Is McDonald's Bacon Smokehouse Burger Really That Smoky?,5.39,7
+10:54,07/11/18,Fast Food,Chicken sandwich,Wendy's,Buffalo Ranch Crispy Chicken Sandwich,Is Wendy's New Buffalo Chicken Sandwich Worth A Dollar?,1,6.8
+11:22,07/14/18,Fast Food,French fries,Taco Bell,Nacho Fries,Nacho Fries from Taco Bell are Back!,1.49,9.5
+15:23,07/18/18,Fast Food,Chicken tenders,Sonic,Crispy Chicken Tenders,What Happened To Sonic's Crispy Chicken Tenders?,5.79,5
+10:08,07/21/18,Fast Food,Pizza (fresh),Pizza Hut,Cheesy Bites Pepperoni Pizza,Reviewing My Favorite Pizza (Pizza Hut Cheesy Bites),13,9.17
+12:45,07/24/18,Fast Food,Novelty,Dunkin',Doughnut Fries,I Finally Review Dunkin' Donuts Donut Fries,2,7.26
+12:53,08/02/18,Fast Food,Chicken tenders,Wendy's,Chicken Tenders,Revisiting Wendy's Chicken Tenders!,3.78,8.2
+11:15,08/11/18,Fast Food,Pizza (fresh),Little Caesars,5 Meat Feast Pizza,Little Caesars New Pizza With Tons of Meat!,9,7.7
+10:28,08/16/18,Fast Food,Chinese,Panda Express,Honey Sesame Chicken Breast,Is Honey Sesame Chicken The Best Panda Express Item?,8,9.8
+12:55,08/20/18,Fast Food,Burger,Burger King,Jalapeno King,Will You Need Paramedics On Standby To East Burger King's Jalapeno King?,5.69,6.7
+11:00,08/23/18,Fast Food,Chicken tenders,McDonald's,Sweet N' Spicy Honey BBQ Glazed Tenders,The Elusive New McDonald's Sweet N' Spicy Honey BBQ Glazed Tenders,4.49,8.4
+12:31,08/27/18,Fast Food,Taco,Taco Bell,Double Cheesy Gordita Crunch,Taco Bell Double Cheesy Gordita Crunch Review,3.49,5.5
+10:27,09/01/18,Fast Food,Donut,Hardee's,Mini Donuts,Do Hardee's Mini Donuts Really Taste Like Froot Loops Cereal?,2.34,8.5
+12:35,09/08/18,Fast Food,Pizza (fresh),Papa John's,Italian Hero Pizza,Papa John's NEW Italian Hero Pizza Review,10,7
+12:30,09/12/18,Fast Food,Burger,Wendy's,Dave's Single,Is Wendy's FREE Dave's Single Burger Worth Downloading the App?,5,8.6
+15:14,09/15/18,Fast Food,Boss wrap,Taco Bell,Triple Double Crunchwrap,Is Taco Bell's Triple Double Crunchwrap Any Better This Year?,5.97,6.5
+12:53,09/22/18,Fast Food,Chicken tenders,Burger King,Crispy Chicken Tenders,Giving Burger King's New Crispy Chicken Tenders A Try!,4.49,7.5
+12:05,09/27/18,Fast Food,Chicken tenders,KFC,Hot Honey Chicken Tenders,NEW KFC Hot Honey Chicken Tenders Review!,5.49,7
+13:49,10/01/18,Fast Food,Chicken sandwich,McDonald's,Bacon Smokehouse Buttermilk Crispy Chicken Sandwich,I Review McDonald's Bacon Smokehouse Buttermilk Crispy Chicken Sandwich,5,7.2
+11:34,10/04/18,Fast Food,Burrito,Taco Bell,Beefy Crunch Burrito Duo,Is Taco Bell's NEW Beefy Crunch Burrito Duo Worth $2?,2,8
+12:57,10/10/18,Fast Food,Burger,Wendy's,S'Awesome Bacon Classic Cheeseburger,How Good Is Wendy's NEW S'Awesome Bacon Cheeseburger?,6.49,5.9
+12:52,10/26/18,Fast Food,Burger,Burger King,Halloween Nightmare Burger,I Got It! Burger King's Halloween Nightmare Burger Review,6.39,6.7
+16:15,10/30/18,Fast Food,Salad,Chick-fil-A,Superfood Side,Fast Food Kale? Is Chick-fil-A's Superfood Side Scary?,4.19,9
+12:01,11/05/18,Fast Food,Pizza (fresh),Little Caesars,Thin Crust Pepperoni Pizza,Little Caesars Thin Crust Pepperoni Pizza Review,6.42,8
+11:47,11/09/18,Fast Food,Pork sandwich,McDonald's,McRib,My First McRib from McDonald's,3,7.92
+13:40,11/14/18,Fast Food,Pizza (fresh),Papa John's,Double Cheeseburger Pizza,Papa John's NEW Double Cheeseburger Pizza Review,11.77,7.1
+13:30,11/18/18,Fast Food,Chicken sandwich,KFC,Chicken and Waffles,The NEW Chicken And Waffles From KFC,5.99,7
+12:29,11/21/18,Fast Food,Turkey sandwich,Starbucks,Holiday Turkey and Stuffed Panini,Starbucks Thanksgiving Holiday Turkey & Stuffing Panini Review,6.25,8.6
+10:45,11/25/18,Fast Food,Chicken sandwich,Arby's,Buttermilk Buffalo Chicken Sandwich,My Favorite Food From Arby's!,5,8.4
+11:29,11/28/18,Fast Food,Taquito,Taco Bell,Rolled Chicken Tacos,Taco Bell Rolled Chicken Tacos Re-Reviewed,2.19,8
+10:36,12/04/18,Fast Food,Chicken sandwich,Wendy's,Bacon Maple Chicken Sandwich,Wendy's NEW Bacon Maple Chicken Sandwich Review,5.99,8.5
+11:20,12/08/18,Fast Food,Cinnamon roll,Burger King,Cini Minis,Burger King Cini Minis Are Back! (Millennials Go NUTS!),1.49,8.3
+11:35,12/16/18,Fast Food,Burger,McDonald's,Mushroom & Swiss Burger,McDonald's NEW Mushroom & Swiss Burger Review,5.39,8
+10:58,12/28/18,Fast Food,Breadsticks,Papa John's,Cheesesticks,Are Papa John's FREE Cheesesticks Worth Selling Your Soul?,0,9.3
+11:33,01/02/19,Fast Food,Chalupa,Taco Bell,Naked Chicken Chalupa,The Naked Chicken Chalupa Is BACK At Taco Bell!!,5.49,9
+11:34,01/13/19,Fast Food,Fried chicken,KFC,Nashville Hot Extra Crispy Chicken,KFC Nashville Hot Extra Crispy Chicken Review,6,8
+11:35,01/16/19,Fast Food,Slider,Sonic,Bacon Melt Slinger,What does Sonic's Bacon Melt Slinger taste like?,2.49,6.5
+11:49,01/19/19,Fast Food,Burger,Burger King,Big King XL,Does the Big King XL really taste like a Big Mac,6.5,8.6
+10:58,01/26/19,Fast Food,French fries,Taco Bell,Nacho Fries,Are Taco Bell's Nacho Fries still good?,1.49,9.5
+11:52,01/30/19,Fast Food,Pizza (fresh),Little Caesars,Pretzel Crust Pepperoni Pizza,Reviewing Little Caesars NEW Pretzel Crust Pizza!,6,6
+11:01,02/12/19,Fast Food,Burger,Wendy's,Barbecue Cheeseburger Review,Wendy's NEW Barbecue Cheeseburger Review,5.5,9
+11:46,02/17/19,Fast Food,Pizza (fresh),Pizza Hut,Ultimate Cheesy Crust Pepperoni Pizza,Pizza Hut's Ultimate Cheesy Crust Pizza is Back!!!,12.99,8
+10:04,02/22/19,Fast Food,Shrimp,Popeyes,Southern Butterfly Shrimp,Will Popeyes Redeem Themselves with the Southern Butterfly Shrimp?,5,8.3
+11:08,03/03/19,Fast Food,Burrito,Taco Bell,Steak Rattlesnake Fries Burrito,Taco Bell Steak Rattlesnake Fries Burrito Review,2.99,9.1
+11:27,03/06/19,Fast Food,Pizza (fresh),Little Caesars,ExtraMostBestest Pizza,My Favorite Pizza From Little Caesars,6,8.8
+11:08,03/12/19,Fast Food,Novelty,McDonald's,Donut Sticks,Will McDonald's NEW Donut Sticks Get Us To Mars?,3.39,7.7
+11:13,03/21/19,Fast Food,Calzone,Pizza Hut,Pepperoni P'Zone,My FIRST P'Zone from Pizza Hut,5.99,8
+11:44,03/25/19,Fast Food,Tater tots,Burger King,Bacon Cheesy Tots,Are Burger King's Bacon Cheesy Tots Really That Terrible?,2.2,2
+12:38,04/01/19,Fast Food,Pizza (fresh),Little Caesars,Bacon Wrapped Deep! Deep! Dish Pizza,Little Caesars NEW Bacon Wrapped Deep Deep Dish Pizza Review,12,8.55
+12:18,04/05/19,Fast Food,BLT,Sonic,BBLT Sandwich,Sonic's NEW BBLT Sandwich Review (BLT With Extra Bacon!),3.99,7.1
+11:27,04/15/19,Fast Food,Burger,Burger King,Angry Whopper,The Best Burger I've Ever Had From Burger King!,6.2,9.4
+11:00,04/27/19,Fast Food,Pizza (fresh),Papa John's,Ultimate Pepperoni Pizza,Papa John's Ultimate Pepperoni Pizza Review,12,9.7
+10:04,05/14/19,Fast Food,Pizza (fresh),Domino's,Pepperoni Pan Pizza,Domino's Pepperoni Pan Pizza  Take-Two,8,6.5
+11:35,05/19/19,Fast Food,Nachos,Taco Bell,Grande Nachos Box,Is Taco Bell's $5 Grande Nachos Box Worth It?,5,5.5
+11:08,06/02/19,Fast Food,Pizza (fresh),Pizza Hut,Pan Pizza (pepperoni),Bye Pizza Hut Pan Pizza!,7.99,7
+11:04,06/06/19,Fast Food,Burger,McDonald's,Grand McExtreme Bacon Burger,McDonald's Grand McExtreme Bacon Burger Review,7.24,3
+12:39,06/13/19,Fast Food,French fries,Taco Bell,Nacho Fries,We Need To Talk About These Nacho Fries…,1.3,7
+11:21,06/18/19,Fast Food,Burger,Burger King,Rodeo King Burger,Burger King's NEW Rodeo King Review,8,8.1
+12:23,06/29/19,Fast Food,Pizza (fresh),Little Caesars,Stuffed Crust ExtraMostBestest Pizza,Little Caesars Stuffed Crust Pizza Review,9,8
+12:24,07/02/19,Fast Food,Chicken sandwich,KFC,Cheetos Sandwich,How Cheesy Is KFC's NEW Cheetos Sandwich?,4.79,8.1
+11:50,07/10/19,Fast Food,Taco,Burger King,Crunchy Taco,Tacos at Burger King??,1,6.85
+12:34,07/15/19,Fast Food,French fries,Taco Bell,Steak Reaper Ranch Fries Supreme,Are Taco Bell's Reaper Fries The Hottest Ever?,3.79,5
+12:06,07/19/19,Fast Food,Chicken tenders,Panda Express,Sichuan Hot Chicken Tenders (regular),Panda Exdpress has Spicy Hot Chicken Tenders!,4,5.4
+12:06,07/19/19,Fast Food,Chicken tenders,Panda Express,Sichuan Hot Chicken Tenders (extra spicy),Panda Exdpress has Spicy Hot Chicken Tenders!,4,5.6
+11:20,07/22/19,Fast Food,Burger,Wendy's,Bacon Jalapeno Cheeseburger,Wendy's Bacon Jalapeno Cheeseburger is Crazy!,5.99,6.1
+13:06,07/29/19,Fast Food,Burger,Culver's,Deluxe Burger,My Favorite Fast Food Items From Culver's,5.19,7
+13:06,07/29/19,Fast Food,Side,Culver's,Wisconsin Cheese Curds,My Favorite Fast Food Items From Culver's,3.89,7
+13:06,07/29/19,Fast Food,Frozen dessert,Culver's,Frozen Custard (Cookies and Cream),My Favorite Fast Food Items From Culver's,2.49,6.5
+12:51,08/01/19,Fast Food,Taco,Taco Bell,Doritos Locos Taco (Nacho Cheese),I Pick The BEST Taco Bell Doritos Locos Taco,2,8
+12:51,08/01/19,Fast Food,Taco,Taco Bell,Doritos Locos Taco (Cool Ranch),I Pick The BEST Taco Bell Doritos Locos Taco,2,8
+12:51,08/01/19,Fast Food,Taco,Taco Bell,Doritos Locos Taco (Fiery),I Pick The BEST Taco Bell Doritos Locos Taco,2,8
+13:07,08/05/19,Fast Food,Burger,McDonald's,Quarter Pounder with Cheese Bacon,The McDonald's Quarter Pounder Bacon Burger of my Dreams!,5.29,8
+14:17,08/08/19,Fast Food,Vegetarian,Burger King,Impossible Whopper,Trying Burger King's NEW Impossible Whopper!!,5.59,8.2
+11:17,08/13/19,Fast Food,Chicken nuggets,Wendy's,Spicy Chicken Nuggets,Wendy's Spicy Chicken Nuggets are BACK!!,3.94,8.6
+10:12,08/17/19,Fast Food,Boss wrap,Taco Bell,Triple Double Crunchwrap,Taco Bell did it again…,3.49,7
+13:01,08/21/19,Fast Food,Chicken sandwich,Popeyes,Chicken Sandwich,Popeyes vs. Chick-fil-A Which Chicken Sandwich is better?,4.69,6.7
+13:01,08/21/19,Fast Food,Chicken sandwich,Chick-fil-A,Original Chicken Sandwich,Popeyes vs. Chick-fil-A Which Chicken Sandwich is better?,3.55,7.3
+12:56,08/29/19,Fast Food,Pizza (fresh),Little Caesars,Quattro Pizza,Trying out Little Caesars NEW Quattro Pizza!,7,6.2
+12:34,09/02/19,Fast Food,Chicken tenders,McDonald's,Spicy BBQ Glazed Tenders,What do McDonald's Spicy BBQ Glazed Tenders taste like?,7,7
+12:19,09/06/19,Fast Food,Side,Chick-fil-A,Mac and Cheese,Is Chick-fil-A's Mac and Cheese better than Grandma's?,3.5,7.4
+11:45,09/13/19,Fast Food,Chalupa,Taco Bell,Toasted Cheddar Chalupa,Taco Bell's NEW Toasted Cheddar Chalupa Review,2.49,4.9
+10:11,09/17/19,Fast Food,Chicken sandwich,McDonald's,Spicy BBQ Chicken Sandwich,McDonald's NEW Spicy BBQ Chicken Sandwich Review!,4.69,7.5
+13:03,09/19/19,Fast Food,Novelty,Pizza Hut,Stuffed Cheez-It (Cheese),Just how Cheesy is Pizza Hut's Stuffed Cheez-It?,6.49,6
+13:03,09/19/19,Fast Food,Novelty,Pizza Hut,Stuffed Cheez-It (Cheese & Pepperoni),Just how Cheesy is Pizza Hut's Stuffed Cheez-It?,6.49,5.2
+10:53,09/24/19,Fast Food,Burger,Burger King,Pretzel Bacon King,Trying Burger King's NEW Pretzel Bacon King!,6.49,3
+13:42,10/03/19,Fast Food,Burger,Steak 'n Shake,Triple Steak Burger with Bacon Lettuce and Tomatoes (no cheese),What are the Best Items from Steak 'n Shake?,5,8.3
+11:13,10/06/19,Fast Food,Chinese,Panda Express,Honey Sesame Chicken Breast,Did Panda Express Drop the Ball this time?,6.67,8.4
+11:52,10/09/19,Fast Food,Pork sandwich,McDonald's,McRib,McDonald's McRib is BACK!,3.5,8.6
+12:38,10/12/19,Fast Food,Chicken wings,KFC,Kentucky Fried Wings (Buffalo),KFC's NEW Kentucky Fried Wings Review,5,7.1
+12:38,10/12/19,Fast Food,Chicken wings,KFC,Kentucky Fried Wings (Nashville Hot),KFC's NEW Kentucky Fried Wings Review,5,4.9
+12:38,10/12/19,Fast Food,Chicken wings,KFC,Kentucky Fried Wings (Honey BBQ),KFC's NEW Kentucky Fried Wings Review,5,7.1
+13:13,10/16/19,Fast Food,Pizza (fresh),Papa John's,Jack-O'-Lantern Pizza,Why Papa John's Jack-O'-Lantern Pizza Scare Me,11,4
+11:59,10/22/19,Fast Food,Chicken tenders,Popeyes,Voodoo Chicken Tenders,Popeyes NEW Voodoo Chicken Tenders Review,5,8.5
+11:19,10/25/19,Fast Food,Novelty,Sonic,Fried Oreos,Sonic Fried Oreos Review!,3,5
+12:50,10/29/19,Fast Food,Chalupa,Taco Bell,Double Chalupa,Taco Bell Totally BLEW IT with the Double Chalupa,3.49,3
+11:10,11/02/19,Fast Food,Chicken wings,Pizza Hut,Smoky Sriracha Chicken Wings,Pizza Hut's NEW Smoky Sriracha Chicken Wings Review,7,8.1
+19:12,11/04/19,Fast Food,Chicken sandwich,Burger King,Spicy Crispy Chicken Sandwich,5 Spicy Chicken Sandwiches in 1 Day! Will Popeyes WIN?,4.99,4.7
+19:12,11/04/19,Fast Food,Chicken sandwich,Popeyes,Spicy Chicken Sandwich,5 Spicy Chicken Sandwiches in 1 Day! Will Popeyes WIN?,3.99,9
+19:12,11/04/19,Fast Food,Chicken sandwich,Chick-fil-A,Spicy Chicken Sandwich,5 Spicy Chicken Sandwiches in 1 Day! Will Popeyes WIN?,3.99,8.2
+19:12,11/04/19,Fast Food,Chicken sandwich,Wendy's,Spicy Chicken Sandwich,5 Spicy Chicken Sandwiches in 1 Day! Will Popeyes WIN?,4.59,5.6
+19:12,11/04/19,Fast Food,Chicken sandwich,Culver's,Spicy Chicken Sandwich,5 Spicy Chicken Sandwiches in 1 Day! Will Popeyes WIN?,5.29,3
+11:54,11/13/19,Fast Food,Pizza (fresh),Papa John's,Garlic Parmesan Crust Pizza,Recovering With Papa John's Garlic Parmesan Crust Pizza,10,6
+12:33,11/22/19,Fast Food,Pizza (fresh),Pizza Hut,Stuffed Garlic Knots Pepperoni Pizza,Did Pizza Hut Get It Right This Time?,14.99,5.7
+12:11,11/26/19,Fast Food,Chicken sandwich,KFC,Nashville Hot Chicken And Waffles,Did KFC just ruin Chicken And Waffles?,6.44,1
+12:57,12/01/19,Fast Food,Burger,McDonald's,Bacon BBQ Burger,McDonald's NEW Bacon BBQ Burger Review!,5.89,8.6
+12:57,12/01/19,Fast Food,Frozen dessert,McDonald's,Snickerdoodle McFlurry,McDonald's NEW Bacon BBQ Burger Review!,1.89,6.8
+12:46,12/06/19,Fast Food,Pizza (fresh),Domino's,MeatZZa Pizza,Is Dominos MeatZZa Pizza Worth Getting?,7,7
+12:30,12/10/19,Grocery,Pizza (frozen),Freschetta,Rising Crust Pepperoni Pizza,Frozen Pizza - The Adventure (2019),8.5,7.5
+12:38,12/14/19,Fast Food,Taquito,Taco Bell,Rolled Chicken Tacos,Are Taco Bell's Rolled Chicken Tacos Any Better This Time?,2.19,7.3
+12:11,12/19/19,Fast Food,Breakfast item,Starbucks,Double Smoked Bacon Cheddar and Egg Sandwich,The BEST Fast Food Breakfast Sandwich,5,8.8
+12:47,12/24/19,Grocery,Pizza (frozen),DiGiorno,Stuffed Crust Pepperoni Pizza,DiGiorno Stuffed Crust Pizza for Christmas Dinner?,9,5
+12:47,01/04/20,Fast Food,Pizza (fresh),Papa John's,Extra Cheesy Alfredo Pizza,Is Papa John's Extra Cheesy Alfredo Pizza TOO Cheesy?,19,5.8
+10:06,01/10/20,Fast Food,Taco,Taco Bell,Reaper Ranch Double Stacked Taco,How Spicy is Taco Bell's Reaper Ranch Double Stacked Taco?,1,8.3
+12:14,01/21/20,Fast Food,Burger,Burger King,Cheddar Bacon King,Is Burger King's Cheddar Bacon King Its Best Yet?,6.49,7
+13:49,02/01/20,Grocery,Snack (sweet),Jell-O,Jell-O,"Jell-O, How are ya?",0.99,7.2
+11:46,02/09/20,Fast Food,Quesadilla,Papa John's,Philly Cheesesteak Papadias,Celebrating National Pizza Day with Papa John's Papadias!,7,6.62
+12:15,02/14/20,Fast Food,Pizza (fresh),Pizza Hut,Mozzarella Poppers Pizza,Pizza Hut NEW Mozzarella Poppers Pizza Review!,15,4.1
+12:51,02/19/20,Fast Food,Shrimp,Popeyes,Buttermilk Biscuit Shrimp,Did Popeyes Buttermilk Biscuit Shrimp Ruin My Day?,6,9
+12:51,02/24/20,Fast Food,French fries,Taco Bell,Buffalo Chicken Nacho Fries,Are Taco Bell's Buffalo Chicken Fries Their Spiciest Yet?,3,8.26
+12:44,02/27/20,Fast Food,Novelty,KFC,Chicken & Donuts Sandwich,KFC Chicken & Donuts Sandwich Review!,5.99,6.8
+12:58,03/06/20,Fast Food,Side,Papa John's,Jalapeno Poppers Rolls,Papa John's NEW Jalapeno Popper Rolls Review!,5.99,5.8
+13:45,03/10/20,Fast Food,Breakfast item,Wendy's,Breakfast Baconator,Wendy's NEW Breakfast Menu Reviewed!,4,6
+13:45,03/10/20,Fast Food,Breakfast item,Wendy's,Maple Bacon Chicken Croissant,Wendy's NEW Breakfast Menu Reviewed!,4,4.9
+13:50,03/15/20,Fast Food,Pizza (fresh),Pizza Hut,Big Dipper Pizza,Pizza Hut NEW Big Dipper Pizza Review!,12.99,7.7
+14:05,03/20/20,Grocery,Pizza (frozen),Red Baron,Deep Dish Singles Pepperoni Frozen Pizza,How Can Red Baron Deep Dish Frozen Pizza Be So Good?,5.5,8
+13:47,03/31/20,Grocery,Snack (savory),Hebrew National,Pigs in a Blanket,Snack Time with Hebrew National Pigs in a Blanket!,7.5,8.5
+12:21,04/03/20,Fast Food,Burger,McDonald's,Double Big Mac,McDonald's NEW Double Big Mac Review!,8.6,9
+12:59,04/09/20,Grocery,Pizza (frozen),DiGiorno,Bacon & Cheese Stuffed Crust Pepperoni Pizza,DiGiorno Bacon & Cheese Stuffed Crust Pizza Review!,9,6.8
+13:45,04/14/20,Fast Food,Pizza (fresh),Little Caesars,Pepperoni Cheeser! Cheeser! Pizza,Little Caesars Pepperoni Cheeser! Cheeser! Pizza Review!,7,7.4
+12:44,04/22/20,Fast Food,Taco,Taco Bell,Flamin' Hot Doritos Locos Tacos,Taco Bell Falmin' Hot Doritos Locos Tacos Review!,2,9
+15:25,04/27/20,Grocery,Pizza (frozen),California Pizza Kitchen,BBQ Chicken Recipe Crispy Thin Crust Pizza,California Pizza Kitchen BBQ Chicken Frozen Pizza Review!,8,6.8
+15:22,05/03/20,Fast Food,Chicken nuggets,Domino's,Crispy Specialty Chicken,Reviewbrah's FAVORITE Items From Domino's Pizza!,5,8
+15:22,05/03/20,Fast Food,Breadsticks,Domino's,Bacon & Jalapeno Stuffed Cheesy Breadsticks,Reviewbrah's FAVORITE Items From Domino's Pizza!,5,8.7
+15:22,05/03/20,Fast Food,Pizza (fresh),Domino's,Handmade Pan Pizza (pepperoni),Reviewbrah's FAVORITE Items From Domino's Pizza!,7,8.5
+12:59,05/20/20,Fast Food,Chicken nuggets,Burger King,Spicy Chicken Nuggets,Spicing Things Up With Burger King's NEW Spicy Nuggets!,1.49,8.1
+12:27,05/27/20,Fast Food,Chicken sandwich,Arby's,Chicken Cheddar Ranch Sandwich,Arby's NEW Chicken Cheddar Ranch Sandwich Review!,3.99,5.9
+10:25,06/02/20,Fast Food,Chicken tenders,Popeyes,Buffalo Ranch Chicken Tenders,Why Are Popeyes Buffalo Ranch Chicken Tenders So Disappointing?,5,4.7
+12:00,06/07/20,Fast Food,Breadsticks,Little Caesars,Stuffed Crazy Bread,Little Caesars NEW Stuffed Crazy Bread Review!,3.49,8.9
+12:25,06/17/20,Fast Food,French fries,Arby's,Sweet Potato Waffle Fries,Arby's NEW Sweet Potato Waffle Fries Review!,2.29,5.5
+13:56,06/21/20,Fast Food,Pizza (frozen),DiGiorno,Croissant Crust Pepperoni Pizza,DiGiorno NEW Croissant Crust Pizza Review!,9.5,4.7
+10:20,07/02/20,Fast Food,Pizza (fresh),Papa John's,Shaq-a-Roni Pizza,Papa John's NEW Shaq-a-Roni Pizza Review!,12,8
+12:15,07/06/20,Fast Food,Burrito,Taco Bell,Grilled Cheese Burrito,How Cheesy is Taco Bell's NEW Grilled Cheese Burrito?,2.99,8.5
+12:57,07/11/20,Grocery,Pizza (frozen),Red Baron,Classic Crust Four Cheese Pizza,Red Baron Classic Crust Four Cheese Pizza Review!,5,7.7
+11:25,07/15/20,Fast Food,French fries,KFC,Secret Recipe Fries,What's so Special About KFC's Secret Recipe Fries?,2.49,6
+11:14,07/20/20,Fast Food,Chicken wings,Domino's,Hot Buffalo Wings,The Wings Domino's Doesn't Want You To Know About…,7.99,8.4
+11:42,07/25/20,Fast Food,Burger,Burger King,Steakhouse King,Burger King NEW Steakhouse King Review!,6,8.1
+11:09,07/30/20,Fast Food,Fish sandwich,Arby's,Beer Battered Fish Sandwich,Arby's NEW Beer Battered Fish Sandwich Review!,5.69,7
+11:44,08/03/20,Fast Food,Taco,Del Taco,Crispy Chicken Taco,Will Del Taco's NEW Crispy Chicken Taco be a Game Changer?,1,6
+11:40,08/09/20,Fast Food,Fried chicken,Popeyes,Bone-In Hot Honey Chicken,Popeye's NEW Hot Honey Chicken Review!,5,7
+13:35,08/15/20,Fast Food,Chicken sandwich,Wendy's,Spicy Crispy Chicken Sandwich,How Good Is Wendy's NEW Spicy Crispy Chicken Sandwich?,1.29,8.5
+11:50,08/20/20,Fast Food,Chinese,Panda Express,Honey Sesame Chicken,Will Panda Express Redeem Themselves With Their Honey Sesame Chicken?,7.8,8.6
+13:13,08/25/20,Fast Food,Pizza (fresh),Domino's,Chicken Taco Pizza,Domino's NEW Chicken Taco Pizza Review!,11.99,9
+13:01,08/29/20,Fast Food,Burrito,Taco Bell,Beef Burrito,Why Doesn't Anyone Care About Taco Bell's NEW Beef Burrito?,1,8
+12:59,09/03/20,Fast Food,Quesadilla,Papa John's,Grilled Buffalo Chicken Papdia,Papa John's NEW Grilled Buffalo Chicken Papadia Review!,6,7
+11:22,09/08/20,Fast Food,Burger,McDonald's,Travis Scott Meal,Is McDonald's NEW Travis Scott Meal A Hit?,6,8.6
+14:45,09/20/20,Fast Food,Chicken nuggets,McDonald's,Spicy Chicken Nuggets,Comparative Analysis of McDonald's NEW Spicy Chicken Nuggets!,3.19,8.8
+11:52,09/25/20,Fast Food,Chicken wings,Popeyes,Ghost Pepper Wings,Are Popeyes NEW Ghost Pepper Wings Hot Or Not?,4.99,6.8
+16:47,09/29/20,Fast Food,Quesadilla,Taco Bell,Grande Stacker,Taco Bell's NEW Grande Stacker Review!,5,4.1
+14:10,10/02/20,Fast Food,Burger,Wendy's,Pretzel Bacon Pub Cheeseburger,Wendy's NEW Pretzel Bacon Pub Cheeseburger Review!,5.5,9
+14:36,10/05/20,Fast Food,Burger,McDonald's,J Balvin Meal,What Is McDonald's NEW J Balvin Meal?,6,7.5
+12:36,10/11/20,Fast Food,Pizza (fresh),Little Caesars,Slices-N-Stix Pizza,Is Little Caesars Slices-N-Stix Pizza A Good Deal?,6,8.2
+9:32,10/18/20,Fast Food,Donut,Dunkin',Ghost Pepper Donut,Is Dunkin's Spicy Ghost Pepper Donut The Hottest In The World?,1,8.5
+12:48,10/23/20,Fast Food,Chicken sandwich,Wendy's,Classic Chicken Sandwich,Wendy's NEW Classic Chicken Sandwich Review!,5.4,7
+12:19,10/27/20,Fast Food,Quesadilla,Papa John's,Double Cheeseburger Papadia,Papa John's NEW Double Cheeseburger Papadia Review,8,4
+9:58,10/31/20,Fast Food,Donut,Krispy Kreme,Halloween Doughnuts,Halloween BLOWOUT! Trying Krispy Kreme's NEW Halloween Doughnuts,7,6.7
+12:15,11/06/20,Fast Food,Shrimp,Popeyes,Twisty Wicked Shrimp,Will Popeyes Twisty Wicked Shrimp Be An Immeasurable Disappointment?,5,8.25
+10:52,11/10/20,Fast Food,Chalupa,Taco Bell,Toasted Cheddar Chalupa,Taco Bell's NEW Toasted Cheddar Chalupa Review!,2.99,7
+12:15,11/16/20,Fast Food,Pizza (fresh),Pizza Hut,Beyond Sausage Pizza,Pizza Hut's NEW Beyond Sausage Pizza Review!,14.99,9
+12:48,11/21/20,Fast Food,Turkey sandwich,Arby's,Deep Fried Turkey Sandwich,Is Arby's NEW Deep Fried Turkey Sandwich The Perfect Thanksgiving Meal?,5,5.5
+8:40,11/24/20,Fast Food,Pizza (fresh),Little Caesars,Pepperoni Cheeser! Cheeser! Pizza,Little Caesars NEW Cheeser! Cheeser! Pizza Review,7,8
+11:25,11/29/20,Fast Food,Chicken wings,Buffalo Wild Wings,Pizza Wings,Is This The FUTURE of Chicken Wings??,10,5.7
+12:54,12/04/20,Fast Food,Pork sandwich,McDonald's,McRib,Does McDonald's McRib Still Live Up To The Hype?,3.7,7.5
+13:07,12/14/20,Fast Food,Pizza (fresh),Pizza Hut,Triple Treat Box,Is Pizza Hut's NEW Triple Treat Box The Perfect Meal Deal?,20.99,8.5
+10:53,12/20/20,Fast Food,Burger,MrBeast Burger,Beast Style Burger,Is MrBeast Burger Taking Over The Nation?,6.99,7
