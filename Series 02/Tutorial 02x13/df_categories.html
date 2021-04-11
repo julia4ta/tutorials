@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  table, td, th {
+      border-collapse: collapse;
+      font-family: sans-serif;
+  }
+
+  td, th {
+      border-bottom: 0;
+      padding: 4px
+  }
+
+  tr:nth-child(odd) {
+      background: #eee;
+  }
+
+  tr:nth-child(even) {
+      background: #fff;
+  }
+
+  tr.header {
+      background: navy !important;
+      color: white;
+      font-weight: bold;
+  }
+
+  tr.subheader {
+      background: lightgray !important;
+      color: black;
+  }
+
+  tr.headerLastRow {
+      border-bottom: 2px solid black;
+  }
+
+  th.rowNumber, td.rowNumber {
+      text-align: right;
+  }
+
+</style>
+<body>
+<table>
+  <tr class = "header">
+    <th style = "text-align: right;">category</th>
+    <th style = "text-align: right;">in_2012</th>
+    <th style = "text-align: right;">in_2013</th>
+    <th style = "text-align: right;">in_2014</th>
+    <th style = "text-align: right;">in_2015</th>
+    <th style = "text-align: right;">in_2016</th>
+    <th style = "text-align: right;">in_2017</th>
+    <th style = "text-align: right;">in_2018</th>
+    <th style = "text-align: right;">in_2019</th>
+    <th style = "text-align: right;">in_2020</th>
+  </tr>
+  <tr class = "subheader headerLastRow">
+    <th style = "text-align: right;">String</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+    <th style = "text-align: right;">Bool</th>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burger</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chicken nuggets</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chicken sandwich</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chicken tenders</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">BLT</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Fish sandwich</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Wrap</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chicken wings</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pizza (fresh)</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Breadsticks</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pizza (frozen)</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Slider</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Fried chicken</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">French fries</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sub sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cookie</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Novelty</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Toaster pastry</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Rotisserie Chicken</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Jerky</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Licorice</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Soft Pretzel</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Snack (sweet)</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pulled pork sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Service</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Snack (salty)</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Side</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bowl</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Donut</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chalupa</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Fried fish</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">BBQ beef sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Burrito</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Taco</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Brownie</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Boss wrap</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Breakfast item</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Shrimp</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Hot dog</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Nachos</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Flatbread sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Quesadilla</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Baked chicken</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Turkey sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Bread</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Chinese</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pork sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Taquito</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Pancakes</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Roast beef sandwich</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Tater tots</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Sauce</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Baby food</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Salad</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Cinnamon roll</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Calzone</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Frozen dessert</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Vegetarian</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+    <td style = "text-align: right;">false</td>
+  </tr>
+  <tr>
+    <td style = "text-align: right;">Snack (savory)</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">false</td>
+    <td style = "text-align: right;">true</td>
+  </tr>
+</table>
+</body>
+</html>
