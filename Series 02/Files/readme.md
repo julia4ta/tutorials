@@ -20,6 +20,6 @@ Both the "channel" column and the "category" column are populated using an arbit
 
 "rating" is the actual rating for the item given at the end of each review.
 
-Disclaimer: This data set for entertainment purposes only. No claims are being made regarding its accuracy.
-
 This data was collect from the YouTube channel TheReportofTheWeek.
+
+Disclaimer: This data set for entertainment purposes only. No claims are being made regarding its accuracy.
