@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Doggo</title>
+    <style>
+        body {
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random Doggo Generator</h1>
+
+    <p>Click start to generate a random image of a doggo every 3 seconds.</p>
+
+    <p>API Source: dog.ceo</p>
+
+    <button onclick="startDoggo()">Start</button>
+
+    <button onclick="stopDoggo()">Stop</button>
+
+    <br><br>
+
+    <img src="" id="doggo" width="300">
+
+
+
+    <script>
+        // fetch data
+        const urlDoggo = "https://dog.ceo/api/breeds/image/random";
+
+        async function getDoggo() {
+            const response = await fetch(urlDoggo);
+            const data = await response.json();
+            document.getElementById("doggo").src = data.message;
+        }
+
+        getDoggo();
+
+
+
+        // button instructions
+        let myInterval;
+
+        function startDoggo() {
+            myInterval = setInterval(getDoggo, 3000);
+        }
+        function stopDoggo() {
+            clearInterval(myInterval);
+        }
+
+    </script>
+</body>
+
+</html>
