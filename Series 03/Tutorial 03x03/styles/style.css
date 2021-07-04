@@ -1,0 +1,186 @@
+/* element selectors */
+
+article {
+    background-color: #383838;
+    margin: auto;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    width: 70%;
+}
+
+aside {
+    background-color: lightsteelblue;
+    border-radius: 15px;
+    box-shadow: -0.5em 0.3em 0.4em #888888;
+    color: black;
+    float: right;
+    font-style: italic;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 40%;
+}
+
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+footer {
+    background-color: slategray;
+    color: #212121;
+    margin-top: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    /* image */
+    background-image: url('../images/dog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    /* text */
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+main {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+nav {
+    background-color: #212121;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: #aaaaaa;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #383838;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: auto;
+    padding-top: 20px;
+    width: 80%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 0;
+    padding: 4px 20px;
+    text-align: right;
+}
+
+td {
+    color: black;
+}
+
+tr.header {
+    background-color: navy !important;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: lightgray;
+}
+
+
+/* class selectors */
+
+.active {
+    background-color: #505050;
+    color: white;
+}
+
+.byline {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 33.3%;
+}
+
+.label {
+    text-align: center;
+    font-style: italic;
+}
+
+.overflow {
+    overflow-x: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.plot {
+    margin: 20px 0;
+    max-height: 500px;
+    width: 100%;
+}
+
+.staff {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* @media rules */
+
+@media screen and (max-width: 600px) {
+    .column {
+        display: block;
+        width: 100%;
+    }
+}
