@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermostat UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Thermostat UI</h1>
+
+    <div class="dashboard">
+        <div class="column">
+            <div class="container">
+                <p id="F">[hold]</p>
+            </div>
+            <div class="container">
+                <div><button onclick="warmer()" id="up">+</button></div>
+                <div><button onclick="cooler()" id="down">-</button></div>
+            </div>
+            <div class="container">
+                <p id="C">[hold]</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

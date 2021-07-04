@@ -1,0 +1,101 @@
+/* element rules */
+
+body {
+    margin: auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+button {
+    border: black;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* class rules */
+
+.column {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 15px;
+}
+
+.dashboard {
+    background-image: linear-gradient(gray, black);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    /* center */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* id rules */
+
+#C, #F {
+    background-color: bisque;
+    border: 3px solid green;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    height: 150px;
+    text-align: center;
+    width: 150px;
+    /* center */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#down {
+    background-color: blue;
+    cursor: pointer;
+}
+
+#down:active {
+    background-color: lightslategray;
+}
+
+#down:hover {
+    border: 3px solid green;
+}
+
+#up {
+    background-color: red;
+    cursor: pointer;
+}
+
+#up:active {
+    background-color: lightcoral;
+}
+
+#up:hover {
+    border: 3px solid green;
+}
+
+/* @media rules */
+
+@media screen and (max-width: 600px) {
+    .column {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
