@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Analysis Reference</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* table rules */
+        table {
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(odd) {
+            background: lightgray;
+        }
+
+        td {
+            padding: 4px 16px;
+        }
+    </style>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.0.0.min.js"></script>
+</head>
+
+<body>
+    <h1>JavaScript for Analysis Reference</h1>
+
+    <!-- Part 1: Fetch CSV Data -->
+
+    <h2>Part 1: How to fetch CSV file and convert to string</h2>
+
+    <h3>Data Source: Wikipedia</h3>
+
+    <p>Raw Data (string):</p>
+
+    <p id="csv"></p>
+
+
+
+    <!-- Part 2: Convert CSV into JSON -->
+
+    <h2>Part 2: How to convert CSV string into JSON object</h2>
+
+    <p>JSON (object):</p>
+
+    <p id="json"></p>
+
+
+
+    <!-- Part 3: Display JSON as HTML Table -->
+
+    <h2>Part 3: How to convert JSON object into HTML table object</h2>
+
+    <p>HTML Table (object):</p>
+
+    <div id="container"></div>
+
+
+
+    <!-- Part 4: Plot Data -->
+
+    <h2>Part 4: How to plot data using PlotlyJS</h2>
+
+    <p>Plot (object):</p>
+
+    <div id="myPlot" style="width: 650px; height: 500px;"></div>
+
+
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+
+</html>
