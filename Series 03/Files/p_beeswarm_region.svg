@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="160mm" height="90mm" viewBox="0 0 160 90"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<defs>
+  <marker id="arrow" markerWidth="15" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L15,3.5 L0,7 z" stroke="context-stroke" fill="context-stroke"/>
+  </marker>
+</defs>
+<g stroke="#000000" stroke-opacity="0.000" fill="#FFFFFF" id="img-b5247572-1">
+  <g transform="translate(80,45)">
+    <path d="M-80,-45 L80,-45 80,45 -80,45  z" class="primitive"/>
+  </g>
+</g>
+<g class="plotroot yscalable" id="img-b5247572-2">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b5247572-3">
+    <g transform="translate(79.93,78.39)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Region</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b5247572-4">
+    <g transform="translate(31.69,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Africa</text>
+      </g>
+    </g>
+    <g transform="translate(55.81,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Americas</text>
+      </g>
+    </g>
+    <g transform="translate(79.93,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Asia</text>
+      </g>
+    </g>
+    <g transform="translate(104.05,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Europe</text>
+      </g>
+    </g>
+    <g transform="translate(128.17,71.72)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Oceania</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide colorkey" id="img-b5247572-5">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-b5247572-6">
+      <g transform="translate(144.05,35.22)" id="img-b5247572-7" class="color_Africa">
+        <g class="primitive">
+          <text dy="0.35em">Africa</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,38.85)" id="img-b5247572-8" class="color_Americas">
+        <g class="primitive">
+          <text dy="0.35em">Americas</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,42.48)" id="img-b5247572-9" class="color_Asia">
+        <g class="primitive">
+          <text dy="0.35em">Asia</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,46.1)" id="img-b5247572-10" class="color_Europe">
+        <g class="primitive">
+          <text dy="0.35em">Europe</text>
+        </g>
+      </g>
+      <g transform="translate(144.05,49.73)" id="img-b5247572-11" class="color_Oceania">
+        <g class="primitive">
+          <text dy="0.35em">Oceania</text>
+        </g>
+      </g>
+    </g>
+    <g fill-opacity="1" id="img-b5247572-12">
+      <g transform="translate(142.14,35.22)" id="img-b5247572-13" stroke="#FFFFFF" fill="#00BFFF" class="color_Africa">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,38.85)" id="img-b5247572-14" stroke="#FFFFFF" fill="#D4CA3A" class="color_Americas">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,42.48)" id="img-b5247572-15" stroke="#FFFFFF" fill="#FF6DAE" class="color_Asia">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,46.1)" id="img-b5247572-16" stroke="#FFFFFF" fill="#00B78D" class="color_Europe">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+      <g transform="translate(142.14,49.73)" id="img-b5247572-17" stroke="#FFFFFF" fill="#BEA9FF" class="color_Oceania">
+        <path d="M-0.91,-0.91 L0.91,-0.91 0.91,0.91 -0.91,0.91  z" class="primitive"/>
+      </g>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-b5247572-18">
+      <g transform="translate(141.23,31.4)" id="img-b5247572-19">
+        <g class="primitive">
+          <text dy="-0em">Region</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g clip-path="url(#img-b5247572-20)">
+    <g id="img-b5247572-21">
+      <g pointer-events="visible" stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-b5247572-22">
+        <g transform="translate(79.93,40.66)" id="img-b5247572-23">
+          <path d="M-60.3,-30.05 L60.3,-30.05 60.3,30.05 -60.3,30.05  z" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b5247572-24">
+        <g transform="translate(79.93,68.72)" id="img-b5247572-25">
+          <path fill="none" d="M-60.3,0 L60.3,0 " class="primitive"/>
+        </g>
+        <g transform="translate(79.93,40.66)" id="img-b5247572-26">
+          <path fill="none" d="M-60.3,0 L60.3,0 " class="primitive"/>
+        </g>
+        <g transform="translate(79.93,12.61)" id="img-b5247572-27">
+          <path fill="none" d="M-60.3,0 L60.3,0 " class="primitive"/>
+        </g>
+      </g>
+      <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b5247572-28">
+        <g transform="translate(43.75,40.66)" id="img-b5247572-29">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(67.87,40.66)" id="img-b5247572-30">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(91.99,40.66)" id="img-b5247572-31">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+        <g transform="translate(116.11,40.66)" id="img-b5247572-32">
+          <path fill="none" d="M0,-30.05 L0,30.05 " class="primitive"/>
+        </g>
+      </g>
+      <g class="plotpanel" id="img-b5247572-33">
+        <metadata>
+          <boundingbox value="19.63166666666666mm 10.611666666666665mm 120.60166666666666mm 60.10333333333334mm"/>
+          <unitbox value="0.5 103.5648505733468 5.0 -107.1297011466936"/>
+        </metadata>
+        <g class="geometry" id="img-b5247572-34">
+          <g stroke="#000000" stroke-opacity="0.000" stroke-width="0.3" class="marker" id="img-b5247572-35">
+            <g transform="translate(55.81,68.71)" id="img-b5247572-36" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(57.71,68.71)" id="img-b5247572-37" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(128.17,68.71)" id="img-b5247572-38" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(130.07,68.71)" id="img-b5247572-39" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(53.91,68.71)" id="img-b5247572-40" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(126.27,68.7)" id="img-b5247572-41" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(124.37,68.7)" id="img-b5247572-42" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(59.61,68.7)" id="img-b5247572-43" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,68.7)" id="img-b5247572-44" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(52.01,68.69)" id="img-b5247572-45" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(105.95,68.69)" id="img-b5247572-46" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(107.85,68.69)" id="img-b5247572-47" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(61.51,68.69)" id="img-b5247572-48" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,68.69)" id="img-b5247572-49" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(131.97,68.68)" id="img-b5247572-50" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(50.11,68.68)" id="img-b5247572-51" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(133.87,68.68)" id="img-b5247572-52" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(63.41,68.68)" id="img-b5247572-53" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(48.21,68.68)" id="img-b5247572-54" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(46.31,68.67)" id="img-b5247572-55" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(109.75,68.67)" id="img-b5247572-56" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(65.31,68.66)" id="img-b5247572-57" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,68.66)" id="img-b5247572-58" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(44.41,68.66)" id="img-b5247572-59" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(122.47,68.65)" id="img-b5247572-60" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(42.51,68.65)" id="img-b5247572-61" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(120.57,68.65)" id="img-b5247572-62" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(118.67,68.65)" id="img-b5247572-63" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(67.21,68.62)" id="img-b5247572-64" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,68.61)" id="img-b5247572-65" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,68.59)" id="img-b5247572-66" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(135.77,68.56)" id="img-b5247572-67" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(116.78,68.56)" id="img-b5247572-68" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(40.61,68.55)" id="img-b5247572-69" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(137.67,68.55)" id="img-b5247572-70" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(111.65,68.52)" id="img-b5247572-71" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(69.11,68.5)" id="img-b5247572-72" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(38.72,68.5)" id="img-b5247572-73" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,68.47)" id="img-b5247572-74" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(102.17,68.47)" id="img-b5247572-75" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.83,68.42)" id="img-b5247572-76" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,68.41)" id="img-b5247572-77" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(71,68.39)" id="img-b5247572-78" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(100.27,68.37)" id="img-b5247572-79" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(98.37,68.36)" id="img-b5247572-80" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(78.04,68.36)" id="img-b5247572-81" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(139.56,68.34)" id="img-b5247572-82" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(76.14,68.29)" id="img-b5247572-83" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(72.9,68.28)" id="img-b5247572-84" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,68.24)" id="img-b5247572-85" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(114.91,68.22)" id="img-b5247572-86" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,68.17)" id="img-b5247572-87" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.59,68.07)" id="img-b5247572-88" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(83.7,68.05)" id="img-b5247572-89" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(29.8,68.04)" id="img-b5247572-90" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(85.6,67.99)" id="img-b5247572-91" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(113.46,67.97)" id="img-b5247572-92" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(35.49,67.95)" id="img-b5247572-93" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(36.9,67.93)" id="img-b5247572-94" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(74.3,67.79)" id="img-b5247572-95" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(96.61,67.65)" id="img-b5247572-96" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(27.94,67.64)" id="img-b5247572-97" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(94.71,67.55)" id="img-b5247572-98" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(115.32,67.55)" id="img-b5247572-99" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(37.34,67.52)" id="img-b5247572-100" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(26.04,67.5)" id="img-b5247572-101" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(39.23,67.42)" id="img-b5247572-102" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(24.15,67.4)" id="img-b5247572-103" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(22.25,67.32)" id="img-b5247572-104" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,67.17)" id="img-b5247572-105" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,67.13)" id="img-b5247572-106" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(92.87,67.1)" id="img-b5247572-107" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(74.37,67.07)" id="img-b5247572-108" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(76.27,67.06)" id="img-b5247572-109" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(72.55,67.06)" id="img-b5247572-110" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(87.16,66.91)" id="img-b5247572-111" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(106.46,66.86)" id="img-b5247572-112" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(56.29,66.77)" id="img-b5247572-113" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,66.75)" id="img-b5247572-114" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(77.79,66.47)" id="img-b5247572-115" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(102.29,66.45)" id="img-b5247572-116" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(108.3,66.4)" id="img-b5247572-117" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.67,66.35)" id="img-b5247572-118" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(54.44,66.33)" id="img-b5247572-119" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.72,66.18)" id="img-b5247572-120" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(29.93,66.05)" id="img-b5247572-121" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(128.17,66.03)" id="img-b5247572-122" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(97.52,65.98)" id="img-b5247572-123" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(35.61,65.95)" id="img-b5247572-124" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(83.52,65.92)" id="img-b5247572-125" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(75.97,65.92)" id="img-b5247572-126" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(52.59,65.88)" id="img-b5247572-127" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(100.55,65.7)" id="img-b5247572-128" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(28.06,65.7)" id="img-b5247572-129" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(94.85,65.65)" id="img-b5247572-130" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(110.03,65.61)" id="img-b5247572-131" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.92,65.48)" id="img-b5247572-132" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(85.92,65.46)" id="img-b5247572-133" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(74.15,65.38)" id="img-b5247572-134" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,65.12)" id="img-b5247572-135" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(50.86,65.09)" id="img-b5247572-136" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(57.07,65.04)" id="img-b5247572-137" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(32.16,64.91)" id="img-b5247572-138" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(72.32,64.87)" id="img-b5247572-139" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(106.69,64.79)" id="img-b5247572-140" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(58.95,64.76)" id="img-b5247572-141" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,64.69)" id="img-b5247572-142" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,64.54)" id="img-b5247572-143" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(34.18,64.33)" id="img-b5247572-144" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(30.25,64.18)" id="img-b5247572-145" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.73,63.94)" id="img-b5247572-146" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(103.87,63.9)" id="img-b5247572-147" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(108.31,63.79)" id="img-b5247572-148" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(128.17,63.79)" id="img-b5247572-149" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,63.69)" id="img-b5247572-150" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(78.35,63.49)" id="img-b5247572-151" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(102.03,63.41)" id="img-b5247572-152" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(110.14,63.28)" id="img-b5247572-153" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,63.25)" id="img-b5247572-154" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(76.47,63.23)" id="img-b5247572-155" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(100.16,63.08)" id="img-b5247572-156" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(83.43,63.08)" id="img-b5247572-157" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(74.58,63.05)" id="img-b5247572-158" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(105.81,62.98)" id="img-b5247572-159" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(98.28,62.84)" id="img-b5247572-160" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(96.38,62.72)" id="img-b5247572-161" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,62.69)" id="img-b5247572-162" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,62.62)" id="img-b5247572-163" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.65,62.51)" id="img-b5247572-164" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,62.4)" id="img-b5247572-165" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(57.71,62.36)" id="img-b5247572-166" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(53.92,62.26)" id="img-b5247572-167" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(111.73,62.24)" id="img-b5247572-168" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(29.85,62.15)" id="img-b5247572-169" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(27.95,62.09)" id="img-b5247572-170" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,61.63)" id="img-b5247572-171" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(26.13,61.55)" id="img-b5247572-172" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.22,60.5)" id="img-b5247572-173" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(30.64,60.05)" id="img-b5247572-174" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(28.76,59.77)" id="img-b5247572-175" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(34.88,59.57)" id="img-b5247572-176" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,59.47)" id="img-b5247572-177" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.8,59.14)" id="img-b5247572-178" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,59.12)" id="img-b5247572-179" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,58.97)" id="img-b5247572-180" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(57.71,58.85)" id="img-b5247572-181" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.97,58.69)" id="img-b5247572-182" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,58.31)" id="img-b5247572-183" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(29.99,58.26)" id="img-b5247572-184" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(54.13,58.08)" id="img-b5247572-185" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(105.46,57.85)" id="img-b5247572-186" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.58,57.69)" id="img-b5247572-187" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(35.44,57.31)" id="img-b5247572-188" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.02,56.75)" id="img-b5247572-189" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,55.64)" id="img-b5247572-190" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(128.17,54.58)" id="img-b5247572-191" fill="#BEA9FF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,54.32)" id="img-b5247572-192" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.03,54.29)" id="img-b5247572-193" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(30.45,54.2)" id="img-b5247572-194" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(34.79,53.58)" id="img-b5247572-195" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,52.72)" id="img-b5247572-196" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(80.87,52.66)" id="img-b5247572-197" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,52.54)" id="img-b5247572-198" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79,52.35)" id="img-b5247572-199" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.39,51.68)" id="img-b5247572-200" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(30.8,50.86)" id="img-b5247572-201" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(80.08,50.79)" id="img-b5247572-202" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,50.48)" id="img-b5247572-203" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(78.27,50.21)" id="img-b5247572-204" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.46,49.49)" id="img-b5247572-205" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,48.25)" id="img-b5247572-206" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,47.73)" id="img-b5247572-207" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,47.46)" id="img-b5247572-208" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,47.37)" id="img-b5247572-209" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,46.66)" id="img-b5247572-210" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,44.7)" id="img-b5247572-211" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,44.56)" id="img-b5247572-212" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,44.03)" id="img-b5247572-213" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.46,43.88)" id="img-b5247572-214" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,43.59)" id="img-b5247572-215" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(105.17,42.49)" id="img-b5247572-216" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(55.81,40.47)" id="img-b5247572-217" fill="#D4CA3A">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,39.98)" id="img-b5247572-218" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,39.22)" id="img-b5247572-219" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(80.98,38.39)" id="img-b5247572-220" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,36.17)" id="img-b5247572-221" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(33.57,35.86)" id="img-b5247572-222" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,34.74)" id="img-b5247572-223" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,32.17)" id="img-b5247572-224" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(105.39,30.83)" id="img-b5247572-225" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,29.98)" id="img-b5247572-226" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,22.2)" id="img-b5247572-227" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(81.81,21.91)" id="img-b5247572-228" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(104.05,21.86)" id="img-b5247572-229" fill="#00B78D">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(31.69,20.02)" id="img-b5247572-230" fill="#00BFFF">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+            <g transform="translate(79.93,14.6)" id="img-b5247572-231" fill="#FF6DAE">
+              <circle cx="0" cy="0" r="0.9" class="primitive"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b5247572-232">
+    <g transform="translate(18.63,68.72)" id="img-b5247572-233">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">0</text>
+      </g>
+    </g>
+    <g transform="translate(18.63,40.66)" id="img-b5247572-234">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">50</text>
+      </g>
+    </g>
+    <g transform="translate(18.63,12.61)" id="img-b5247572-235">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">100</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b5247572-236">
+    <g transform="translate(8.81,38.66)" id="img-b5247572-237">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.35em" transform="rotate(-90,0, 2)">Population (mils)</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b5247572-238">
+    <g transform="translate(79.93,5)" id="img-b5247572-239">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2019 Population Beeswarm by Region (sub 100 mil)</text>
+      </g>
+    </g>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-b5247572-20">
+    <path d="M19.63,10.61 L140.23,10.61 140.23,70.72 19.63,70.72 " />
+  </clipPath>
+</defs>
+</svg>
