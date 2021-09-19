@@ -1,0 +1,4 @@
+name = "HelloApp"
+uuid = "2227d3cb-96c4-46f6-b3d2-161b3d7133e1"
+authors = ["Doggo <doggo@doggo.doggo>"]
+version = "0.1.0"
