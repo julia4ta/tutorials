@@ -1,0 +1,5 @@
+[deps]
+DataVoyager = "5721bf48-af8e-5845-8445-c9e18126e773"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+VegaDatasets = "0ae4a718-28b7-58ec-9efb-cded64d6d5b4"
+VegaLite = "112f6efa-9a02-5b7d-90c0-432ed331239a"
