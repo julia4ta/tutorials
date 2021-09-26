@@ -1,0 +1,9 @@
+name = "VoyagerApp"
+uuid = "d05f935d-96b0-4bd2-85fb-712ce3500b47"
+authors = ["Doggo <doggo@doggo.doggo>"]
+version = "0.1.0"
+
+[deps]
+DataVoyager = "5721bf48-af8e-5845-8445-c9e18126e773"
+VegaDatasets = "0ae4a718-28b7-58ec-9efb-cded64d6d5b4"
+VegaLite = "112f6efa-9a02-5b7d-90c0-432ed331239a"
