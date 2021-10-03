@@ -1,0 +1,7 @@
+name = "HelloGtkApp"
+uuid = "e0acb508-221b-40d8-ae37-7b4d3a9611fc"
+authors = ["Doggo <doggo@doggo.doggo>"]
+version = "0.1.0"
+
+[deps]
+Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"

@@ -1,0 +1,1 @@
+julia --project --sysimage gtk_sysimage.dll
