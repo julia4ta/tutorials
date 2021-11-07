@@ -1,0 +1,11 @@
+# ffmpeg cheat sheet
+
+# how to convert a series of images into an MP4 video
+# (from the same working directory as your files)
+
+ffmpeg -i "%10d.png" -c:v libx264 -crf 0 "../movie.mp4"
+
+# the default framerate = 25 fps
+# use -r 50 before -i to change the framerate to 50 fps
+
+ffmpeg -r 50 -i "%10d.png" -c:v libx264 -crf 0 "../movie_50fps.mp4"
