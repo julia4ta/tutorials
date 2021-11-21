@@ -1,0 +1,55 @@
+# sample songs
+
+# Scale from C4 to C5 to C4
+    Z-X-C-V-B-N-M-COMMA---COMMA-M-N-B-V-C-X-Z
+
+# kids songs
+
+# Do-Re-Mi (from The Sound of Music) by Richard Rodgers and Oscar Hammerstein II
+    Z---X-C---Z-C-Z-C---X---C-V-V-C-X-V
+# Twinkle, Twinkle, Little Star (public domain)
+    Z-Z-B-B-N-N-B---V-V-C-C-X-X-Z
+# Happy Birthday (public domain)
+    Z-Z-X-Z-V-C---Z-Z-X-Z-B-V
+# Wiegenlied (Lullaby) by Johannes Brahms
+    C-C-B---C-C-B---C-B-COMMA-M-N-N-B
+
+# classical
+
+# Pachelbel's Canon by Johann Pachelbel
+    COMMA---B---N---C---V---Z---V---B
+# Prelude in C Major by Johann Sebastian Bach
+    Z-C-B-COMMA-SLASH-B-COMMA-SLASH (2X)
+# Fur Elise by Ludwig van Beethoven
+    SLASH-SEMICOLON-SLASH-SEMICOLON-SLASH-M-PERIOD-COMMA-N
+# Piano Concerto No. 2 by Sergei Rachmaninoff
+    COMMA-N---J-COMMA-V---X-C-V-Z---PERIOD-COMMA-N---J-COMMA-V
+
+# tv/movies
+
+# Lara's Theme (from Doctor Zhivago) by Maurice Jarre
+    C---B---PERIOD-SLASH---M-PERIOD-COMMA-B-G-V
+# Those Were the Days (from All in the Family) by Lee Adams and Charles Strouse
+    S-D-G-H-J-G-G---G-H-J-L-SEMICOLON-J-J---
+    SEMICOLON-L-J-H-G-D-D---L--J-H---G
+# Hedwig's Theme (from Harry Potter) by John Williams
+    Z-V---H-B-V---COMMA---J---B
+# Jurassic Park Main Theme by John Williams
+    COMMA-M-COMMA-B-V (2X)
+# Forrest Gump Main Theme by Alan Silvestri
+    C-V-B-B-C-B-COMMA-B-C-V-B-N-N-V-N
+# Married Life (from Up) by Michael Giacchino
+    COMMA-SLASH-COMMA-M---COMMA-SLASH-M-N---
+    B-SLASH-PERIOD---N-SLASH-PERIOD-COMMA-N---
+    COMMA-PERIOD-COMMA-M---M-PERIOD-M-B---
+    V-C-V-B-B-N-M-COMMA
+# The Raiders March (from Raiders of the Losk Ark) by John Williams
+    C-V-B-COMMA---X-C-V
+
+# meme (no politics)
+
+# State Anthem of the Soviet Union by Alexander Alexandrov
+    B-COMMA-B-N-M-C-C-N-B-V-B-Z---
+    X-X-C-V-V-B-N-M-COMMA-PERIOD---
+    B-SLASH-PERIOD-COMMA-PERIOD-B-
+    B-COMMA-M-N-M-C-C-N-B-V-B-Z-COMMA-COMMA-M-N-B
