@@ -1,0 +1,5 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
