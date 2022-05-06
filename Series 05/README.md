@@ -2,7 +2,7 @@
 
 Repository for the [Series 05 | Julia Machine Learning for Beginners](https://www.youtube.com/watch?v=jA6IYSCpIug&list=PLhQ2JMBcfAsi76O13sJzk4LXA_mu5sd9E) YouTube Playlist.
 
-* [05x01] What is Machine Learning?
+* [05x01] What is Machine Learning? (no code)
 * [05x02] Linear Regression
 * [05x03] Logistic Regression
 * [05x04] Naive Bayes Classifier
