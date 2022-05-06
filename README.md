@@ -34,7 +34,7 @@ If you prefer, I also have a Liberapay account that accepts donations in multipl
 ---
 ###### Notice of Non-Affiliation and Disclaimer
 
-I affiliated, associated, authorized, endorsed by, or in any way officially connected with The Julia Programming Language, Julia Academy, Julia Computing, Microsoft, or any of their subsidiaries or their affiliates.
+I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Julia Programming Language, Julia Academy, Julia Computing, Microsoft, or any of their subsidiaries or their affiliates.
 
 Nor am I affiliated, associated, authorized, endorsed by, or in any way officially connected with any software, packages or libraries used in these videos.
 
