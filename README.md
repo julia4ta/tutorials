@@ -16,7 +16,7 @@ I make free coding tutorials which are intended for students, hobbyists, tinkere
 I started this project because I had a difficult time finding free resources for beginners when I was trying to learn Julia. I am sharing my experience with others who may also be struggling to find resources.
 
 ---
-#### Ways to support this project
+### Ways to support this project
 
 I am an independent creator and I produce these videos by myself on my own time, so any support is appreciated.
 
@@ -32,7 +32,7 @@ If you prefer, I also have a Liberapay account that accepts donations in multipl
 
 
 ---
-###### Notice of Non-Affiliation and Disclaimer
+#### Notice of Non-Affiliation and Disclaimer
 
 I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Julia Programming Language, Julia Academy, Julia Computing, Microsoft, or any of their subsidiaries or their affiliates.
 
