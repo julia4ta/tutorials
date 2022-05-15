@@ -22,7 +22,7 @@ I am an independent creator and I produce these videos by myself on my own time,
 
 The best way to support this project is to simply watch the videos for free on YouTube. You can also Like, Share and Comment.
 
-If you'd like to support the project financially, you can make one-time donations using YouTube's Super Thanks button, which is available on every video next to the Share button (you have to be signed in to YouTube to see the button).
+If you'd like to support the project financially, you can make one-time donations using YouTube's Super Thanks button, which is available on every video (you have to be signed in to YouTube to see the button).
 
 For on-going support, please consider [Joining](https://www.youtube.com/channel/UCQwQVlIkbalDzmMnr-0tRhw/join) and becoming a channel member (you need to be signed in to YouTube to use this link). Channel Members get early access to videos.
 
@@ -36,6 +36,6 @@ If you prefer, I also have a Liberapay account that accepts donations in multipl
 
 I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Julia Programming Language, Julia Academy, Julia Computing, Microsoft, or any of their subsidiaries or their affiliates.
 
-Nor am I affiliated, associated, authorized, endorsed by, or in any way officially connected with any software, packages or libraries used in these videos.
+Nor am I affiliated, associated, authorized, endorsed by, or in any way officially connected with any software, packages, libraries or frameworks used in these videos.
 
 All marks, emblems and images are registered trademarks of their respective owners. Use of them does not imply any affiliation with or endorsement by them.
