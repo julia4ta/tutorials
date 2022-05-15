@@ -1,0 +1,8 @@
+# Windows:
+gcc --version
+
+# MacOS:
+clang --version
+
+# Linux:
+gcc -v
