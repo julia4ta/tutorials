@@ -6,6 +6,7 @@ This is the official repository for the [julia for talented amateurs](https://ww
 * Series 03 (2021-05): Julia Web Tools for Beginners
 * Series 04 (2021-09): Julia Desktop Apps
 * Series 05 (2022-01): Julia Machine Learning for Beginners
+* Series 06 (2022-05): Low-Level Languages for Julia Users
 ---
 ## Project Description
 
