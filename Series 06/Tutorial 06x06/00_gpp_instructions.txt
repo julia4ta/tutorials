@@ -1,0 +1,7 @@
+##################################################
+# how to create portable exe file using g++
+##################################################
+
+# windows:
+
+g++ filename.cpp -o filename -l:libstdc++.a -static
