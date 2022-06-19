@@ -7,7 +7,7 @@ Repository for the [Series 06 | Low-level Languages for Julia Users](https://you
 * [06x03] C Programming Language 101 for Julia Users (Part 2 of 2)
 * [06x04] Differences between the C Programming Language and Julia
 * [06x05] How to use C code in Julia
-* [06x06] TBD
+* [06x06] C++ Programming Language 101 for Julia Users (Part 1)
 * [06x07] TBD
 * [06x08] TBD
 * [06x09] TBD
