@@ -1,0 +1,19 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.7.2"
+manifest_format = "2.0"
+
+[[deps.CxxCall]]
+deps = ["CxxInterface"]
+git-tree-sha1 = "169c1a6512d57e7b81ca4f6a02d760329b4c43fa"
+uuid = "dbaf2c2e-b61b-429c-b386-57175d7288fb"
+version = "0.2.0"
+
+[[deps.CxxInterface]]
+deps = ["Libdl"]
+git-tree-sha1 = "c78163c6f731f2eb97d46fb1ed171d496e11942b"
+uuid = "62027b0a-52e9-423e-ab47-e314c210e772"
+version = "1.0.1"
+
+[[deps.Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
