@@ -10,7 +10,7 @@ Repository for the [Series 06 | Low-level Languages for Julia Users](https://you
 * [06x06] C++ Programming Language 101 for Julia Users (Part 1 of 3)
 * [06x07] C++ Programming Language 101 for Julia Users (Part 2 of 3)
 * [06x08] C++ Object-Oriented Programming (C++ 101 for Julia Users Part 3 of 3)
-* [06x09] TBD
+* [06x09] How to Embed C++ Code in Julia using CxxCall.jl
 * [06x10] TBD
 * [06x11] TBD
 * [06x12] TBD
