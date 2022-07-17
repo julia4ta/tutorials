@@ -5,7 +5,7 @@ Repository for the [Series 06 | Low-level Languages for Julia Users](https://you
 * [06x01] How to Install and Set Up C, C++, GCC, Julia, VS Code & MSYS2 for Windows
 * [06x02] C Programming Language 101 for Julia Users (Part 1 of 2)
 * [06x03] C Programming Language 101 for Julia Users (Part 2 of 2)
-* [06x04] Differences between the C Programming Language and Julia
+* [06x04] Differences between the C Programming Language and Julia (C 101 Part 3 of 3)
 * [06x05] How to Call C Code from Julia | How to Use Julia's printf Macro
 * [06x06] C++ Programming Language 101 for Julia Users (Part 1 of 3)
 * [06x07] C++ Programming Language 101 for Julia Users (Part 2 of 3)
