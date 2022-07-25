@@ -80,7 +80,7 @@ ps = params(model)
 
 # select optimizer
 
-learning_rate = 0.01
+learning_rate = Float32(0.01)
 
 opt = ADAM(learning_rate)
 
