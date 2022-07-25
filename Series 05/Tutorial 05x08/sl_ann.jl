@@ -8,7 +8,7 @@ using Flux, Images, MLDatasets, Plots
 
 using Flux: crossentropy, onecold, onehotbatch, params, train!
 
-using LinearAlgebra, Random, Statistics
+using Random, Statistics
 
 # set random seed
 
