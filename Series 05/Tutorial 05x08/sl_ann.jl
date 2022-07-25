@@ -6,7 +6,7 @@
 
 using Flux, Images, MLDatasets, Plots
 
-using Flux: crossentropy, onecold, onehotbatch, train!
+using Flux: crossentropy, onecold, onehotbatch, params, train!
 
 using LinearAlgebra, Random, Statistics
 
@@ -16,9 +16,9 @@ Random.seed!(1)
 
 # load data
 
-X_train_raw, y_train_raw = MLDatasets.MNIST.traindata(Float32)
+X_train_raw, y_train_raw = MLDatasets.MNIST(:train)[:]
 
-X_test_raw, y_test_raw = MLDatasets.MNIST.testdata(Float32)
+X_test_raw, y_test_raw = MLDatasets.MNIST(:test)[:]
 
 # view training input
 
