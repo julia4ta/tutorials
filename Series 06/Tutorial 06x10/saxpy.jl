@@ -18,6 +18,9 @@ const dim = 100_000_000
 
 const a = 3.1416
 
+# Float32() will improve performance on CPU and GPU
+# const a = Float32(3.1416)
+
 ##################################################
 # SAXPY (CPU)
 ##################################################
