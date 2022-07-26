@@ -10,6 +10,9 @@ const dim = 100_000_000
 
 const a = 3.1416
 
+# Float32() will improve performance on CPU and GPU
+# const a = Float32(3.1416)
+
 # times from last tutorial (in ms)
 
 cpu_time = 54.232
@@ -89,6 +92,9 @@ y
 y = CUDA.ones(Float32, dim)
 
 @btime CUDA.@sync CUBLAS.axpy!(dim, a, x, y)
+
+# @btime macro runs axpy!() multiple times, so
+# values in y will be overwritten multiple times.
 
 # record CUDA Library time
 
