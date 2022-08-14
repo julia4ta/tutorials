@@ -14,4 +14,4 @@ Repository for the [Series 06 | Low-level Languages for Julia Users](https://you
 * [06x10] High-level, Conceptual Introduction to Julia GPGPU using CUDA.jl (CUDA.jl 101 Part 1 of 3)
 * [06x11] How to Write CUDA Kernels and Use CUDA Libraries using CUDA.jl (CUDA.jl 101 Part 2 of 3)
 * [06x12] How to use your GPU for Machine Learning using CUDA.jl and Flux.jl (CUDA.jl 101 Part 3 of 3)
-* [06x13] TBD
+* [06x13] Viewer Appreciation | Annual Report | Financials | Lessons Learned | Channel Future
