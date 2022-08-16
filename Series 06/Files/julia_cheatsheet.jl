@@ -63,7 +63,7 @@ typeof(1.2)
 typeof(pi)
 1000000 == 1_000_000
 sqrt(4)
-round(3.14149, digits = 2)
+round(3.14159, digits = 2)
 
 # = variable assignment operator
 # == equality test
