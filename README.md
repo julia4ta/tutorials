@@ -33,6 +33,6 @@ If you'd like to support the project financially, you can make one-time donation
 
 For on-going support, please consider [Joining](https://www.youtube.com/channel/UCQwQVlIkbalDzmMnr-0tRhw/join) and becoming a channel member (you need to be signed in to YouTube to use this link). Channel Members get early access to videos.
 
-If you prefer, I also have a Liberapay account that accepts donations in multiple currencies and also allows for anonymous donations:
+If you prefer, I also have a Liberapay account that accepts donations in multiple currencies:
 
 <noscript><a href="https://liberapay.com/julia4ta/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
