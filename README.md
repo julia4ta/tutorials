@@ -1,5 +1,5 @@
 # Index
-This is the official repository for the [julia for talented amateurs](https://www.youtube.com/c/juliafortalentedamateurs) YouTube channel.
+This is the official repository for the [doggo dot jl](https://www.youtube.com/c/juliafortalentedamateurs) YouTube channel (fka julia for talented amateurs).
 
 * Series 01 (2020-09): Julia for Beginners
 * Series 02 (2021-01): Julia Analysis for Beginners
@@ -10,16 +10,22 @@ This is the official repository for the [julia for talented amateurs](https://ww
 ---
 ## Project Description
 
-I am a self-taught hobbyist and Julia is my first programming language.
+I am a self-taught coder and Julia is my first programming language. If I can learn it, so can you!
 
-I make free coding tutorials which are intended for students, hobbyists, tinkerers, enthusiasts and amateurs who have no programming experience.
+The Julia Programming Language is a relatively new language that serves as a gateway to knowledge.
 
-I started this project because I had a difficult time finding free resources for beginners when I was trying to learn Julia. I am sharing my experience with others who may also be struggling to find resources.
+I make educational videos on YouTube to help make Julia accessible to the masses.
+
+I started this project because I had a difficult time finding free resources for beginners when I was trying to learn Julia.
+
+I am sharing my experience with others who may also be struggling to find resources.
 
 ---
 ### Ways to support this project
 
 I am an independent creator and I produce these videos by myself on my own time, so any support is appreciated.
+
+Your support helps to keep this content free for a global community of students, educators, hobbyists and professionals.
 
 The best way to support this project is to simply watch the videos for free on YouTube. You can also Like, Share and Comment.
 
@@ -30,13 +36,3 @@ For on-going support, please consider [Joining](https://www.youtube.com/channel/
 If you prefer, I also have a Liberapay account that accepts donations in multiple currencies and also allows for anonymous donations:
 
 <noscript><a href="https://liberapay.com/julia4ta/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-
-
----
-#### Notice of Non-Affiliation and Disclaimer
-
-I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Julia Programming Language, Julia Academy, Julia Computing, Microsoft, or any of their subsidiaries or their affiliates.
-
-Nor am I affiliated, associated, authorized, endorsed by, or in any way officially connected with any software, packages, libraries or frameworks used in these videos.
-
-All marks, emblems and images are registered trademarks of their respective owners. Use of them does not imply any affiliation with or endorsement by them.
