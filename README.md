@@ -7,6 +7,7 @@ This is the official repository for the [doggo dot jl](https://www.youtube.com/c
 * Series 04 (2021-09): Julia Desktop Apps
 * Series 05 (2022-01): Julia Machine Learning for Beginners
 * Series 06 (2022-05): Low-Level Languages for Julia Users
+* Series 07 (2022-07): Julia Differential Equations for Beginners
 ---
 ## Project Description
 
