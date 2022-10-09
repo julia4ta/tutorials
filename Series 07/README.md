@@ -6,7 +6,7 @@ Repository for the [Series 07 | Julia Differential Equations for Beginners](http
 * [07x02] How to Use Markdown and LaTeX in Pluto Notebooks
 * [07x03] How to Create Engaging Interactive Reactive Notebooks using PlutoUI, Pluto and Julia
 * [07x04] Intro to Differential Equations in Julia using DifferentialEquations.jl and Pluto.jl
-* [07x05] TBD
+* [07x05] Solve Radiocarbon Dating & Verhulst Equation in Julia with DifferentialEquations.jl & Pluto
 * [07x06] TBD
 * [07x07] TBD
 * [07x08] TBD
