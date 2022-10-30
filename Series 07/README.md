@@ -9,7 +9,7 @@ Repository for the [Series 07 | Julia Differential Equations for Beginners](http
 * [07x05] Solve Radiocarbon Dating & Verhulst Equation in Julia with DifferentialEquations.jl & Pluto
 * [07x06] How to Solve Second Order ODEs in Julia using DifferentialEquations.jl and Pluto
 * [07x07] Solve Simple Harmonic Motion Problems in Julia using DifferentialEquations.jl and Pluto
-* [07x08] TBD
+* [07x08] Solve System of Differential Equations in Julia using DifferentialEquations.jl and Pluto
 * [07x09] TBD
 * [07x10] TBD
 * [07x11] TBD
