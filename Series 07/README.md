@@ -11,7 +11,7 @@ Repository for the [Series 07 | Julia Differential Equations for Beginners](http
 * [07x07] Solve Simple Harmonic Motion Problems in Julia using DifferentialEquations.jl and Pluto
 * [07x08] Solve System of Differential Equations in Julia using DifferentialEquations.jl and Pluto (Lotka-Volterra Equations aka Predator-Prey)
 * [07x09] Solve Lorenz System/Attractor (Chaos Theory/Butterfly Effect) with DifferentialEquations.jl
-* [07x10] TBD
+* [07x10] How to Solve the Double Pendulum Equations in Julia using DifferentialEquations.jl and Pluto
 * [07x11] TBD
 * [07x12] TBD
 * [07x13] TBD
