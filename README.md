@@ -1,5 +1,5 @@
 # Index
-This is the official repository for the [doggo dot jl](https://www.youtube.com/c/juliafortalentedamateurs) YouTube channel (fka julia for talented amateurs).
+This is the official repository for the [doggo dot jl](https://www.youtube.com/@doggodotjl) YouTube channel (fka julia for talented amateurs).
 
 * Series 01 (2020-09): Julia for Beginners
 * Series 02 (2021-01): Julia Analysis for Beginners
