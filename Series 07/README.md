@@ -14,4 +14,4 @@ Repository for the [Series 07 | Julia Differential Equations for Beginners](http
 * [07x10] How to Solve the Double Pendulum Equations in Julia using DifferentialEquations.jl and Pluto
 * [07x11] How to Solve the Three-Body Problem in Julia using DifferentialEquations.jl and Pluto
 * [07x12] Intro to Stochastic Differential Equations in Julia using DifferentialEquations.jl and Pluto
-* [07x13] TBD
+* [07x13] Intro to Partial Differential Equations in Julia using DifferentialEquations.jl and Pluto (Heat Equation)
