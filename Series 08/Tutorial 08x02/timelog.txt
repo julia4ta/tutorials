@@ -1,0 +1,29 @@
+axpy1.jl -- Write Naive Code:
+37.340248 seconds (700.00 M allocations: 12.917 GiB, 48.03% gc time, 0.01% compilation time)
+39.083526 seconds (700.00 M allocations: 12.917 GiB, 49.69% gc time)
+40.413476 seconds (700.00 M allocations: 12.917 GiB, 50.93% gc time)
+
+axpy2.jl -- Wrap Code in Function:
+3.803253 seconds (100.02 M allocations: 2.487 GiB, 53.30% gc time, 0.25% compilation time)
+6.049706 seconds (100.00 M allocations: 2.486 GiB, 69.45% gc time)
+7.714653 seconds (100.00 M allocations: 2.486 GiB, 77.00% gc time)
+
+axpy3.jl -- Use Arithmetic Operators:
+0.482835 seconds (431.32 k allocations: 1.512 GiB, 20.83% gc time, 16.21% compilation time)
+0.392232 seconds (4 allocations: 1.490 GiB, 7.17% gc time)
+0.316891 seconds (4 allocations: 1.490 GiB)
+
+axpy4.jl -- Use Broadcasting:
+0.282083 seconds (267.36 k allocations: 776.846 MiB, 19.03% gc time, 20.41% compilation time)
+0.215447 seconds (6 allocations: 762.940 MiB, 20.92% gc time)
+0.179684 seconds (6 allocations: 762.940 MiB)
+
+axpy5.jl -- Use Broadcasting + 32-bit Numbers:
+0.197050 seconds (275.55 k allocations: 395.832 MiB, 28.04% gc time, 30.04% compilation time)
+0.130954 seconds (6 allocations: 381.470 MiB, 35.31% gc time)
+0.081641 seconds (6 allocations: 381.470 MiB)
+
+axpy6.jl -- Use LinearAlgebra.axpy!() + 32-bit Numbers:
+0.047312 seconds (25.16 k allocations: 1.370 MiB, 23.51% compilation time)
+0.034060 seconds
+0.033123 seconds
