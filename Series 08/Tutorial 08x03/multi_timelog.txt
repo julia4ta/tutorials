@@ -1,0 +1,11 @@
+multi_axpy!() -- Use Multi-Threading, 32-bit, in-place
+0.074191 seconds (45.77 k allocations: 2.428 MiB, 56.14% compilation time)
+0.032739 seconds (220 allocations: 19.500 KiB)
+0.032528 seconds (217 allocations: 19.406 KiB)
+
+for reference:
+
+axpy6.jl -- Use LinearAlgebra.axpy!() + 32-bit Numbers:
+0.047312 seconds (25.16 k allocations: 1.370 MiB, 23.51% compilation time)
+0.034060 seconds
+0.033123 seconds
