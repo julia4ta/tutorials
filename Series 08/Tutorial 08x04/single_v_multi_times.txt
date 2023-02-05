@@ -1,0 +1,15 @@
+# Expectation
+
+## Single_Process
+10.116906 seconds (155 allocations: 7.953 KiB)
+
+## Multi-Process
+1.019849 seconds (1.41 k allocations: 71.352 KiB)
+
+# Reality
+
+## Single-Process
+0.001303 seconds (169 allocations: 8.562 KiB)
+
+## Multi-Process
+0.006578 seconds (1.62 k allocations: 80.492 KiB)
