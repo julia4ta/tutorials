@@ -11,7 +11,7 @@ Repository for the [Series 08 | Intro to Scientific Computing in Julia](https://
 * [08x07] Calculus using Julia Numerical Integration | QuadGK.jl, ForwardDiff.jl and Pluto
 * [08x08] Graph Theory in Julia using Graphs.jl, GraphRecipes.jl, SimpleWeightedGraphs.jl and VS Code
 * [08x09] Symbolic Computation in Julia using Symbolics.jl, SymbolicNumericIntegration.jl and Pluto
-* [08x10] TBD
+* [08x10] Intro to Probabilistic Programming in Julia using Turing.jl and Pluto
 * [08x11] TBD
 * [08x12] TBD
 * [08x13] TBD
