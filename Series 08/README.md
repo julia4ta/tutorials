@@ -2,7 +2,7 @@
 
 Repository for the [Series 08 | Intro to Scientific Computing in Julia](https://www.youtube.com/watch?v=_iQr9lNCTpY&list=PLhQ2JMBcfAsjQzwp2j97uZjNOMi7Ed4CG) YouTube Playlist.
 
-* [08x01] Intro to Scientific Computing in Julia
+* [08x01] Intro to Scientific Computing in Julia (no code)
 * [08x02] Julia Performance Tips and Tools | How to use @time, @profile, @profview, @profview_allocs
 * [08x03] Intro to Julia Multi-Threading | How to use the Threads.@threads macro
 * [08x04] Intro to Julia Multi-Processing (It's not the same as Multi-Threading!)
