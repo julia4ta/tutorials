@@ -13,5 +13,5 @@ Repository for the [Series 08 | Intro to Scientific Computing in Julia](https://
 * [08x09] Symbolic Computation in Julia using Symbolics.jl, SymbolicNumericIntegration.jl and Pluto
 * [08x10] Intro to Probabilistic Programming in Julia using Turing.jl and Pluto
 * [08x11] What is Probabilistic Programming? (same code as [08x10])
-* [08x12] TBD
+* [08x12] Intro to SciML
 * [08x13] TBD
