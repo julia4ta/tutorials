@@ -9,6 +9,7 @@ This is the official repository for the [doggo dot jl](https://www.youtube.com/@
 * Series 06 (2022-05): Low-Level Languages for Julia Users
 * Series 07 (2022-09): Julia Differential Equations for Beginners
 * Series 08 (2023-01): Intro to Scientific Computing in Julia
+* Series 09 (2023-05): Julia Probabilistic Programming for Beginners
 ---
 ## Project Description
 
