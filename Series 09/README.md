@@ -3,7 +3,7 @@
 Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](https://www.youtube.com/watch?v=zU30QOsShls&list=PLhQ2JMBcfAsgU7kZ-Ee_SDrjhJIehICmR) YouTube Playlist.
 
 * [09x01] How Much of Earth is Covered in Water? | Turing.jl | Julia Probabilistic Programming
-* [09x02] TBD
+* [09x02] Essential Concepts for Bayesian Statistics, Probabilistic Programming and Turing.jl
 * [09x03] TBD
 * [09x04] TBD
 * [09x05] TBD
