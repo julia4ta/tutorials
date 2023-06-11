@@ -6,7 +6,7 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x02] Essential Concepts for Bayesian Statistics, Probabilistic Programming and Turing.jl
 * [09x03] Bayesian Linear Regression | Turing.jl | Weight and Height Association in Human Adults
 * [09x04] Bayesian Logistic Regression | Turing.jl | Probability of Spotting Japanese Wolf Spiders
-* [09x05] TBD
+* [09x05] Bayesian B-Splines | BSplines.jl & Turing.jl | Cherry Tree Flowering in Kyoto City by Year
 * [09x06] TBD
 * [09x07] TBD
 * [09x08] TBD
