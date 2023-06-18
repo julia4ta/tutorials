@@ -7,7 +7,7 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x03] Bayesian Linear Regression | Turing.jl | Weight and Height Association in Human Adults
 * [09x04] Bayesian Logistic Regression | Turing.jl | Probability of Spotting Japanese Wolf Spiders
 * [09x05] Bayesian B-Splines | BSplines.jl & Turing.jl | Cherry Tree Flowering in Kyoto City by Year
-* [09x06] TBD
+* [09x06] Bayesian Poisson Regression | Turing.jl | Predict Sneeze Count based on Pollen & Medicine
 * [09x07] TBD
 * [09x08] TBD
 * [09x09] TBD
