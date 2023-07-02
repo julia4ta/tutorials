@@ -9,7 +9,7 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x05] Bayesian B-Splines | BSplines.jl & Turing.jl | Cherry Tree Flowering in Kyoto City by Year
 * [09x06] Bayesian Poisson Regression | Turing.jl | Predict Sneeze Count based on Pollen & Medicine
 * [09x07] Intro to Bayesian Time Series Analysis & Predictions | Turing.jl Autoregressive AR(2) Model
-* [09x08] TBD
+* [09x08] Intro to Bayesian Differential Equations using OrdinaryDiffEq.jl and Turing.jl
 * [09x09] TBD
 * [09x10] TBD
 * [09x11] TBD
