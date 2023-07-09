@@ -10,7 +10,7 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x06] Bayesian Poisson Regression | Turing.jl | Predict Sneeze Count based on Pollen & Medicine
 * [09x07] Intro to Bayesian Time Series Analysis & Predictions | Turing.jl Autoregressive AR(2) Model
 * [09x08] Intro to Bayesian Differential Equations using OrdinaryDiffEq.jl and Turing.jl
-* [09x09] TBD
+* [09x09] Bayesian Deep Learning through Laplace's Approximation using LaplaceRedux.jl and Flux.jl
 * [09x10] TBD
 * [09x11] TBD
 * [09x12] TBD
