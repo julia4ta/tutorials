@@ -13,5 +13,5 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x09] Bayesian Deep Learning through Laplace's Approximation using LaplaceRedux.jl and Flux.jl
 * [09x10] Intro to RxInfer.jl | Automatic Bayesian Inference on Factor Graph with Message Passing
 * [09x11] Real-time, Streaming Bayesian Analysis using RxInfer.jl
-* [09x12] TBD
+* [09x12] Bayesian Variational Inference (VI) using RxInfer.jl
 * [09x13] TBD
