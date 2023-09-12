@@ -13,5 +13,5 @@ Repository for the [Series 03 | Julia Web Tools for Beginners](https://www.youtu
 * [03x09] How to use Franklin.jl, a Julia Static Site Generator
 * [03x10] Genie.jl (no code)
 * [03x11] Web Scraping 101 using Gumbo.jl and Cascadia.jl
-* [03x12] How to build and deploy a Web Dashboard using Dash.jl and Heroku (no code)
+* DEPRECATED--[03x12] How to build and deploy a Web Dashboard using Dash.jl and Heroku (no code)
 * [03x13] 1,000 Subscriber Special (no code)
