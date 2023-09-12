@@ -14,4 +14,4 @@ Repository for the [Series 09 | Julia Probabilistic Programming for Beginners](h
 * [09x10] Intro to RxInfer.jl | Automatic Bayesian Inference on Factor Graph with Message Passing
 * [09x11] Real-time, Streaming Bayesian Analysis using RxInfer.jl
 * [09x12] Bayesian Variational Inference (VI) using RxInfer.jl
-* [09x13] TBD
+* [09x13] Top 10 JuliaCon 2023 Presentations | A Viewer's Guide to JuliaCon, JuMP-dev and SciMLCon
