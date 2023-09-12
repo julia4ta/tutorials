@@ -10,32 +10,37 @@ This is the official repository for the [doggo dot jl](https://www.youtube.com/@
 * Series 07 (2022-09): Julia Differential Equations for Beginners
 * Series 08 (2023-01): Intro to Scientific Computing in Julia
 * Series 09 (2023-05): Julia Probabilistic Programming for Beginners
+* Series 10 (2023-09): Julia for Absolute Beginners
 ---
 ## Project Description
 
-I am a self-taught coder and Julia is my first programming language. If I can learn it, so can you!
+The Julia Programming Language is the highest-level programming language ever created, so it serves as a gateway to knowledge.
 
-The Julia Programming Language is a relatively new language that serves as a gateway to knowledge.
+I share my educational videos on YouTube to help make Julia more accessible for a global community of students, educators, hobbyists and professionals.
 
-I make educational videos on YouTube to help make Julia accessible to the masses.
-
-I started this project because I had a difficult time finding free resources for beginners when I was trying to learn Julia.
-
-I am sharing my experience with others who may also be struggling to find resources.
+I share all of my code on GitHub, so everyone has free access to my code.
 
 ---
 ### Ways to support this project
 
-I am an independent creator and I produce these videos by myself on my own time, so any support is appreciated.
+I am funding this project from my personal savings and from the generosity of donors like you.
 
-Your support helps to keep this content free for a global community of students, educators, hobbyists and professionals.
+I am seeking individuals and/or organizations who may be interested in supporting me to build a sustainable pipeline of open-source educational content to help grow the Julia community.
 
-The best way to support this project is to simply watch the videos for free on YouTube. You can also Like, Share and Comment.
+All donations are being used to cover expenses related to creating more educational content.
+
+I thank you, in advance, for your consideration!
+
+The best way to support this project is to watch the videos on YouTube.
+
+You can also Like, Share and Comment.
 
 If you'd like to support the project financially, you can make one-time donations using YouTube's Super Thanks button, which is available on every video (you have to be signed in to YouTube to see the button).
 
-For on-going support, please consider [Joining](https://www.youtube.com/channel/UCQwQVlIkbalDzmMnr-0tRhw/join) and becoming a channel member (you need to be signed in to YouTube to use this link). Channel Members get early access to videos.
+For on-going support, please consider [Joining](https://www.youtube.com/channel/UCQwQVlIkbalDzmMnr-0tRhw/join) and becoming a channel member (you need to be signed in to YouTube to use this link).
 
-If you prefer, I also have a Liberapay account that accepts donations in multiple currencies:
+Channel Members get early access to videos.
+
+If you prefer, I also have a Liberapay account that offers a lot of different options for making donations:
 
 <noscript><a href="https://liberapay.com/julia4ta/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
