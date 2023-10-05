@@ -1,6 +1,6 @@
 # JuliaCon 2023 Top 10 Presentations*
 
-1. Stephen Wolfram. [Keynote Presentation.](https://youtu.be/3AFiBLHlG1A?t=26712)
+1. Stephen Wolfram. [Keynote Presentation.](https://youtu.be/9JWpHOk6OsU)
 1. Christopher Rackauckas. [Keynote Presentation. Julia's SciML: Scientific Machine Learning through Symbolic Numerics.](https://youtu.be/tynmTkpdAME)
 1. Sara Issaoun. [Imaging Black Holes with the Event Horizon Telescope.](https://youtu.be/6-J3ED0U5Mk)
 1. Ronan Arraes Jardim Chagas. [Attitude control subsystem development using Julia.](https://youtu.be/C7ZFVU7J-5M)
