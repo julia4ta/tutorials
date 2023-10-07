@@ -10,3 +10,4 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x06] How to use Julia in VS Code
 * [10x07] How to perform basic math in Julia
 * [10x08] How to use Booleans in Julia
+* [10x09] How to use Variables in Julia
