@@ -11,3 +11,5 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x07] How to perform basic math in Julia
 * [10x08] How to use Booleans in Julia
 * [10x09] How to use Variables in Julia
+* [10x10] How to use Different Types of Numbers in Julia
+* [10x11] How to use Characters and Strings in Julia
