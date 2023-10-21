@@ -13,3 +13,6 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x09] How to use Variables in Julia
 * [10x10] How to use Different Types of Numbers in Julia
 * [10x11] How to use Characters and Strings in Julia
+* [10x12] How to use Arrays in Julia
+* [10x13] How to use Tuples in Julia
+* [10x14] How to use NamedTuples in Julia
