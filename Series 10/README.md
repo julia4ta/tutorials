@@ -16,3 +16,5 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x12] How to use Arrays in Julia
 * [10x13] How to use Tuples in Julia
 * [10x14] How to use NamedTuples in Julia
+* [10x15] How to use a Dictionary in Julia
+* [10x16] How to use a struct in Julia
