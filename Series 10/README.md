@@ -18,3 +18,6 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x14] How to use NamedTuples in Julia
 * [10x15] How to use a Dictionary in Julia
 * [10x16] How to use a struct in Julia
+* [10x17] How to use Control Flow in Julia: if Expression (if...elseif...else...end)
+* [10x18] How to use Control Flow in Julia: Ternary Operator (a ? b : c)
+* [10x19] How to use Control Flow in Julia: While Loop (while...end)
