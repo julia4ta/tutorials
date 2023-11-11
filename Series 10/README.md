@@ -21,3 +21,6 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x17] How to use Control Flow in Julia: if Expression (if...elseif...else...end)
 * [10x18] How to use Control Flow in Julia: Ternary Operator (a ? b : c)
 * [10x19] How to use Control Flow in Julia: While Loop (while...end)
+* [10x20] How to use Control Flow in Julia: For Loop (for...end)
+* [10x21] How to use Control Flow in Julia: For Loop over collection
+* [10x22] How to use a Comprehension in Julia
