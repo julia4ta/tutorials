@@ -25,7 +25,7 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x21] How to use Control Flow in Julia: For Loop over collection
 * [10x22] How to use a Comprehension in Julia
 * [10x23] How to use a Function in Julia
-* [10x24] How to use Multiple Dispatch in Julia
+* [10x24] What does "Multiple Dispatch" mean in Julia?
 * [10x25] How to use an Anonymous Function in Julia
 * [10x26] How to use Julia's Standard Library
 * [10x27] How to use External Packages in Julia
