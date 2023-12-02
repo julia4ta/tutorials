@@ -29,3 +29,4 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x25] How to use an Anonymous Function in Julia
 * [10x26] How to use Julia's Standard Library
 * [10x27] How to use External Packages in Julia
+* [10x28] How to install and use Pluto.jl (reactive notebook programming environment for Julia)
