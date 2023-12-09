@@ -30,3 +30,6 @@ Repository for the [Series 10 | Julia for Absolute Beginners](https://www.youtub
 * [10x26] How to use Julia's Standard Library
 * [10x27] How to use External Packages in Julia
 * [10x28] How to install and use Pluto.jl (reactive notebook programming environment for Julia)
+* [10x29] How to update to the latest version of Julia
+* [10x30] Where to find help when using Julia
+* [10x31] Julia for Absolute Beginners series wrap up
