@@ -6,7 +6,7 @@ Repository for the [Series 05 | Julia Machine Learning for Beginners](https://ww
 * [05x02] Linear Regression
 * [05x03] Logistic Regression
 * [05x04] Naive Bayes Classifier
-* [05x05] Support-Vector Machine using LIBSVM.jl
+* DEPRECATED--[05x05] Support-Vector Machine using LIBSVM.jl
 * [05x06] Decision Tree, Random Forest & AdaBoost using DecisionTree.jl
 * [05x07] k-Nearest Neighbors & k-D Tree using NearestNeighbors.jl
 * [05x08] Intro to Artificial Neural Networks (Flux.jl part 1 of 2)
