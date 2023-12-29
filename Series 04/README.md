@@ -2,7 +2,7 @@
 
 Repository for the [Series 04 | Julia Desktop Apps](https://www.youtube.com/watch?v=jjJ2xHpxwHg&list=PLhQ2JMBcfAshlykxhEOLE3X-Izxyc1Nwu) YouTube Playlist.
 
-* [04x01] How to create Desktop Apps using Julia, VS Code & PackageCompiler.jl
+* DEPRECATED--[04x01] How to create Desktop Apps using Julia, VS Code & PackageCompiler.jl
 * [04x02] DataVoyager Iris Data Set App
 * [04x03] Intro to GUIs using Gtk.jl
 * [04x04] Fun GUI Projects using Glade & Gtk.jl
