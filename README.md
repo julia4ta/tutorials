@@ -21,26 +21,18 @@ I share my educational videos on YouTube to help make Julia more accessible for 
 I share all of my code on GitHub, so everyone has free access to my code.
 
 ---
-### Ways to support this project
+### How to support this project
 
-I am funding this project from my personal savings and from the generosity of donors like you.
+As of January 1, 2024, I am currently on hiatus from making new videos.
 
-I am seeking individuals and/or organizations who may be interested in supporting me to build a sustainable pipeline of open-source educational content to help grow the Julia community.
+Channel Memberships and Super Thanks are disabled for this YouTube channel.
 
-All donations are being used to cover expenses related to creating more educational content.
+If you watched any of the videos in my collection and found them to be helpful, then please consider making a donation to help offset some of the expenses that were required to produce those videos.
+
+I am funding my YouTube channels from my personal savings and from the generosity of donors like you.
 
 I thank you, in advance, for your consideration!
 
-The best way to support this project is to watch the videos on YouTube.
-
-You can also Like, Share and Comment.
-
-If you'd like to support the project financially, you can make one-time donations using YouTube's Super Thanks button, which is available on every video (you have to be signed in to YouTube to see the button).
-
-For on-going support, please consider [Joining](https://www.youtube.com/channel/UCQwQVlIkbalDzmMnr-0tRhw/join) and becoming a channel member (you need to be signed in to YouTube to use this link).
-
-Channel Members get early access to videos.
-
-If you prefer, I also have a Liberapay account that offers a lot of different options for making donations:
+The best way to support these videos financially is by making a donation via my Liberapay account using this link:
 
 <noscript><a href="https://liberapay.com/julia4ta/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
